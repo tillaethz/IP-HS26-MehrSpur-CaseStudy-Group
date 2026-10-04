@@ -95,27 +95,24 @@ NOMINAL_PARAMS = {
     # -------------------------------------------------------------------------
     # Values of passenger time (CHF/person-hour)
     # -------------------------------------------------------------------------
-    "C_TT_CAR": 23.3,  # Car travel-time value, including peak congestion delay (CHF/person-hour).
-    "C_TT_PT": 14.4,  # PT in-vehicle time value (CHF/person-hour).
+    "C_TT_CAR": 42.54,  # Car travel-time value, including peak congestion delay (CHF/person-hour).
+    "C_TT_PT": 26.52,  # PT in-vehicle time value (CHF/person-hour).
     "C_TT_PT_WAITING": 26.52,  # Initial and transfer waiting-time value (CHF/person-hour).
     "C_TT_PT_ACCESS": 26.52,  # PT access and egress walking/cycling time value (CHF/person-hour).
     "C_TT_PT_TRANSFER": 26.52,  # Physical transfer-walking time value (CHF/person-hour); excludes waiting.
     # Active-mode time is valued per person-hour, like PT/car passenger time.
-        "C_TT_BIKE": 21.10,  # Cycling value of time (CHF/person-hour)
-    "C_TT_WALK": 24.8,  # Walking value of time (CHF/person-hour)
-    "C_TC_PT": 0.07, #Travel cost of public transport (CHF/km)
-    "C_TC_CAR": 0.3, #Travel cost of car (CHF/km)
-    "C_TC_Cycling": 0, #Travel cost of cycling (CHF/km)
-    "C_TC_Walking": 0, #Travel cost of cycling (CHF/km)
+        "C_TT_BIKE": 35.0,  # Cycling value of time (CHF/person-hour)
+    "C_TT_WALK": 16.0,  # Walking value of time (CHF/person-hour)
+
     # -------------------------------------------------------------------------
     # Optional additional benefits (uncomment to include in appraisal)
     # -------------------------------------------------------------------------
     # Health rates apply to standalone cycling/walking person-km, including e-bikes.
     # The PT rate applies once per person-trip, including supplementary PT passengers.
     # Positive rates reduce societal costs; omitted rates default to zero.
-     "BENEFIT_HEALTH_BIKE_PER_KM": 0.98,  # Cycling health benefit (CHF/person-km).
-     "BENEFIT_HEALTH_WALK_PER_KM": 1.31,  # Walking health benefit (CHF/person-km).
-     "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
+    # "BENEFIT_HEALTH_BIKE_PER_KM": 1.0,  # Cycling health benefit (CHF/person-km).
+    # "BENEFIT_HEALTH_WALK_PER_KM": 1.0,  # Walking health benefit (CHF/person-km).
+    # "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
 
     # -------------------------------------------------------------------------
     # Physical CO2 emissions and their common monetary value
@@ -130,9 +127,6 @@ NOMINAL_PARAMS = {
     "CO2_VALUE_CHF_PER_TONNE": 123.2,  # Reference-year CO2 value (constant 2019 CHF/tonne CO2).
     "CO2_REFERENCE_YEAR": 2015,  # Calendar year to which the reference CO2 value applies.
     "CO2_VALUE_ANNUAL_GROWTH": 0.03,  # Real annual CO2-value growth (fraction/year); 0.03 means 3% compounded.
-    "PM10_EMISSIONS_CHF_PER_PKM": 0.01104, #Reference to PM10 Emissions
-    "NOx_EMISSIONS_CHF_PER_PKM": 0.0004356, #Reference-year NOx Emissions
-    "ZINC_EMISSIONS_CHF_PER_PKM": 0.00001596, #Reference-year Zinc emissions
 
     # -------------------------------------------------------------------------
     # Other NIBA external costs (road and passenger rail)
@@ -233,30 +227,41 @@ DETAILED_NETWORK_FILE = None  # Example: "data/processed/my_project_detailed_net
 # CORRIDOR_ZONE_IDS = [z for zone_list in PROJECT_ZONES.values() for z in zone_list]
 # -----------------------------------------------------------------------------
 
-# A counting section identifies routes using an intervention, including trips
-# whose endpoints lie outside the municipal corridor. Prepare/list sections
-# with `python code/additional/section_flows.py --help`; no link IDs or new GTFS run needed.
-# Generic projects start inactive. MehrSpur explicitly enables its saved section.
+# Optional route coverage, including trips with endpoints outside the corridor.
+# Coverage is regenerated from the shared routing inputs when settings change.
+# PT approaches use service connectivity, not physical railway geometries.
+# Use `python code/additional/section_flows.py --help` for preparation/calibration.
+# Omit SECTION and EXTERNAL_FLOW for projects that do not use this feature.
 SECTION_DEFAULTS = {  # Generic fallback settings; configure the project's SECTION below.
     "active": False,                      # Enable route coverage and section-specific appraisal.
     "mode": "PT",                         # PT, CAR, BIKE or WALK
     "origin": {},                         # {"municipality_name": "X"} or {"zone_ids": [...]}
     "destination": {},                    # Destination selector for reference section travel time.
     "both_directions": True,              # Count both directions and use both reference OD directions.
-    "coverage_file": None,                # written by the section preparation command
-    "section_override": None,             # prepared name/station/pair; None uses the catalog default
+    "coverage_file": None,                # None uses an automatically regenerated cache.
     "crowding_enabled": False,            # this version values crowding only for PT
 }
 SECTION = {  # Active project section and endpoints used for its travel-time reference.
     **SECTION_DEFAULTS,
-    "active": True,                       # Include the prepared section in model/appraisal outputs.
+    "active": True,                       # Include this count and its effects in model/appraisal outputs.
+    "kind": "pt_approach",                # PT station approach, cycling route or individual PT stop.
+    "station": "Winterthur",              # Station whose approach is counted.
+    "towards": "Effretikon",              # Select the side facing this station, including express services.
+    "coverage_file": "data/processed/section_coverage.npz",  # Supplied example; refreshed if inputs or definition change.
     "mode": "PT",                         # Mode using this section; must match an enabled external flow.
     "origin": {"municipality_name": "Zürich"},  # Origin of the modeled travel-time reference.
     "destination": {"municipality_name": "Winterthur"},  # Destination of that reference.
-    "coverage_file": "data/processed/section_coverage.npz",  # Saved OD route-coverage masks.
-    "section_override": ["Effretikon", "Winterthur"],  # Prepared counting section selected from its catalog.
     "crowding_enabled": True,             # Value extra PT discomfort using the section comfort threshold.
 }
+
+# Alternative definitions (replace SECTION above; disable PT crowding for these).
+# Disable EXTERNAL_FLOW below, or calibrate a new cohort of the matching mode:
+# SECTION = {"active": True, "kind": "bike_route", "mode": "BIKE",
+#            "origin_station": "Wallisellen", "destination_station": "Dübendorf"}
+# A route reports its midpoint-link count and unique users of any project link.
+# SECTION = {"active": True, "kind": "pt_stop", "mode": "PT", "station": "Wallisellen"}
+# A stop reports access, egress and represented walking transfers separately.
+# Same-platform train changes cannot all be identified from the routing inputs.
 
 # An optional existing passenger flow, separate from modeled OD demand.
 # Mode defaults to the selected section's mode. These passengers affect
@@ -274,9 +279,10 @@ EXTERNAL_FLOW = {  # One cohort shared by baseline and projects, added after mod
     "enabled": True,                      # Include this cohort's time costs and PT comfort loading.
     "mode": "PT",                         # Existing PT passengers; must match SECTION.mode.
     # One-time nominal Stage-0 calibration (25% e-bikes; 2% road-gap target):
-    # 120,000 observed - 65,184.591923 modeled passengers/day, both directions.
+    # 120,000 target - 66,891.950467 modeled passengers/day, both directions.
+    # Winterthur approach towards Effretikon; connectivity-refined road network.
     # Keep this cohort fixed across alternatives; only general demand growth applies.
-    "additional_trips_daily": 54_815.408076911015,  # Baseline supplementary person-trips/day, both directions.
+    "additional_trips_daily": 53_108.0495332632,  # Baseline supplementary person-trips/day, both directions.
 }
 
 
