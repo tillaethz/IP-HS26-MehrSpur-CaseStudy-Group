@@ -95,14 +95,14 @@ NOMINAL_PARAMS = {
     # -------------------------------------------------------------------------
     # Values of passenger time (CHF/person-hour)
     # -------------------------------------------------------------------------
-    "C_TT_CAR": 42.54,  # Car travel-time value, including peak congestion delay (CHF/person-hour).
-    "C_TT_PT": 26.52,  # PT in-vehicle time value (CHF/person-hour).
+    "C_TT_CAR": 23.3,  # Car travel-time value, including peak congestion delay (CHF/person-hour).
+    "C_TT_PT": 14.4,  # PT in-vehicle time value (CHF/person-hour).
     "C_TT_PT_WAITING": 26.52,  # Initial and transfer waiting-time value (CHF/person-hour).
     "C_TT_PT_ACCESS": 26.52,  # PT access and egress walking/cycling time value (CHF/person-hour).
     "C_TT_PT_TRANSFER": 26.52,  # Physical transfer-walking time value (CHF/person-hour); excludes waiting.
     # Active-mode time is valued per person-hour, like PT/car passenger time.
-        "C_TT_BIKE": 35.0,  # Cycling value of time (CHF/person-hour)
-    "C_TT_WALK": 16.0,  # Walking value of time (CHF/person-hour)
+        "C_TT_BIKE": 21.1,  # Cycling value of time (CHF/person-hour)
+    "C_TT_WALK": 24.8,  # Walking value of time (CHF/person-hour)
 
     # -------------------------------------------------------------------------
     # Optional additional benefits (uncomment to include in appraisal)
@@ -110,9 +110,9 @@ NOMINAL_PARAMS = {
     # Health rates apply to standalone cycling/walking person-km, including e-bikes.
     # The PT rate applies once per person-trip, including supplementary PT passengers.
     # Positive rates reduce societal costs; omitted rates default to zero.
-    # "BENEFIT_HEALTH_BIKE_PER_KM": 1.0,  # Cycling health benefit (CHF/person-km).
-    # "BENEFIT_HEALTH_WALK_PER_KM": 1.0,  # Walking health benefit (CHF/person-km).
-    # "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
+     "BENEFIT_HEALTH_BIKE_PER_KM": 0.98,  # Cycling health benefit (CHF/person-km).
+     "BENEFIT_HEALTH_WALK_PER_KM": 1.31,  # Walking health benefit (CHF/person-km).
+     "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
 
     # -------------------------------------------------------------------------
     # Physical CO2 emissions and their common monetary value
@@ -350,7 +350,7 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "use": "sensitivity",
         "transient": False,
         "distribution": "uniform",
-        "minimum": 19.89,
+        "minimum": 10.0,
         "maximum": 33.15,
     },
     "C_TT_CAR": {  # Car value-of-time sensitivity, including congestion time.
@@ -358,7 +358,7 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "use": "sensitivity",
         "transient": False,
         "distribution": "uniform",
-        "minimum": 31.91,
+        "minimum": 20.0,
         "maximum": 53.18,
     },
     "CO2_VALUE_CHF_PER_TONNE": {  # Draw the reference-year value once (constant 2019 CHF/tonne CO2).
