@@ -174,17 +174,8 @@ globals().update(NOMINAL_PARAMS)
 # OPTION A: Define by Municipalities / Regions (Empty when in "zones" mode)
 # -----------------------------------------------------------------------------
 CORRIDOR_REGIONS = {  # Named municipality groups defining the modeled corridor.
-    "Zürich": ["Zürich"],
-    "Winterthur": ["Winterthur"],
-    "Airport / Glattal": [
-        "Kloten", "Opfikon", "Wallisellen", "Dübendorf",
-        "Dietlikon", "Wangen-Brüttisellen", "Bassersdorf", "Rümlang",
-        "Illnau-Effretikon", "Lindau", "Nürensdorf"
-    ],
-    "Eastern Switzerland (Gateways)": [
-        "Wiesendangen", "Elsau",
-        "Elgg", "Hagenbuch"
-    ]
+    "Forch / Pfannenstil": ["Küsnacht (ZH)", "Maur", "Zumikon", "Egg"],
+    "Glattal (Bus 706)": ["Fällanden", "Schwerzenbach"],
 }
 
 # Flat list of all corridor municipalities
@@ -195,7 +186,7 @@ CORRIDOR_MUNICIPALITIES = [  # Derived flat list used by corridor selection and 
 # Optional project-relative or absolute detailed road-network cache path.
 # Notebook 02 prepares a missing cache; later notebooks require it to exist.
 # None uses the existing default cache. For a new project, select a new filename.
-DETAILED_NETWORK_FILE = None  # Example: "data/processed/my_project_detailed_network.pkl"
+DETAILED_NETWORK_FILE = "data/processed/forch_v2_detailed_network.pkl"  # Example: "data/processed/my_project_detailed_network.pkl"
 
 # -----------------------------------------------------------------------------
 # OPTION B: Define by Explicit Zone IDs
@@ -241,16 +232,10 @@ SECTION_DEFAULTS = {  # Generic fallback settings; configure the project's SECTI
     "section_override": None,             # prepared name/station/pair; None uses the catalog default
     "crowding_enabled": False,            # this version values crowding only for PT
 }
+#Tilla abgeändert:
 SECTION = {  # Active project section and endpoints used for its travel-time reference.
-    **SECTION_DEFAULTS,
-    "active": True,                       # Include the prepared section in model/appraisal outputs.
-    "mode": "PT",                         # Mode using this section; must match an enabled external flow.
-    "origin": {"municipality_name": "Zürich"},  # Origin of the modeled travel-time reference.
-    "destination": {"municipality_name": "Winterthur"},  # Destination of that reference.
-    "coverage_file": "data/processed/section_coverage.npz",  # Saved OD route-coverage masks.
-    "section_override": ["Effretikon", "Winterthur"],  # Prepared counting section selected from its catalog.
-    "crowding_enabled": True,             # Value extra PT discomfort using the section comfort threshold.
-}
+    **SECTION_DEFAULTS}
+
 
 # An optional existing passenger flow, separate from modeled OD demand.
 # Mode defaults to the selected section's mode. These passengers affect
@@ -263,15 +248,9 @@ EXTERNAL_FLOW_DEFAULTS = {  # Generic fallback; configure the project's EXTERNAL
     "additional_trips_daily": 0.0,        # Existing person-trips/weekday missing from the retained model.
     "growth": "general",                  # "general" demand growth or "fixed"
 }
+#Tilla abgeändert:
 EXTERNAL_FLOW = {  # One cohort shared by baseline and projects, added after mode choice.
-    **EXTERNAL_FLOW_DEFAULTS,
-    "enabled": True,                      # Include this cohort's time costs and PT comfort loading.
-    "mode": "PT",                         # Existing PT passengers; must match SECTION.mode.
-    # One-time nominal Stage-0 calibration (25% e-bikes; 2% road-gap target):
-    # 120,000 observed - 65,184.591923 modeled passengers/day, both directions.
-    # Keep this cohort fixed across alternatives; only general demand growth applies.
-    "additional_trips_daily": 54_815.408076911015,  # Baseline supplementary person-trips/day, both directions.
-}
+    **EXTERNAL_FLOW_DEFAULTS}
 
 
 # =============================================================================

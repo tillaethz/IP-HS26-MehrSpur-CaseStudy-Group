@@ -126,165 +126,163 @@ import itertools
 from math import isfinite
 
 # =============================================================================
-# 1. PACKAGES: RAILWAY IMPROVEMENTS, MOBILITY HUBS AND APPRAISAL
+# 0. SPATIAL SELECTORS – MOBILITY HUB FORCH  (ZUERST AUSFUELLEN!)
+# Tilla: ganz neues Kapitel 0
 # =============================================================================
+# FSM-Zonen-IDs (grid_id) des Einzugsgebiets Bahnhof Forch (Forch, Aesch,
+# Scheuren). NICHT "municipality_name": "Küsnacht" verwenden – das würde auch
+# den Bahnhof Küsnacht am See (S6/S16) treffen.
+# IDs finden: Notebook 02, Abschnitt 3.2 (Editor, Seite "mobility_hubs",
+# Einzugsgebiet wählen) oder Stage-Map in 3.1 auf "FSM zones" umstellen.
+FORCH_HUB_ZONES = [
+    "15401012",  # Forch (Küsnacht) – Bahnhof; Leitbild: Aesch-Scheuren-Forch = funktionale Einheit (~3'400 Einw.)
+    "19501005",  # Aesch (Maur)
+    "19501006",  # Scheuren (Maur) – PRÜFEN: eigene S18-Haltestelle Scheuren (Preview scope)
+]
+
+# Bus 706 (vormals 702, VBZ, seit Dez. 2025): Forch – Aesch – Ebmatingen – Binz – Benglen
+#   – Fällanden – Schwerzenbach Bahnhof (Umstieg S-Bahn Glattal). Quelle: AP5 GV6; VBZ.
+GLATTAL_BUS_DESTINATIONS = ["Fällanden", "Schwerzenbach"]
+# Optional, nur falls der Fahrplanvergleich via Schwerzenbach einen Zeitgewinn zeigt:
+#   ["Dübendorf", "Uster", "Volketswil"]
+
+# Forchbahn-Gemeinden, deren Fahrgäste in Forch auf den Bus umsteigen würden
+# (S18 östlich bzw. westlich von Forch: Egg mit Esslingen/Hinteregg, Zumikon).
+FORCHBAHN_FEEDER_MUNICIPALITIES = ["Zumikon", "Egg"]
+ 
+if not FORCH_HUB_ZONES:
+    import warnings
+    warnings.warn("stages.py: FORCH_HUB_ZONES ist leer – zuerst die Zonen-IDs von Forch eintragen.")
+
+# =============================================================================
+# 1. PACKAGES: MOBILITY HUB FORCH 
+# =============================================================================
+# Die Schlüssel "stations" und "tunnel" sind fixe technische Namen (der Plan-Code in adaptive_planning.py greift darauf zu) – NICHT umbenennen.
+# Für Forch bedeuten sie:
+#   "stations" -> Paket A: Bahnhofraum, P+R & Velo   (Konfiguration 1)
+#   "tunnel"   -> Paket B: Busknoten Glattal          (Konfiguration 2)
+#   beide      -> vollständiger Mobility Hub          (Konfiguration 3)
+#
+# Massnahmen aus dem Vorjahresbericht (Kap. 3–4), neu auf zwei UNABHÄNGIGE Pakete verteilt:
+#   Paket A: Tiefgarage 150 PP, Platz Bahnhofraum Mitte, Freiraum Forchterrasse mit
+#            Fuss-/Velowegen, Veloparking 300 + 100 = 400 Plätze
+#   Paket B: Bushaltestelle mit 2 Busbuchten, Linie 702 (2 E-Busse) + zweite Linie
+#            (2 E-Busse) -> zusammen 15'-Takt Richtung Glattal
+# Unabhängigkeit: B allein fährt ab einer Haltestelle an der Forchstrasse (Annahme);
+#   erst mit A+B liegt die Haltestelle direkt am neuen Platz -> COMBINED_EFFECTS.
+#
+# ALLE %-WERTE SIND PLATZHALTER. Jeden Wert herleiten:
+#   Prozent = (1 - neue Zeit / heutige Zeit) * 100   (erlaubt: 0 <= Wert < 100)
+
 PACKAGES = {
-    # --- Station package ---
-    # ⚠️ STUDENT INSTRUCTION:
-    # The station and tunnel packages are SBB MehrSpur-specific examples.
-    # For your own project, replace these blocks completely with your own interventions.
-    # For example, use the "bike_highways" key (see Cheat Sheet above) to model a new cycle path.
-
-    # SBB MehrSpur station scope:
-
-    #       A3 Dietlikon: 4-track expansion & grade-separated flyover (Entflechtung),
-    #       eliminating cross-track bottlenecks towards the airport and Winterthur.
-
-    #       A4 Bassersdorf: Station modernization, portal approach tracks, and multimodal
-    #       hub integration (Velostation & P+R).
-
-    #       A5 Wallisellen: Grade-separated junction towards Zurich HB/Airport,
-    #       barrier-free platform access, and improved bus feeder connectivity.
-
-    # Transport & Economic Impact:
-    #       Relieves surface bottlenecks before tunnel completion, stabilizing network timetables.
-    #       Reduces station access/egress and physical transfer walking.
-    #       Shortens service headway and raises the section comfort threshold.
-
-
+    # -------------------------------------------------------------------------
+    # PAKET A – Bahnhofraum, P+R & Velo ("stations")
+    # -------------------------------------------------------------------------
+    # Physisch:
+    #   - Tiefgarage 150 PP; alle oberirdischen P+R-Plätze (inkl. Forchterrasse)
+    #     werden aufgehoben; Zufahrt über Kaltensteinstrasse
+    #   - Öffentlicher Platz "Bahnhofraum Mitte" (3'800 m2) als Umsteige- und Aufenthaltsort
+    #   - Forchterrasse wird Freiraum mit Fuss- und Velowegen zu den Quartieren
+    #   - Veloparking 400 Plätze (300 + 100 Bike&Ride) auf der Forchterrasse
+    # Im Modell (mobility_hubs, Haltestelle Forch):
+    #   - kürzere Zugangs-/Abgangswege zu Fuss und mit dem Velo (neue Wege, Platz,
+    #     Veloparking nahe Perron)
+    # Nicht im Modell (qualitativ beschreiben):
+    #   - P+R / Tiefgarage (das Modell kennt keinen Auto-Zugang zum ÖV),
+    #   - Aufenthaltsqualität, Wohn-/Gewerbeentwicklung, Lärm
     "stations": {
-        "name": "Stage 1 – Local Stations & Access Package",
-
-        # Railway improvements
-        # Section minutes follow parameters.SECTION route coverage, including
-        # through travelers. Shorter headways reduce initial and transfer waiting
-        # between different CORRIDOR_MUNICIPALITIES, in both directions.
-        "railway_expansions": [
-            {
-                "section_time_saving_min": 1.0,  # In-vehicle minutes saved relative to baseline.
-                "headway_reduction_min": 1.0,  # Minutes removed from the baseline service interval.
-                "capacity_increase": 0.10,  # Fraction of baseline peak-hour comfort capacity (+10%).
-            },
-        ],
-
-        # Hub & Node Interventions
+        "name": "Paket A – Bahnhofraum, P+R & Velo",
+ 
         "mobility_hubs": [
             {
-                "name": "Station Upgrades (Dietlikon, Bassersdorf, Wallisellen)",
-                "zones": [
-                    {"municipality_name": "Dietlikon"},
-                    {"municipality_name": "Bassersdorf"},
-                    {"municipality_name": "Wallisellen"}
-                ],
+                "name": "Hub Forch – Platz, Wege Forchterrasse, Veloparking",
+                "zones": FORCH_HUB_ZONES,
+                "stops_per_zone": 1,  # nur die nächste Haltestelle je Zone (Forch)
                 "effects": {
-                    "access_time_reduction_pct": 25.0,  # Improved pedestrian ramps & bus loop access
-                    "transfer_time_reduction_pct": 15.0, # Shorter platform transfer paths
-                    # Frequency savings belong to the railway package only.
-                    "egress_time_reduction_pct": 20.0,
-                }
+                    # Gilt für Fuss- UND Velozugang gleichermassen (Modellgrenze).
+                    "access_time_reduction_pct": 15.0,  # PLATZHALTER: Wege Forchterrasse + Veloparking am Perron
+                    "egress_time_reduction_pct": 15.0,  # PLATZHALTER: gleiche Wege in Gegenrichtung
+                },
             }
         ],
-
-        # Appraisal considerations
-        # CAPEX is the base construction cost, before CAPEX_MULTIPLIER.
-        # Only capital_share retains residual value; the rest has none.
-        # At horizon H, opening in year y means H - y + 1 operated years.
-        # The remaining eligible value decreases linearly to zero over lifetime_years.
-        # Set capital_share to 0 to disable residual valuation (lifetime may then be None).
-        # No asset replacement is assumed.
+ 
+        # Kosten (Ansätze Vorjahresbericht, Kap. 3.2):
+        #   Tiefgarage 150 x 60'000      = 9'000'000
+        #   Platz 3'800 m2 x 750          = 2'850'000
+        #   Veloparking 400 x 1'800       =   720'000
+        #   Freiraum Forchterrasse/Wege   =  TODO (im Vorjahr nicht beziffert)
         "appraisal": {
-            "capital_cost_chf": 925_000_000,  # Station-package CAPEX (CHF).
-            "lifetime_years": 80,  # Service life of the share valued below (years).
-            "capital_share": 0.60,  # Fraction of actual capital paid eligible for residual value.
-            # Total construction emissions (tonnes CO2e), spread over construction years.
-            # Pre-horizon emissions are charged at time zero; omitted entries mean zero.
-            # "construction_co2_tonnes": 0.0,  # Add a project-specific total when available.
+            "capital_cost_chf": 12_570_000,  # + Forchterrasse/Wege (TODO)
+            "lifetime_years": 50,   # TODO: Quelle (Tiefgarage/Bauwerk)
+            "capital_share": 0.80,  # TODO: Anteil langlebiger Bauteile begründen
+            # "construction_co2_tonnes": 0.0,  # TODO: z.B. Beton Tiefgarage (KBOB-Werte)
         },
     },
-
-    # --- Tunnel package ---
-    # Core Tunnel & Winterthur Hub Package (A0 Gesamt, A1 Winterthur, A2 Tunnel)
-    #
-    # ⚠️ STUDENT INSTRUCTION:
-    # Replace this package with your own long-term or secondary interventions.
-    #
-    # SBB MehrSpur tunnel scope (opening dates are configured in adaptive_planning.py):
-    #
-    #       A0 Gesamtprojekt: System-wide technical integration,
-    #       ETCS Level 2 signaling, traction power supply, and overall project management.
-    #
-    #       A1 Winterthur: Major track layout reconfiguration at Winterthur HB,
-    #       adding grade-separated flyovers, extended platforms, and conflict-free routing.
-    #
-    #       A2 Tunnel: 8.3 km twin-tube Brüttenertunnel cutting directly between
-    #       Dietlikon/Bassersdorf and Winterthur, bypassing the curvy Effretikon bottleneck.
-    #
-    # Transport & Economic Impact:
-    #       Saves 4 minutes on covered routes and raises the comfort threshold by 15%.
-    #       Provides 17-minute service and the Winterthur hub improvements;
-    #       both packages together provide 15-minute service.
+ 
+    # -------------------------------------------------------------------------
+    # PAKET B – Busknoten Glattal ("tunnel")
+    # -------------------------------------------------------------------------
+    # Physisch:
+    #   - Bushaltestelle mit 2 Busbuchten (zweite Bucht für die zweite Linie)
+    #   - Linie 702 Forch–Glattal (2 E-Busse, 30'-Takt)
+    #   - zweite Buslinie (2 E-Busse, 30'-Takt) -> zusammen 15'-Takt
+    # Im Modell (railway_expansions auf bestehenden ÖV-Relationen):
+    #   - Eine NEUE Verbindung kann nicht erzeugt werden. Annäherung: bestehende
+    #     ÖV-Verbindungen Forch-Gebiet/Forchbahn-Gemeinden <-> Glattal (heute via
+    #     Stadelhofen) werden schneller (Fahrzeit) und haben kürzere Umsteigewartezeit
+    #     (Anschluss in Forch, 15'-Takt).
+    # Nicht im Modell: neu erschlossene Haltestellen entlang der Linie, Busbetriebskosten.
     "tunnel": {
-        "name": "Stage 2 - Tunnel & Winterthur Hub only",
-
-        # Railway improvements: the same section and service OD scope as above.
+        "name": "Paket B – Busknoten Glattal",
+ 
         "railway_expansions": [
             {
-                "section_time_saving_min": 4.0,  # In-vehicle minutes saved relative to baseline.
-                "headway_reduction_min": 3.0,  # Minutes removed from the baseline service interval.
-                "capacity_increase": 0.15,  # Fraction of baseline peak-hour comfort capacity (+15%).
+                "name": "Buslinien Forch – Glattal (15'-Takt)",
+                "area_pairs": [
+                    {"origin": {"grid_id": FORCH_HUB_ZONES},
+                     "destination": {"municipality_name": GLATTAL_BUS_DESTINATIONS}},
+                    {"origin": {"municipality_name": FORCHBAHN_FEEDER_MUNICIPALITIES},
+                     "destination": {"municipality_name": GLATTAL_BUS_DESTINATIONS}},
+                ],
+                "both_directions": True,
+                "effects": {
+                    "travel_time_reduction_pct": 30.0,    # PLATZHALTER: Fahrzeit heute vs. Direktbus
+                    "transfer_wait_reduction_pct": 50.0,  # PLATZHALTER: Umsteigewartezeit heute vs. Anschluss in Forch (15'-Takt)
+                },
             },
         ],
-
-        # Hub & Node Interventions
-        "mobility_hubs": [
-            {
-                "name": "Winterthur Multimodal Hub (A1)",
-                "zones": [
-                    {"municipality_name": "Winterthur"}
-                ],
-                "effects": {
-                    "access_time_reduction_pct": 25.0,
-                    "transfer_time_reduction_pct": 15.0, # Optimized platform connections at Winterthur HB
-                    # Frequency savings belong to the railway package only.
-                    "egress_time_reduction_pct": 20.0,
-                }
-            }
-        ],
-
-        # Appraisal considerations: the same valuation and construction conventions.
+ 
+        # Kosten (Vorjahresbericht): Haltestelle 600'000 (TODO: Zuschlag 2. Busbucht)
+        #   + 4 E-Busse x 1'000'000 = 4'600'000
         "appraisal": {
-            "capital_cost_chf": 2_302_600_000,  # Tunnel/Winterthur package CAPEX (CHF).
-            "lifetime_years": 80,  # Service life of the share valued below (years).
-            "capital_share": 0.60,  # Fraction of actual capital paid eligible for residual value.
-            "construction_co2_tonnes": 300_000.0,  # Total construction emissions (tonnes CO2e).
+            "capital_cost_chf": 4_600_000,
+            "lifetime_years": 12,   # TODO: Lebensdauer E-Bus begründen
+            "capital_share": 0.15,  # TODO: nur Haltestelle langlebig (0.6 / 4.6 ≈ 0.13)
+            # "construction_co2_tonnes": 0.0,  # TODO
         },
     },
 }
-
+ 
 # =============================================================================
 # 2. COMBINED-ONLY BENEFITS
 # =============================================================================
-# Extra effects available only when BOTH packages are operating. These minutes
-# are added to the package values: 6 minutes of section saving and 5 minutes
-# of headway reduction in total (20-minute baseline -> 15-minute service).
+# Nur wenn A UND B gebaut sind: die Bushaltestelle liegt direkt am neuen Bahnhofplatz
+# -> kürzerer Umsteigeweg Forchbahn <-> Bus.
 COMBINED_EFFECTS = {
     "railway_expansions": [
         {
-            "section_time_saving_min": 1.0,
-            "headway_reduction_min": 1.0,
-            "capacity_increase": 0.05,  # Extra fraction of baseline capacity, only when both packages operate.
+            "name": "Bushalt direkt am Bahnhofplatz",
+            "area_pairs": [
+                # Umsteigen Forchbahn -> Bus betrifft v.a. Fahrgäste aus den Forchbahn-Gemeinden.
+                {"origin": {"municipality_name": FORCHBAHN_FEEDER_MUNICIPALITIES},
+                 "destination": {"municipality_name": GLATTAL_BUS_DESTINATIONS}},
+            ],
+            "both_directions": True,
+            "effects": {
+                "transfer_time_reduction_pct": 40.0,  # PLATZHALTER: Umsteigeweg Forchstrasse vs. am Platz
+            },
         },
     ],
-    # Capacity increases are additive: +10% stations +15% tunnel +5% combined = +30% of baseline.
-    # Additional physical interventions can use the same dictionaries as above:
-    # "mobility_hubs": [{
-    #     "name": "Shared interchange improvement",
-    #     "zones": [{"municipality_name": "Dietlikon"}],
-    #     "effects": {"transfer_time_reduction_pct": 10.0},
-    # }],
-    # Add OD-specific PT effects as further railway_expansions entries.
-    # Other supported keys: bike_highways, road_capacity.
-    # Specify frequency changes above, to apply their waiting benefit only once.
 }
 
 
@@ -292,7 +290,7 @@ COMBINED_EFFECTS = {
 # INTERNAL ASSEMBLY AND APPRAISAL HELPERS (normally leave unchanged)
 # =============================================================================
 STATE_IDS = (0, 1, 2, 3)
-STATE_LABELS = {0: "Baseline", 1: "Stations only", 2: "Tunnel only", 3: "Stations + tunnel"}
+STATE_LABELS = {0: "Baseline", 1: "Paket A only", 2: "Paket B only", 3: "Paket A + B"}
 STATE_COLORS = {0: "#9E9E9E", 1: "#FFC107", 2: "#2196F3", 3: "#4CAF50"}
 _STATE_COMPONENTS = {0: (False, False), 1: (True, False), 2: (False, True), 3: (True, True)}
 
