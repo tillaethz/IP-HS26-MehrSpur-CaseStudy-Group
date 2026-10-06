@@ -95,14 +95,14 @@ NOMINAL_PARAMS = {
     # -------------------------------------------------------------------------
     # Values of passenger time (CHF/person-hour)
     # -------------------------------------------------------------------------
-    "C_TT_CAR": 42.54,  # Car travel-time value, including peak congestion delay (CHF/person-hour).
-    "C_TT_PT": 26.52,  # PT in-vehicle time value (CHF/person-hour).
+    "C_TT_CAR": 23.3,  # Car travel-time value, including peak congestion delay (CHF/person-hour).
+    "C_TT_PT": 14.4,  # PT in-vehicle time value (CHF/person-hour).
     "C_TT_PT_WAITING": 26.52,  # Initial and transfer waiting-time value (CHF/person-hour).
     "C_TT_PT_ACCESS": 26.52,  # PT access and egress walking/cycling time value (CHF/person-hour).
     "C_TT_PT_TRANSFER": 26.52,  # Physical transfer-walking time value (CHF/person-hour); excludes waiting.
     # Active-mode time is valued per person-hour, like PT/car passenger time.
-        "C_TT_BIKE": 35.0,  # Cycling value of time (CHF/person-hour)
-    "C_TT_WALK": 16.0,  # Walking value of time (CHF/person-hour)
+        "C_TT_BIKE": 21.1,  # Cycling value of time (CHF/person-hour)
+    "C_TT_WALK": 24.8,  # Walking value of time (CHF/person-hour)
 
     # -------------------------------------------------------------------------
     # Optional additional benefits (uncomment to include in appraisal)
@@ -110,9 +110,9 @@ NOMINAL_PARAMS = {
     # Health rates apply to standalone cycling/walking person-km, including e-bikes.
     # The PT rate applies once per person-trip, including supplementary PT passengers.
     # Positive rates reduce societal costs; omitted rates default to zero.
-    # "BENEFIT_HEALTH_BIKE_PER_KM": 1.0,  # Cycling health benefit (CHF/person-km).
-    # "BENEFIT_HEALTH_WALK_PER_KM": 1.0,  # Walking health benefit (CHF/person-km).
-    # "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
+     "BENEFIT_HEALTH_BIKE_PER_KM": 0.98,  # Cycling health benefit (CHF/person-km).
+     "BENEFIT_HEALTH_WALK_PER_KM": 1.31,  # Walking health benefit (CHF/person-km).
+     "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
 
     # -------------------------------------------------------------------------
     # Physical CO2 emissions and their common monetary value
@@ -218,24 +218,33 @@ DETAILED_NETWORK_FILE = "data/processed/forch_v2_detailed_network.pkl"  # Exampl
 # CORRIDOR_ZONE_IDS = [z for zone_list in PROJECT_ZONES.values() for z in zone_list]
 # -----------------------------------------------------------------------------
 
-# A counting section identifies routes using an intervention, including trips
-# whose endpoints lie outside the municipal corridor. Prepare/list sections
-# with `python code/additional/section_flows.py --help`; no link IDs or new GTFS run needed.
-# Generic projects start inactive. MehrSpur explicitly enables its saved section.
+# Optional route coverage, including trips with endpoints outside the corridor.
+# Coverage is regenerated from the shared routing inputs when settings change.
+# PT approaches use service connectivity, not physical railway geometries.
+# Use `python code/additional/section_flows.py --help` for preparation/calibration.
+# Omit SECTION and EXTERNAL_FLOW for projects that do not use this feature.
 SECTION_DEFAULTS = {  # Generic fallback settings; configure the project's SECTION below.
     "active": False,                      # Enable route coverage and section-specific appraisal.
     "mode": "PT",                         # PT, CAR, BIKE or WALK
     "origin": {},                         # {"municipality_name": "X"} or {"zone_ids": [...]}
     "destination": {},                    # Destination selector for reference section travel time.
     "both_directions": True,              # Count both directions and use both reference OD directions.
-    "coverage_file": None,                # written by the section preparation command
-    "section_override": None,             # prepared name/station/pair; None uses the catalog default
+    "coverage_file": None,                # None uses an automatically regenerated cache.
     "crowding_enabled": False,            # this version values crowding only for PT
 }
 #Tilla abgeändert:
 SECTION = {  # Active project section and endpoints used for its travel-time reference.
     **SECTION_DEFAULTS}
 
+
+# Alternative definitions (replace SECTION above; disable PT crowding for these).
+# Disable EXTERNAL_FLOW below, or calibrate a new cohort of the matching mode:
+# SECTION = {"active": True, "kind": "bike_route", "mode": "BIKE",
+#            "origin_station": "Wallisellen", "destination_station": "Dübendorf"}
+# A route reports its midpoint-link count and unique users of any project link.
+# SECTION = {"active": True, "kind": "pt_stop", "mode": "PT", "station": "Wallisellen"}
+# A stop reports access, egress and represented walking transfers separately.
+# Same-platform train changes cannot all be identified from the routing inputs.
 
 # An optional existing passenger flow, separate from modeled OD demand.
 # Mode defaults to the selected section's mode. These passengers affect
@@ -317,7 +326,7 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "use": "sensitivity",
         "transient": False,
         "distribution": "uniform",
-        "minimum": 19.89,
+        "minimum": 10.0,
         "maximum": 33.15,
     },
     "C_TT_CAR": {  # Car value-of-time sensitivity, including congestion time.
@@ -325,7 +334,7 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "use": "sensitivity",
         "transient": False,
         "distribution": "uniform",
-        "minimum": 31.91,
+        "minimum": 20.0,
         "maximum": 53.18,
     },
     "CO2_VALUE_CHF_PER_TONNE": {  # Draw the reference-year value once (constant 2019 CHF/tonne CO2).

@@ -164,8 +164,7 @@ if not FORCH_HUB_ZONES:
 #   beide      -> vollständiger Mobility Hub          (Konfiguration 3)
 #
 # Massnahmen aus dem Vorjahresbericht (Kap. 3–4), neu auf zwei UNABHÄNGIGE Pakete verteilt:
-#   Paket A: Tiefgarage 150 PP, Platz Bahnhofraum Mitte, Freiraum Forchterrasse mit
-#            Fuss-/Velowegen, Veloparking 300 + 100 = 400 Plätze
+#   Paket A: Tiefgarage, Platz, Forchterrasse, Veloparking
 #   Paket B: Bushaltestelle mit 2 Busbuchten, Linie 702 (2 E-Busse) + zweite Linie
 #            (2 E-Busse) -> zusammen 15'-Takt Richtung Glattal
 # Unabhängigkeit: B allein fährt ab einer Haltestelle an der Forchstrasse (Annahme);
@@ -181,15 +180,16 @@ PACKAGES = {
     # Physisch:
     #   - Tiefgarage 150 PP; alle oberirdischen P+R-Plätze (inkl. Forchterrasse)
     #     werden aufgehoben; Zufahrt über Kaltensteinstrasse
-    #   - Öffentlicher Platz "Bahnhofraum Mitte" (3'800 m2) als Umsteige- und Aufenthaltsort
+    #   - Platz "Bahnhofraum Mitte" (3'800 m2) als Umsteige- und Aufenthaltsort
     #   - Forchterrasse wird Freiraum mit Fuss- und Velowegen zu den Quartieren
     #   - Veloparking 400 Plätze (300 + 100 Bike&Ride) auf der Forchterrasse
     # Im Modell (mobility_hubs, Haltestelle Forch):
     #   - kürzere Zugangs-/Abgangswege zu Fuss und mit dem Velo (neue Wege, Platz,
     #     Veloparking nahe Perron)
     # Nicht im Modell (qualitativ beschreiben):
-    #   - P+R / Tiefgarage (das Modell kennt keinen Auto-Zugang zum ÖV),
-    #   - Aufenthaltsqualität, Wohn-/Gewerbeentwicklung, Lärm
+    #   - P+R/Tiefgarage (kein Auto-Zugang zum ÖV im Modell), Veloparking-KAPAZITÄT,
+    #     Aufenthaltsqualität, Wohn-/Gewerbeentwicklung, Lärm
+    #   -> ~95 % der Kosten von A haben keinen Modelleffekt: im Bericht erklären!
     "stations": {
         "name": "Paket A – Bahnhofraum, P+R & Velo",
  
@@ -211,10 +211,12 @@ PACKAGES = {
         #   Platz 3'800 m2 x 750          = 2'850'000
         #   Veloparking 400 x 1'800       =   720'000
         #   Freiraum Forchterrasse/Wege   =  TODO (im Vorjahr nicht beziffert)
+        # Betrieb (nicht im appraisal-Block, im Bericht ausweisen):
+        #   150 x 800 + 3'800 x 11.50 + 400 x 35  ≈ 178'000 CHF/Jahr
         "appraisal": {
             "capital_cost_chf": 12_570_000,  # + Forchterrasse/Wege (TODO)
-            "lifetime_years": 50,   # TODO: Quelle (Tiefgarage/Bauwerk)
-            "capital_share": 0.80,  # TODO: Anteil langlebiger Bauteile begründen
+            "lifetime_years": 50,    # TODO Quelle: Lebensdauer Tiefgarage/Bauwerk
+            "capital_share": 0.94,   # langlebig: (9.0 + 2.85) / 12.57 Mio.; Veloparking kurzlebiger
             # "construction_co2_tonnes": 0.0,  # TODO: z.B. Beton Tiefgarage (KBOB-Werte)
         },
     },
@@ -222,42 +224,53 @@ PACKAGES = {
     # -------------------------------------------------------------------------
     # PAKET B – Busknoten Glattal ("tunnel")
     # -------------------------------------------------------------------------
+    # Ausgangslage (Stage 0): Bus 706 Forch – Schwerzenbach im 30'-Takt existiert.
     # Physisch:
     #   - Bushaltestelle mit 2 Busbuchten (zweite Bucht für die zweite Linie)
-    #   - Linie 702 Forch–Glattal (2 E-Busse, 30'-Takt)
-    #   - zweite Buslinie (2 E-Busse, 30'-Takt) -> zusammen 15'-Takt
-    # Im Modell (railway_expansions auf bestehenden ÖV-Relationen):
-    #   - Eine NEUE Verbindung kann nicht erzeugt werden. Annäherung: bestehende
-    #     ÖV-Verbindungen Forch-Gebiet/Forchbahn-Gemeinden <-> Glattal (heute via
-    #     Stadelhofen) werden schneller (Fahrzeit) und haben kürzere Umsteigewartezeit
-    #     (Anschluss in Forch, 15'-Takt).
-    # Nicht im Modell: neu erschlossene Haltestellen entlang der Linie, Busbetriebskosten.
+    #   - zweite Buslinie Forch – Glattal (2 E-Busse, 30'-Takt) -> zusammen 15'-Takt
+    # Im Modell (railway_expansions = ÖV-Skims, gilt auch für Bus):
+    #   - NUR Wartezeit: Takt 30' -> 15', mittlere Wartezeit = Takt/2: 15 -> 7.5 min = -50 %
+    #   - KEINE Fahrzeitreduktion: ein dichterer Takt macht den Bus nicht schneller
+    #   - Ab Forch-Zonen ist der Bus die 1. Etappe -> initial_wait
+    #   - Ab Forchbahn-Gemeinden wird in Forch umgestiegen -> transfer_wait
+    # VORAUSSETZUNG: Die Skims müssen Bus 706 enthalten (Skim-Check, siehe Notebook).
+    # Nicht im Modell: Busbetriebskosten, Ersatzbeschaffung Busse, Schulbusse.
     "tunnel": {
-        "name": "Paket B – Busknoten Glattal",
+        "name": "Paket B – Busknoten Glattal (15'-Takt)",
  
         "railway_expansions": [
             {
-                "name": "Buslinien Forch – Glattal (15'-Takt)",
+                "name": "Bus Forch – Glattal 15'-Takt (Einstieg in Forch)",
                 "area_pairs": [
                     {"origin": {"grid_id": FORCH_HUB_ZONES},
                      "destination": {"municipality_name": GLATTAL_BUS_DESTINATIONS}},
+                ],
+                "both_directions": True,
+                "effects": {
+                    "initial_wait_reduction_pct": 50.0,  # (1 - 7.5/15) * 100
+                },
+            },
+            {
+                "name": "Bus Forch – Glattal 15'-Takt (Umstieg Forchbahn -> Bus)",
+                "area_pairs": [
                     {"origin": {"municipality_name": FORCHBAHN_FEEDER_MUNICIPALITIES},
                      "destination": {"municipality_name": GLATTAL_BUS_DESTINATIONS}},
                 ],
                 "both_directions": True,
                 "effects": {
-                    "travel_time_reduction_pct": 30.0,    # PLATZHALTER: Fahrzeit heute vs. Direktbus
-                    "transfer_wait_reduction_pct": 50.0,  # PLATZHALTER: Umsteigewartezeit heute vs. Anschluss in Forch (15'-Takt)
+                    "transfer_wait_reduction_pct": 50.0,  # (1 - 7.5/15) * 100; Annahme: keine Taktabstimmung
                 },
             },
         ],
  
-        # Kosten (Vorjahresbericht): Haltestelle 600'000 (TODO: Zuschlag 2. Busbucht)
-        #   + 4 E-Busse x 1'000'000 = 4'600'000
+        # Kosten: Haltestelle mit 2 Buchten 600'000 (TODO: Zuschlag 2. Bucht prüfen)
+        #         + 2 E-Busse x 1'000'000 = 2'600'000
+        # Betrieb (im Bericht ausweisen): 2 x 400'000 + 800 = 800'800 CHF/Jahr
+        #   -> über 40 Jahre deutlich mehr als die Investition!
         "appraisal": {
-            "capital_cost_chf": 4_600_000,
-            "lifetime_years": 12,   # TODO: Lebensdauer E-Bus begründen
-            "capital_share": 0.15,  # TODO: nur Haltestelle langlebig (0.6 / 4.6 ≈ 0.13)
+            "capital_cost_chf": 2_600_000,
+            "lifetime_years": 30,    # TODO Quelle: Lebensdauer Haltestelle (Restwert nur dafür)
+            "capital_share": 0.23,   # nur Haltestelle langlebig: 0.6 / 2.6; Busse (~12 J.) ohne Restwert
             # "construction_co2_tonnes": 0.0,  # TODO
         },
     },
@@ -267,19 +280,19 @@ PACKAGES = {
 # 2. COMBINED-ONLY BENEFITS
 # =============================================================================
 # Nur wenn A UND B gebaut sind: die Bushaltestelle liegt direkt am neuen Bahnhofplatz
+# (Leitbild Kap. 3.5: "neue Bushaltestelle Forch am zentralen Bahnhofsplatz")
 # -> kürzerer Umsteigeweg Forchbahn <-> Bus.
 COMBINED_EFFECTS = {
     "railway_expansions": [
         {
             "name": "Bushalt direkt am Bahnhofplatz",
             "area_pairs": [
-                # Umsteigen Forchbahn -> Bus betrifft v.a. Fahrgäste aus den Forchbahn-Gemeinden.
                 {"origin": {"municipality_name": FORCHBAHN_FEEDER_MUNICIPALITIES},
                  "destination": {"municipality_name": GLATTAL_BUS_DESTINATIONS}},
             ],
             "both_directions": True,
             "effects": {
-                "transfer_time_reduction_pct": 40.0,  # PLATZHALTER: Umsteigeweg Forchstrasse vs. am Platz
+                "transfer_time_reduction_pct": 40.0,  # PLATZHALTER: Umsteigeweg heute vs. am Platz (Meter / Gehgeschw.)
             },
         },
     ],
