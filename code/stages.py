@@ -148,7 +148,7 @@ GLATTAL_BUS_DESTINATIONS = ["Fällanden", "Schwerzenbach"]
 
 # Forchbahn-Gemeinden, deren Fahrgäste in Forch auf den Bus umsteigen würden
 # (S18 östlich bzw. westlich von Forch: Egg mit Esslingen/Hinteregg, Zumikon).
-FORCHBAHN_FEEDER_MUNICIPALITIES = ["Zumikon", "Egg"]
+FORCHBAHN_FEEDER_MUNICIPALITIES = ["Zumikon", "Egg"] 
  
 if not FORCH_HUB_ZONES:
     import warnings
@@ -200,8 +200,9 @@ PACKAGES = {
                 "stops_per_zone": 1,  # nur die nächste Haltestelle je Zone (Forch)
                 "effects": {
                     # Gilt für Fuss- UND Velozugang gleichermassen (Modellgrenze).
-                    "access_time_reduction_pct": 15.0,  # PLATZHALTER: Wege Forchterrasse + Veloparking am Perron
-                    "egress_time_reduction_pct": 15.0,  # PLATZHALTER: gleiche Wege in Gegenrichtung
+                    "access_time_reduction_pct": 25.0,  # PLATZHALTER: Wege Forchterrasse + Veloparking am Perron
+                    "egress_time_reduction_pct": 20.0,  # PLATZHALTER: gleiche Wege in Gegenrichtung
+                    "transfer_time_reduction_pct": 15.0,  # PLATZHALTER: Umsteigeweg auf dem Platz
                 },
             }
         ],
@@ -209,14 +210,12 @@ PACKAGES = {
         # Kosten (Ansätze Vorjahresbericht, Kap. 3.2):
         #   Tiefgarage 150 x 60'000      = 9'000'000
         #   Platz 3'800 m2 x 750          = 2'850'000
-        #   Veloparking 400 x 1'800       =   720'000
-        #   Freiraum Forchterrasse/Wege   =  TODO (im Vorjahr nicht beziffert)
-        # Betrieb (nicht im appraisal-Block, im Bericht ausweisen):
-        #   150 x 800 + 3'800 x 11.50 + 400 x 35  ≈ 178'000 CHF/Jahr
+        #   Veloparking 300 x 1'800       =   540'000
+        # Betrieb (im Bericht ausweisen): 150 x 800 + 3'800 x 11.50 + 300 x 35  ≈ 174'000 CHF/Jahr
         "appraisal": {
-            "capital_cost_chf": 12_570_000,  # + Forchterrasse/Wege (TODO)
+            "capital_cost_chf": 12_390_000,  
             "lifetime_years": 50,    # TODO Quelle: Lebensdauer Tiefgarage/Bauwerk
-            "capital_share": 0.94,   # langlebig: (9.0 + 2.85) / 12.57 Mio.; Veloparking kurzlebiger
+            "capital_share": 0.96,   # langlebig: (9.0 + 2.85) / 12.39 Mio.
             # "construction_co2_tonnes": 0.0,  # TODO: z.B. Beton Tiefgarage (KBOB-Werte)
         },
     },
@@ -262,15 +261,28 @@ PACKAGES = {
                 },
             },
         ],
+
+        # 100 neue Fahrrad-Abstellplätze 
+        "mobility_hubs": [
+                    {
+                        "name": "Veloparking +100",
+                        "zones": FORCH_HUB_ZONES,
+                        "stops_per_zone": 1, 
+                        "effects": {
+                            # Gilt für Fuss- UND Velozugang gleichermassen (Modellgrenze).
+                            "access_time_reduction_pct": 0.0,  # Mehr Kapazität kennt Modell nicht... 
+                        },
+                    }
+                ],
  
         # Kosten: Haltestelle mit 2 Buchten 600'000 (TODO: Zuschlag 2. Bucht prüfen)
         #         + 2 E-Busse x 1'000'000 = 2'600'000
         # Betrieb (im Bericht ausweisen): 2 x 400'000 + 800 = 800'800 CHF/Jahr
         #   -> über 40 Jahre deutlich mehr als die Investition!
         "appraisal": {
-            "capital_cost_chf": 2_600_000,
+            "capital_cost_chf": 2_780_000,
             "lifetime_years": 30,    # TODO Quelle: Lebensdauer Haltestelle (Restwert nur dafür)
-            "capital_share": 0.23,   # nur Haltestelle langlebig: 0.6 / 2.6; Busse (~12 J.) ohne Restwert
+            "capital_share": 0.22,   # nur Haltestelle langlebig: 0.6 / 2.78
             # "construction_co2_tonnes": 0.0,  # TODO
         },
     },
