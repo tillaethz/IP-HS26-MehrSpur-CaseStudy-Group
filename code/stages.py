@@ -182,7 +182,7 @@ PACKAGES = {
     #     werden aufgehoben; Zufahrt über Kaltensteinstrasse
     #   - Platz "Bahnhofraum Mitte" (3'800 m2) als Umsteige- und Aufenthaltsort
     #   - Forchterrasse wird Freiraum mit Fuss- und Velowegen zu den Quartieren
-    #   - Veloparking 400 Plätze (300 + 100 Bike&Ride) auf der Forchterrasse
+    #   - Veloparking 300 Plätze (200 + 100 Bike&Ride) auf der Forchterrasse
     # Im Modell (mobility_hubs, Haltestelle Forch):
     #   - kürzere Zugangs-/Abgangswege zu Fuss und mit dem Velo (neue Wege, Platz,
     #     Veloparking nahe Perron)
@@ -212,11 +212,15 @@ PACKAGES = {
         #   Platz 3'800 m2 x 750          = 2'850'000
         #   Veloparking 300 x 1'800       =   540'000
         # Betrieb (im Bericht ausweisen): 150 x 800 + 3'800 x 11.50 + 300 x 35  ≈ 174'000 CHF/Jahr
+        # CO_2 Emissionen
+        #   Tiefgarage 150 X 1          = 150
+        #   Platz 3'800 m2 X 0.16       = 608
+        #   Veloparking 300 X 0.02      = 6  
         "appraisal": {
             "capital_cost_chf": 12_390_000,  
-            "lifetime_years": 50,    # TODO Quelle: Lebensdauer Tiefgarage/Bauwerk
+            "lifetime_years": 60,    # Lebensdauer Tiefgarage/Bauwerk
             "capital_share": 0.96,   # langlebig: (9.0 + 2.85) / 12.39 Mio.
-            # "construction_co2_tonnes": 0.0,  # TODO: z.B. Beton Tiefgarage (KBOB-Werte)
+            "construction_co2_tonnes": 764,  # Summe CO2 Emissionen
         },
     },
  
@@ -227,6 +231,7 @@ PACKAGES = {
     # Physisch:
     #   - Bushaltestelle mit 2 Busbuchten (zweite Bucht für die zweite Linie)
     #   - zweite Buslinie Forch – Glattal (2 E-Busse, 30'-Takt) -> zusammen 15'-Takt
+    #   - Veloparking (+100 Plätze)
     # Im Modell (railway_expansions = ÖV-Skims, gilt auch für Bus):
     #   - NUR Wartezeit: Takt 30' -> 15', mittlere Wartezeit = Takt/2: 15 -> 7.5 min = -50 %
     #   - KEINE Fahrzeitreduktion: ein dichterer Takt macht den Bus nicht schneller
@@ -275,15 +280,19 @@ PACKAGES = {
                     }
                 ],
  
-        # Kosten: Haltestelle mit 2 Buchten 600'000 (TODO: Zuschlag 2. Bucht prüfen)
+        # Kosten: Haltestelle mit 2 Buchten 600'000 
         #         + 2 E-Busse x 1'000'000 = 2'600'000
+        #         +100 Veloparkplätze = 100 X 1'000 = 100'000
         # Betrieb (im Bericht ausweisen): 2 x 400'000 + 800 = 800'800 CHF/Jahr
         #   -> über 40 Jahre deutlich mehr als die Investition!
+        #CO_2 Emissionen
+        #   Bushaltestelle 20 X 0.14        = 2.8
+        #   Veloparkierung 100 x 0.02       =2
         "appraisal": {
-            "capital_cost_chf": 2_780_000,
-            "lifetime_years": 30,    # TODO Quelle: Lebensdauer Haltestelle (Restwert nur dafür)
+            "capital_cost_chf": 3_600_000,
+            "lifetime_years": 35,    # Lebensdauer Haltestelle
             "capital_share": 0.22,   # nur Haltestelle langlebig: 0.6 / 2.78
-            # "construction_co2_tonnes": 0.0,  # TODO
+            "construction_co2_tonnes": 4.8,  # Summe CO2 Emissionen
         },
     },
 }
