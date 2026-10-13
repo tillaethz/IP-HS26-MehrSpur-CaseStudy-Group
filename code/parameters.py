@@ -246,6 +246,15 @@ SECTION = {  # Active project section and endpoints used for its travel-time ref
 # A stop reports access, egress and represented walking transfers separately.
 # Same-platform train changes cannot all be identified from the routing inputs.
 
+# Alternative definitions (replace SECTION above; disable PT crowding for these).
+# Disable EXTERNAL_FLOW below, or calibrate a new cohort of the matching mode:
+# SECTION = {"active": True, "kind": "bike_route", "mode": "BIKE",
+#            "origin_station": "Wallisellen", "destination_station": "Dübendorf"}
+# A route reports its midpoint-link count and unique users of any project link.
+# SECTION = {"active": True, "kind": "pt_stop", "mode": "PT", "station": "Wallisellen"}
+# A stop reports access, egress and represented walking transfers separately.
+# Same-platform train changes cannot all be identified from the routing inputs.
+
 # An optional existing passenger flow, separate from modeled OD demand.
 # Mode defaults to the selected section's mode. These passengers affect
 # appraisal but not mode choice or road assignment.
