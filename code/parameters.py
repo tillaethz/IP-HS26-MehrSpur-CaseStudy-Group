@@ -156,7 +156,7 @@ NOMINAL_PARAMS = {
     # Performance requirements and strategic mode-share indicators
     # -------------------------------------------------------------------------
     "MAX_AVG_TT": 15.0,  # Acceptability ceiling for peak car/PT in-vehicle time plus car delay (min/trip).
-    "PT_SHARE_TARGET": 0.35,  # Teaching minimum for PT share of strategic passenger-km; baseline is about 31.9%.
+    "PT_SHARE_TARGET": 0.22,  # Teaching minimum for PT share of strategic passenger-km; baseline is about 20.8%.
     "MIN_STRATEGIC_PKM_DISTANCE": 5.0,  # Minimum OD distance for strategic mode-share indicators (km); not an appraisal cutoff.
 
     # Internal shared keys for appraisal and uncertainties; edit values in stages.py.
