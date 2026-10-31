@@ -1,0 +1,5 @@
+﻿configuration,initial_shortfall_percent,all_requirements_met_percent,mean_failure_years,median_first_failure_year_among_failures
+Stage 0 – Baseline Network,0.0,0.0,21.0,20.0
+"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0.0,0.0,21.0,20.0
+"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0.0,0.0,21.0,20.0
+Paket A + B – Mobility Hub Forch,0.0,0.0,21.0,20.0

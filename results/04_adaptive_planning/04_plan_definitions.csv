@@ -1,0 +1,7 @@
+﻿plan,name,description,initial state,Station package,Tunnel package
+baseline,Baseline — Baseline throughout the 40-year horizon,Baseline throughout the 40-year horizon,Stage 0 – Baseline Network,no later addition,no later addition
+static1,Static 1 — Paket A only from Year 1,Paket A only from Year 1,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",no later addition,no later addition
+static2,Static 2 — Paket A + B from Year 1,Paket A + B from Year 1,Paket A + B – Mobility Hub Forch,no later addition,no later addition
+staged1,"Staged 1 — Stations in Year 6, Tunnel in Year 23","Stations in Year 6, Tunnel in Year 23",Stage 0 – Baseline Network,fixed,fixed
+staged2,"Staged 2 — Stations in Year 10, Tunnel in Year 27","Stations in Year 10, Tunnel in Year 27",Stage 0 – Baseline Network,fixed,fixed
+adaptive,"Adaptive — Stations via Trigger 1, Tunnel via Trigger 2","Stations via Trigger 1, Tunnel via Trigger 2",Stage 0 – Baseline Network,"When Average corridor travel time exceeds 22.7 minutes for 2 consecutive years, decide to build; open after a 4-year lead time.","When PT share of passenger-kilometres exceeds 0.218 PKM share (0-1) for 2 consecutive years, decide to build; open after a 1-year lead time."

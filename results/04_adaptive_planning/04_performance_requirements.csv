@@ -1,0 +1,2 @@
+﻿indicator,operator,threshold,start_year
+pt_share,>,0.35,20

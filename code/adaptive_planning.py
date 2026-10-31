@@ -71,8 +71,8 @@ SIGNPOSTS = {
 DEFAULT_TRIGGERS = {
     # Trigger 1: congestion delay -> package 1 (Paket A)
     "trigger1": {
-        "signpost":        "congestion_delay_hours",
-        "threshold":       2415,
+        "signpost":        "avg_tt_min",
+        "threshold":       22.7,
         "persistence":     2,       # Consecutive years above threshold
         "lead_time":       4,       # Years of planning and station civil works
     },
@@ -80,8 +80,8 @@ DEFAULT_TRIGGERS = {
     # An absolute daily count keeps the signpost comparable when stations add
     # capacity. The action threshold is separate from comfort capacity.
     "trigger2": {
-        "signpost":        "section_load_ratio",
-        "threshold":       1.1,
+        "signpost":        "pt_share",
+        "threshold":       0.218,
         "persistence":     2,
         # LSA Parametrisierung.
         "lead_time":       1,

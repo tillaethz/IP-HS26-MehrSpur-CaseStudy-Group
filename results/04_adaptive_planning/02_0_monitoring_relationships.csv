@@ -1,0 +1,13 @@
+﻿comparison,monitoring_indicator,outcome,monitoring_unit,outcome_unit,n,r_squared,slope,spearman_r,outcome_range
+baseline,pt_trips,pt_share,person-trips/peak hour,%,40,0.3359,2.194e-03,0.5428,3.0071
+baseline,bike_trips,pt_share,person-trips/peak hour,%,40,0.3408,-1.261e-03,-0.5889,3.0071
+baseline,congestion_delay_hours,pt_share,person-hours/year,%,40,0.0716,2.238e-06,0.2659,3.0071
+baseline,avg_tt_min,pt_share,min/trip,%,40,0.0,-1.060e-02,0.0385,3.0071
+stage1_change,pt_trips,pt_share,person-trips/peak hour,percentage points,40,0.8888,1.031e-04,0.9437,0.0731
+stage1_change,bike_trips,pt_share,person-trips/peak hour,percentage points,40,0.1306,2.256e-05,0.3128,0.0731
+stage1_change,congestion_delay_hours,pt_share,person-hours/year,percentage points,40,0.9124,2.309e-07,0.9638,0.0731
+stage1_change,avg_tt_min,pt_share,min/trip,percentage points,40,0.7514,2.220e-01,0.8872,0.0731
+stage2_change,pt_trips,pt_share,person-trips/peak hour,percentage points,40,0.1364,-1.510e-05,-0.3717,0.0368
+stage2_change,bike_trips,pt_share,person-trips/peak hour,percentage points,40,0.6337,-1.858e-05,-0.7827,0.0368
+stage2_change,congestion_delay_hours,pt_share,person-hours/year,percentage points,40,0.3298,-5.190e-08,-0.5767,0.0368
+stage2_change,avg_tt_min,pt_share,min/trip,percentage points,40,0.3854,-5.943e-02,-0.6418,0.0368

@@ -1,0 +1,8 @@
+﻿,years_compared,final_state,infrastructure_expenditure_PV_MCHF,construction_CO2_tonnes,years_in_failure,acceptable_years_percent,final_pt_share,final_congestion_delay_hours,final_operating_co2_tonnes,additional_PV_expenditure_vs_lowest_spending_benchmark_MCHF
+PLANNER PLAN,1,Stage 0 – Baseline Network,106.91762423034574,0.0,0,100.0,0.20816052072434457,1779802.9618236944,61059.00344494857,106.918
+baseline,1,Stage 0 – Baseline Network,0.0,0.0,0,100.0,0.20816052072434457,1779802.9618236944,61059.00344494857,0.0
+static1,1,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",15.579092164415881,1249.0,0,100.0,0.2076530658768681,1773626.5938338987,61118.51377981607,15.579
+static2,1,Paket A + B – Mobility Hub Forch,18.30436035295695,1250.4,0,100.0,0.20992714535297852,1801501.8834121276,60864.25240516018,18.304
+staged1,1,Stage 0 – Baseline Network,0.0,0.0,0,100.0,0.20816052072434457,1779802.9618236944,61059.00344494857,0.0
+staged2,1,Stage 0 – Baseline Network,0.0,0.0,0,100.0,0.20816052072434457,1779802.9618236944,61059.00344494857,0.0
+adaptive,1,Stage 0 – Baseline Network,106.91762423034574,0.0,0,100.0,0.20816052072434457,1779802.9618236944,61059.00344494857,106.918

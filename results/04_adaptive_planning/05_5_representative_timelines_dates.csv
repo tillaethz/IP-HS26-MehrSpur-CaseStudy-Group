@@ -1,0 +1,5 @@
+﻿scenario,package,package_label,decision_year,scheduled_opening_year,opening_year,status,route
+8,1,Stage 1,,,,No decision,Baseline → Stage 2 only
+8,2,Stage 2,21.0,22.0,22.0,Open within horizon,Baseline → Stage 2 only
+1,1,Stage 1,,,,No decision,No package open within horizon
+1,2,Stage 2,,,,No decision,No package open within horizon
