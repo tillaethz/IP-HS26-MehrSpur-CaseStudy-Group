@@ -69,22 +69,22 @@ SIGNPOSTS = {
 }
 
 DEFAULT_TRIGGERS = {
-    # Trigger 1: Section demand -> package 1 (local stations and access)
+    # Trigger 1: congestion delay -> package 1 (Paket A)
     "trigger1": {
-        "signpost":        "section_combined_daily",
-        "threshold":       125_000,
+        "signpost":        "congestion_delay_hours",
+        "threshold":       2415,
         "persistence":     2,       # Consecutive years above threshold
-        "lead_time":       6,       # Years of planning and station civil works
+        "lead_time":       4,       # Years of planning and station civil works
     },
-    # Trigger 2: The same section count -> package 2 (Brüttenertunnel)
+    # Trigger 2: load ratio -> package 2 (Paket B)
     # An absolute daily count keeps the signpost comparable when stations add
     # capacity. The action threshold is separate from comfort capacity.
     "trigger2": {
-        "signpost":        "section_combined_daily",
-        "threshold":       122_000,
+        "signpost":        "section_load_ratio",
+        "threshold":       1.1,
         "persistence":     2,
-        # Years of tunnel planning and construction after the decision.
-        "lead_time":       10,
+        # LSA Parametrisierung.
+        "lead_time":       1,
     }
 }
 
@@ -127,14 +127,14 @@ PLAN_DEFINITIONS = {
     "staged1": {
         "name": "Staged 1",
         "initial_packages": [],
-        "stations": {"type": "fixed", "opening_year": 8},
-        "tunnel": {"type": "fixed", "opening_year": 11},
+        "stations": {"type": "fixed", "opening_year": 6},
+        "tunnel": {"type": "fixed", "opening_year": 23},
     },
     "staged2": {
         "name": "Staged 2",
         "initial_packages": [],
-        "stations": {"type": "fixed", "opening_year": 6},
-        "tunnel": {"type": "fixed", "opening_year": 15},
+        "stations": {"type": "fixed", "opening_year":10 },
+        "tunnel": {"type": "fixed", "opening_year": 27},
     },
     "flexible": {
         "name": "Flexible",
