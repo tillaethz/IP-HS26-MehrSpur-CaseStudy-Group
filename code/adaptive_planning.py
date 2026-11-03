@@ -71,8 +71,8 @@ SIGNPOSTS = {
 DEFAULT_TRIGGERS = {
     # Trigger 1: congestion delay -> package 1 (Paket A)
     "trigger1": {
-        "signpost":        "avg_tt_min", #zunahme demand 
-        "threshold":       22.7,
+        "signpost":        "total_demand", #zunahme demand 
+        "threshold":       17000,
         "persistence":     2,       # Consecutive years above threshold
         "lead_time":       4,       # Years of planning and station civil works
     },

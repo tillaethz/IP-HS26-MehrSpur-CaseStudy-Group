@@ -1,5 +1,5 @@
 ﻿plan,requirement,failure_percent,mean_failure_years
-adaptive,1: pt_share > 0.22,86.5,15.95
+adaptive,1: pt_share > 0.22,84.5,15.475
 baseline,1: pt_share > 0.22,86.5,15.89
 staged1,1: pt_share > 0.22,86.5,15.425
 staged2,1: pt_share > 0.22,86.5,15.6
