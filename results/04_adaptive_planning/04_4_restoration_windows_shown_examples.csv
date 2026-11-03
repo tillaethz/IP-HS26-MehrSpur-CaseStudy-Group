@@ -1,1 +1,14 @@
-﻿
+﻿scenario,source_state,target_state,package,transition,window_number,opening_window_start,opening_window_end,restorable_years,construction_years,decision_by_window_start,last_restoration_decision_year,earliest_rule_decision_year,earliest_rule_opening_year,reachable_from_new_monitoring,whole_window_reachable,continues_to_horizon
+161,0,1,1,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",1,29,29,1,4,25,25,3,7,True,True,False
+160,1,3,2,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,20,27,8,1,19,26,3,4,True,True,False
+22,1,3,2,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,21,26,6,1,20,25,3,4,True,True,False
+161,1,3,2,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,28,28,1,1,27,27,3,4,True,True,False
+114,1,3,2,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,33,35,3,1,32,34,3,4,True,True,False
+189,1,3,2,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,37,40,4,1,36,39,3,4,True,True,True
+2,1,3,2,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,40,40,1,1,39,39,3,4,True,True,True
+160,2,3,1,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",1,20,27,8,4,16,23,3,7,True,True,False
+22,2,3,1,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",1,21,25,5,4,17,21,3,7,True,True,False
+161,2,3,1,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",1,28,29,2,4,24,25,3,7,True,True,False
+114,2,3,1,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",1,33,34,2,4,29,30,3,7,True,True,False
+189,2,3,1,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",1,37,40,4,4,33,36,3,7,True,True,True
+2,2,3,1,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",1,40,40,1,4,36,36,3,7,True,True,True
