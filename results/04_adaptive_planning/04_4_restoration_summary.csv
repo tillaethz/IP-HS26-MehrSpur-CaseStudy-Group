@@ -1,5 +1,5 @@
 ﻿transition,scenarios_with_window,with_window_percent,reachable_window_percent,mean_restorable_years,median_last_restoration_decision
-"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",4,2.0,2.0,0.02,25.0
-"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",1,0.5,0.5,0.0,28.0
-"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",48,24.0,24.0,0.66,29.0
-"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",51,25.5,25.5,0.68,27.0
+"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,0.0,0.0,0.0,
+"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,0.0,0.0,0.0,
+"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",49,24.5,24.5,0.7,29.0
+"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",53,26.5,26.5,0.77,27.0

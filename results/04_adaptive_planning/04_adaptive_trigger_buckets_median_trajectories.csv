@@ -1,401 +1,401 @@
 ﻿package,opening_cohort,year,indicator,median
-Stage 1,Early opening (≤ Y15),1,total_demand,89487526.93025613
-Stage 1,Early opening (≤ Y15),2,total_demand,89884257.61441182
-Stage 1,Early opening (≤ Y15),3,total_demand,90280542.46812683
-Stage 1,Early opening (≤ Y15),4,total_demand,90676266.85596891
-Stage 1,Early opening (≤ Y15),5,total_demand,91071284.56462023
-Stage 1,Early opening (≤ Y15),6,total_demand,91465410.40512276
-Stage 1,Early opening (≤ Y15),7,total_demand,91859764.69822481
-Stage 1,Early opening (≤ Y15),8,total_demand,92251326.73787707
-Stage 1,Early opening (≤ Y15),9,total_demand,92641124.71473165
-Stage 1,Early opening (≤ Y15),10,total_demand,93028737.07111324
-Stage 1,Early opening (≤ Y15),11,total_demand,93413672.48730925
-Stage 1,Early opening (≤ Y15),12,total_demand,93795379.01748444
-Stage 1,Early opening (≤ Y15),13,total_demand,94173267.82006893
-Stage 1,Early opening (≤ Y15),14,total_demand,94546756.95734921
-Stage 1,Early opening (≤ Y15),15,total_demand,94915339.11576411
-Stage 1,Early opening (≤ Y15),16,total_demand,95276407.21394318
-Stage 1,Early opening (≤ Y15),17,total_demand,95626831.69812356
-Stage 1,Early opening (≤ Y15),18,total_demand,95975532.92871374
-Stage 1,Early opening (≤ Y15),19,total_demand,96319681.42402132
-Stage 1,Early opening (≤ Y15),20,total_demand,96660660.99540925
-Stage 1,Early opening (≤ Y15),21,total_demand,97000210.18079644
-Stage 1,Early opening (≤ Y15),22,total_demand,97339759.52073605
-Stage 1,Early opening (≤ Y15),23,total_demand,97684753.63278806
-Stage 1,Early opening (≤ Y15),24,total_demand,98042395.09144378
-Stage 1,Early opening (≤ Y15),25,total_demand,98404185.23127428
-Stage 1,Early opening (≤ Y15),26,total_demand,98768683.03199354
-Stage 1,Early opening (≤ Y15),27,total_demand,99135752.02990541
-Stage 1,Early opening (≤ Y15),28,total_demand,99507752.95291461
-Stage 1,Early opening (≤ Y15),29,total_demand,99884250.4498455
-Stage 1,Early opening (≤ Y15),30,total_demand,100264714.13347112
-Stage 1,Early opening (≤ Y15),31,total_demand,100648589.04028316
-Stage 1,Early opening (≤ Y15),32,total_demand,101034837.02176824
-Stage 1,Early opening (≤ Y15),33,total_demand,101423049.27042508
-Stage 1,Early opening (≤ Y15),34,total_demand,101809559.44978677
-Stage 1,Early opening (≤ Y15),35,total_demand,102189751.55397701
-Stage 1,Early opening (≤ Y15),36,total_demand,102570901.56628965
-Stage 1,Early opening (≤ Y15),37,total_demand,102952730.93660842
-Stage 1,Early opening (≤ Y15),38,total_demand,103334973.30256046
-Stage 1,Early opening (≤ Y15),39,total_demand,103717755.6377545
-Stage 1,Early opening (≤ Y15),40,total_demand,104100945.44650385
-Stage 1,Early opening (≤ Y15),1,pt_journey_time_min,36.17904073876605
-Stage 1,Early opening (≤ Y15),2,pt_journey_time_min,36.18459372713107
-Stage 1,Early opening (≤ Y15),3,pt_journey_time_min,36.18972718631428
-Stage 1,Early opening (≤ Y15),4,pt_journey_time_min,36.19442336112651
-Stage 1,Early opening (≤ Y15),5,pt_journey_time_min,36.19852712836001
-Stage 1,Early opening (≤ Y15),6,pt_journey_time_min,36.20146197462097
-Stage 1,Early opening (≤ Y15),7,pt_journey_time_min,36.19304663641778
-Stage 1,Early opening (≤ Y15),8,pt_journey_time_min,36.19432339474755
-Stage 1,Early opening (≤ Y15),9,pt_journey_time_min,36.19450592508139
-Stage 1,Early opening (≤ Y15),10,pt_journey_time_min,36.1935629325739
-Stage 1,Early opening (≤ Y15),11,pt_journey_time_min,36.19113723188924
-Stage 1,Early opening (≤ Y15),12,pt_journey_time_min,36.18664325197975
-Stage 1,Early opening (≤ Y15),13,pt_journey_time_min,36.17797090738642
-Stage 1,Early opening (≤ Y15),14,pt_journey_time_min,36.167493934196926
-Stage 1,Early opening (≤ Y15),15,pt_journey_time_min,36.15459252962924
-Stage 1,Early opening (≤ Y15),16,pt_journey_time_min,36.13830817334524
-Stage 1,Early opening (≤ Y15),17,pt_journey_time_min,36.11644519203173
-Stage 1,Early opening (≤ Y15),18,pt_journey_time_min,36.09000477414656
-Stage 1,Early opening (≤ Y15),19,pt_journey_time_min,36.064805817233854
-Stage 1,Early opening (≤ Y15),20,pt_journey_time_min,36.03436242667287
-Stage 1,Early opening (≤ Y15),21,pt_journey_time_min,36.00878643177725
-Stage 1,Early opening (≤ Y15),22,pt_journey_time_min,35.98607027975586
-Stage 1,Early opening (≤ Y15),23,pt_journey_time_min,35.961393295550714
-Stage 1,Early opening (≤ Y15),24,pt_journey_time_min,35.93952075336432
-Stage 1,Early opening (≤ Y15),25,pt_journey_time_min,35.91718712004547
-Stage 1,Early opening (≤ Y15),26,pt_journey_time_min,35.899370747249506
-Stage 1,Early opening (≤ Y15),27,pt_journey_time_min,35.88438757497174
-Stage 1,Early opening (≤ Y15),28,pt_journey_time_min,35.87490616301252
-Stage 1,Early opening (≤ Y15),29,pt_journey_time_min,35.86857290798706
-Stage 1,Early opening (≤ Y15),30,pt_journey_time_min,35.86338197036736
-Stage 1,Early opening (≤ Y15),31,pt_journey_time_min,35.85979888635903
-Stage 1,Early opening (≤ Y15),32,pt_journey_time_min,35.85867206484781
-Stage 1,Early opening (≤ Y15),33,pt_journey_time_min,35.86227522519733
-Stage 1,Early opening (≤ Y15),34,pt_journey_time_min,35.867192417153234
-Stage 1,Early opening (≤ Y15),35,pt_journey_time_min,35.870900520242486
-Stage 1,Early opening (≤ Y15),36,pt_journey_time_min,35.872831431292646
-Stage 1,Early opening (≤ Y15),37,pt_journey_time_min,35.87532299146427
-Stage 1,Early opening (≤ Y15),38,pt_journey_time_min,35.878254343796186
-Stage 1,Early opening (≤ Y15),39,pt_journey_time_min,35.88152892649561
-Stage 1,Early opening (≤ Y15),40,pt_journey_time_min,35.88507019660538
-Stage 2,No opening,1,pt_share,0.20816052072434457
-Stage 2,No opening,2,pt_share,0.20848306905378478
-Stage 2,No opening,3,pt_share,0.20879325556178263
-Stage 2,No opening,4,pt_share,0.20909732995058022
-Stage 2,No opening,5,pt_share,0.20939282642979717
-Stage 2,No opening,6,pt_share,0.2096701405998141
-Stage 2,No opening,7,pt_share,0.20953555406612173
-Stage 2,No opening,8,pt_share,0.20978899560732117
-Stage 2,No opening,9,pt_share,0.21001695688857613
-Stage 2,No opening,10,pt_share,0.21022807828226436
-Stage 2,No opening,11,pt_share,0.2103852009865048
-Stage 2,No opening,12,pt_share,0.21049879908572816
-Stage 2,No opening,13,pt_share,0.21050042917212608
-Stage 2,No opening,14,pt_share,0.21045523400769103
-Stage 2,No opening,15,pt_share,0.2102969120414255
-Stage 2,No opening,16,pt_share,0.21002951555382046
-Stage 2,No opening,17,pt_share,0.20973631390776776
-Stage 2,No opening,18,pt_share,0.20953342301264488
-Stage 2,No opening,19,pt_share,0.2092410269809848
-Stage 2,No opening,20,pt_share,0.20873012990736578
-Stage 2,No opening,21,pt_share,0.2082553418248054
-Stage 2,No opening,22,pt_share,0.2078094835788437
-Stage 2,No opening,23,pt_share,0.2074397794731545
-Stage 2,No opening,24,pt_share,0.2071421078142408
-Stage 2,No opening,25,pt_share,0.2066842726648918
-Stage 2,No opening,26,pt_share,0.20654408668822294
-Stage 2,No opening,27,pt_share,0.2064224224068908
-Stage 2,No opening,28,pt_share,0.20626304822373587
-Stage 2,No opening,29,pt_share,0.20614046949382506
-Stage 2,No opening,30,pt_share,0.20598353978968914
-Stage 2,No opening,31,pt_share,0.2058126526082576
-Stage 2,No opening,32,pt_share,0.2056769118797572
-Stage 2,No opening,33,pt_share,0.20567747748713577
-Stage 2,No opening,34,pt_share,0.2058370977604217
-Stage 2,No opening,35,pt_share,0.2060698856950771
-Stage 2,No opening,36,pt_share,0.2063176458552462
-Stage 2,No opening,37,pt_share,0.20646423073110953
-Stage 2,No opening,38,pt_share,0.20652483205667174
-Stage 2,No opening,39,pt_share,0.20654615348335925
-Stage 2,No opening,40,pt_share,0.20657698040070133
-Stage 2,No opening,1,pt_journey_time_min,36.17904073876605
-Stage 2,No opening,2,pt_journey_time_min,36.18511268264817
-Stage 2,No opening,3,pt_journey_time_min,36.19083262481649
-Stage 2,No opening,4,pt_journey_time_min,36.196010600102525
-Stage 2,No opening,5,pt_journey_time_min,36.20058477098667
-Stage 2,No opening,6,pt_journey_time_min,36.20442963822482
-Stage 2,No opening,7,pt_journey_time_min,36.19660750610384
-Stage 2,No opening,8,pt_journey_time_min,36.19893595821344
-Stage 2,No opening,9,pt_journey_time_min,36.19951110565533
-Stage 2,No opening,10,pt_journey_time_min,36.1989715198803
-Stage 2,No opening,11,pt_journey_time_min,36.19652382011934
-Stage 2,No opening,12,pt_journey_time_min,36.19012048423879
-Stage 2,No opening,13,pt_journey_time_min,36.18305536113017
-Stage 2,No opening,14,pt_journey_time_min,36.17257838138761
-Stage 2,No opening,15,pt_journey_time_min,36.16273652419319
-Stage 2,No opening,16,pt_journey_time_min,36.14394405763014
-Stage 2,No opening,17,pt_journey_time_min,36.125226772165306
-Stage 2,No opening,18,pt_journey_time_min,36.10350461128992
-Stage 2,No opening,19,pt_journey_time_min,36.08249561668191
-Stage 2,No opening,20,pt_journey_time_min,36.059762409494226
-Stage 2,No opening,21,pt_journey_time_min,36.03496725015361
-Stage 2,No opening,22,pt_journey_time_min,36.00830552613094
-Stage 2,No opening,23,pt_journey_time_min,35.98271390824863
-Stage 2,No opening,24,pt_journey_time_min,35.96072728476251
-Stage 2,No opening,25,pt_journey_time_min,35.94084674352884
-Stage 2,No opening,26,pt_journey_time_min,35.92289570052209
-Stage 2,No opening,27,pt_journey_time_min,35.907996245855436
-Stage 2,No opening,28,pt_journey_time_min,35.89604069986499
-Stage 2,No opening,29,pt_journey_time_min,35.88757302201928
-Stage 2,No opening,30,pt_journey_time_min,35.88252923179388
-Stage 2,No opening,31,pt_journey_time_min,35.880179302287544
-Stage 2,No opening,32,pt_journey_time_min,35.881343827787106
-Stage 2,No opening,33,pt_journey_time_min,35.88651165106182
-Stage 2,No opening,34,pt_journey_time_min,35.88911287251291
-Stage 2,No opening,35,pt_journey_time_min,35.893304135560165
-Stage 2,No opening,36,pt_journey_time_min,35.89808683666183
-Stage 2,No opening,37,pt_journey_time_min,35.90176551911031
-Stage 2,No opening,38,pt_journey_time_min,35.90532903881916
-Stage 2,No opening,39,pt_journey_time_min,35.9104158347733
-Stage 2,No opening,40,pt_journey_time_min,35.91492248427491
-Stage 2,Early opening (≤ Y15),1,pt_share,0.20816052072434457
-Stage 2,Early opening (≤ Y15),2,pt_share,0.2093172818517011
-Stage 2,Early opening (≤ Y15),3,pt_share,0.21044689866017763
-Stage 2,Early opening (≤ Y15),4,pt_share,0.2115666877597911
-Stage 2,Early opening (≤ Y15),5,pt_share,0.21269839650900746
-Stage 2,Early opening (≤ Y15),6,pt_share,0.21382715168744898
-Stage 2,Early opening (≤ Y15),7,pt_share,0.21451302866894784
-Stage 2,Early opening (≤ Y15),8,pt_share,0.21564455300386973
-Stage 2,Early opening (≤ Y15),9,pt_share,0.2167698090723139
-Stage 2,Early opening (≤ Y15),10,pt_share,0.21788723201607113
-Stage 2,Early opening (≤ Y15),11,pt_share,0.2187836346903037
-Stage 2,Early opening (≤ Y15),12,pt_share,0.21959625013800027
-Stage 2,Early opening (≤ Y15),13,pt_share,0.22032419647899196
-Stage 2,Early opening (≤ Y15),14,pt_share,0.2226044099981437
-Stage 2,Early opening (≤ Y15),15,pt_share,0.22333178041746504
-Stage 2,Early opening (≤ Y15),16,pt_share,0.22399996833669583
-Stage 2,Early opening (≤ Y15),17,pt_share,0.2246093651765444
-Stage 2,Early opening (≤ Y15),18,pt_share,0.22516461676928196
-Stage 2,Early opening (≤ Y15),19,pt_share,0.2256751594486407
-Stage 2,Early opening (≤ Y15),20,pt_share,0.22615495306867645
-Stage 2,Early opening (≤ Y15),21,pt_share,0.2266354329631605
-Stage 2,Early opening (≤ Y15),22,pt_share,0.22713589759199415
-Stage 2,Early opening (≤ Y15),23,pt_share,0.2276592756009725
-Stage 2,Early opening (≤ Y15),24,pt_share,0.22821991396401678
-Stage 2,Early opening (≤ Y15),25,pt_share,0.22882773563622213
-Stage 2,Early opening (≤ Y15),26,pt_share,0.2294879036298952
-Stage 2,Early opening (≤ Y15),27,pt_share,0.2301639048342834
-Stage 2,Early opening (≤ Y15),28,pt_share,0.2308513575719528
-Stage 2,Early opening (≤ Y15),29,pt_share,0.2315990505044479
-Stage 2,Early opening (≤ Y15),30,pt_share,0.23239945142796495
-Stage 2,Early opening (≤ Y15),31,pt_share,0.23324461920226272
-Stage 2,Early opening (≤ Y15),32,pt_share,0.23417460549449928
-Stage 2,Early opening (≤ Y15),33,pt_share,0.2353169500501011
-Stage 2,Early opening (≤ Y15),34,pt_share,0.23648502530041385
-Stage 2,Early opening (≤ Y15),35,pt_share,0.23767343500687715
-Stage 2,Early opening (≤ Y15),36,pt_share,0.23887773015673666
-Stage 2,Early opening (≤ Y15),37,pt_share,0.24009430038227025
-Stage 2,Early opening (≤ Y15),38,pt_share,0.24132025098355198
-Stage 2,Early opening (≤ Y15),39,pt_share,0.2425532823853328
-Stage 2,Early opening (≤ Y15),40,pt_share,0.24379158071450546
-Stage 2,Early opening (≤ Y15),1,pt_journey_time_min,36.17904073876605
-Stage 2,Early opening (≤ Y15),2,pt_journey_time_min,36.18311015281938
-Stage 2,Early opening (≤ Y15),3,pt_journey_time_min,36.186440387454
-Stage 2,Early opening (≤ Y15),4,pt_journey_time_min,36.188947517011506
-Stage 2,Early opening (≤ Y15),5,pt_journey_time_min,36.190873870184184
-Stage 2,Early opening (≤ Y15),6,pt_journey_time_min,36.19241172909982
-Stage 2,Early opening (≤ Y15),7,pt_journey_time_min,36.184460559938856
-Stage 2,Early opening (≤ Y15),8,pt_journey_time_min,36.185140786386874
-Stage 2,Early opening (≤ Y15),9,pt_journey_time_min,36.18482072906496
-Stage 2,Early opening (≤ Y15),10,pt_journey_time_min,36.18332957069207
-Stage 2,Early opening (≤ Y15),11,pt_journey_time_min,36.18046834989113
-Stage 2,Early opening (≤ Y15),12,pt_journey_time_min,36.17923954916725
-Stage 2,Early opening (≤ Y15),13,pt_journey_time_min,36.16678255103906
-Stage 2,Early opening (≤ Y15),14,pt_journey_time_min,36.147283599943286
-Stage 2,Early opening (≤ Y15),15,pt_journey_time_min,36.135730598811314
-Stage 2,Early opening (≤ Y15),16,pt_journey_time_min,36.11455967798061
-Stage 2,Early opening (≤ Y15),17,pt_journey_time_min,36.08988097110868
-Stage 2,Early opening (≤ Y15),18,pt_journey_time_min,36.06191397357795
-Stage 2,Early opening (≤ Y15),19,pt_journey_time_min,36.03115788410677
-Stage 2,Early opening (≤ Y15),20,pt_journey_time_min,35.99671164098029
-Stage 2,Early opening (≤ Y15),21,pt_journey_time_min,35.96477661296632
-Stage 2,Early opening (≤ Y15),22,pt_journey_time_min,35.93777344430801
-Stage 2,Early opening (≤ Y15),23,pt_journey_time_min,35.91108330431998
-Stage 2,Early opening (≤ Y15),24,pt_journey_time_min,35.88590076615535
-Stage 2,Early opening (≤ Y15),25,pt_journey_time_min,35.86355881169115
-Stage 2,Early opening (≤ Y15),26,pt_journey_time_min,35.84437748787211
-Stage 2,Early opening (≤ Y15),27,pt_journey_time_min,35.82841785369066
-Stage 2,Early opening (≤ Y15),28,pt_journey_time_min,35.81553862085694
-Stage 2,Early opening (≤ Y15),29,pt_journey_time_min,35.80546381571959
-Stage 2,Early opening (≤ Y15),30,pt_journey_time_min,35.79784565489994
-Stage 2,Early opening (≤ Y15),31,pt_journey_time_min,35.79188645874263
-Stage 2,Early opening (≤ Y15),32,pt_journey_time_min,35.78812301729544
-Stage 2,Early opening (≤ Y15),33,pt_journey_time_min,35.78583960513127
-Stage 2,Early opening (≤ Y15),34,pt_journey_time_min,35.78432677838141
-Stage 2,Early opening (≤ Y15),35,pt_journey_time_min,35.77761722166471
-Stage 2,Early opening (≤ Y15),36,pt_journey_time_min,35.76891706822839
-Stage 2,Early opening (≤ Y15),37,pt_journey_time_min,35.760533344668495
-Stage 2,Early opening (≤ Y15),38,pt_journey_time_min,35.756270878930685
-Stage 2,Early opening (≤ Y15),39,pt_journey_time_min,35.75836037367267
-Stage 2,Early opening (≤ Y15),40,pt_journey_time_min,35.76071247490982
-Stage 2,Medium opening (Y16–Y25),1,pt_share,0.20816052072434457
-Stage 2,Medium opening (Y16–Y25),2,pt_share,0.20905825507938988
-Stage 2,Medium opening (Y16–Y25),3,pt_share,0.20995041001560086
-Stage 2,Medium opening (Y16–Y25),4,pt_share,0.2108320069402489
-Stage 2,Medium opening (Y16–Y25),5,pt_share,0.2116970133463511
-Stage 2,Medium opening (Y16–Y25),6,pt_share,0.21252311496822518
-Stage 2,Medium opening (Y16–Y25),7,pt_share,0.2129833319006825
-Stage 2,Medium opening (Y16–Y25),8,pt_share,0.21377290824097425
-Stage 2,Medium opening (Y16–Y25),9,pt_share,0.21452175234974422
-Stage 2,Medium opening (Y16–Y25),10,pt_share,0.21522265628057763
-Stage 2,Medium opening (Y16–Y25),11,pt_share,0.2158829150808986
-Stage 2,Medium opening (Y16–Y25),12,pt_share,0.21644559790867562
-Stage 2,Medium opening (Y16–Y25),13,pt_share,0.2169476688862922
-Stage 2,Medium opening (Y16–Y25),14,pt_share,0.21738112581438396
-Stage 2,Medium opening (Y16–Y25),15,pt_share,0.21793636196286584
-Stage 2,Medium opening (Y16–Y25),16,pt_share,0.218445389538419
-Stage 2,Medium opening (Y16–Y25),17,pt_share,0.2189095181038037
-Stage 2,Medium opening (Y16–Y25),18,pt_share,0.21933381386991302
-Stage 2,Medium opening (Y16–Y25),19,pt_share,0.22004457067534083
-Stage 2,Medium opening (Y16–Y25),20,pt_share,0.220262472817459
-Stage 2,Medium opening (Y16–Y25),21,pt_share,0.22095057156021664
-Stage 2,Medium opening (Y16–Y25),22,pt_share,0.22119852880653856
-Stage 2,Medium opening (Y16–Y25),23,pt_share,0.22157237252867248
-Stage 2,Medium opening (Y16–Y25),24,pt_share,0.2217918557976956
-Stage 2,Medium opening (Y16–Y25),25,pt_share,0.2222963035140484
-Stage 2,Medium opening (Y16–Y25),26,pt_share,0.22271595792275992
-Stage 2,Medium opening (Y16–Y25),27,pt_share,0.22298169604405532
-Stage 2,Medium opening (Y16–Y25),28,pt_share,0.22333433037283054
-Stage 2,Medium opening (Y16–Y25),29,pt_share,0.22376649547312974
-Stage 2,Medium opening (Y16–Y25),30,pt_share,0.22434909283426094
-Stage 2,Medium opening (Y16–Y25),31,pt_share,0.22502022284408982
-Stage 2,Medium opening (Y16–Y25),32,pt_share,0.22571136649494913
-Stage 2,Medium opening (Y16–Y25),33,pt_share,0.2264178992487033
-Stage 2,Medium opening (Y16–Y25),34,pt_share,0.2271358381021351
-Stage 2,Medium opening (Y16–Y25),35,pt_share,0.22786185157988095
-Stage 2,Medium opening (Y16–Y25),36,pt_share,0.22847066326534984
-Stage 2,Medium opening (Y16–Y25),37,pt_share,0.22900222647970042
-Stage 2,Medium opening (Y16–Y25),38,pt_share,0.22972724322475732
-Stage 2,Medium opening (Y16–Y25),39,pt_share,0.2304939252917711
-Stage 2,Medium opening (Y16–Y25),40,pt_share,0.23121191209470773
-Stage 2,Medium opening (Y16–Y25),1,pt_journey_time_min,36.17904073876605
-Stage 2,Medium opening (Y16–Y25),2,pt_journey_time_min,36.184599014640796
-Stage 2,Medium opening (Y16–Y25),3,pt_journey_time_min,36.18978841297389
-Stage 2,Medium opening (Y16–Y25),4,pt_journey_time_min,36.19456083453692
-Stage 2,Medium opening (Y16–Y25),5,pt_journey_time_min,36.19885437477589
-Stage 2,Medium opening (Y16–Y25),6,pt_journey_time_min,36.20177120085304
-Stage 2,Medium opening (Y16–Y25),7,pt_journey_time_min,36.194254873622256
-Stage 2,Medium opening (Y16–Y25),8,pt_journey_time_min,36.19517711903841
-Stage 2,Medium opening (Y16–Y25),9,pt_journey_time_min,36.19441434856595
-Stage 2,Medium opening (Y16–Y25),10,pt_journey_time_min,36.191634138220216
-Stage 2,Medium opening (Y16–Y25),11,pt_journey_time_min,36.18644893623886
-Stage 2,Medium opening (Y16–Y25),12,pt_journey_time_min,36.18312447970325
-Stage 2,Medium opening (Y16–Y25),13,pt_journey_time_min,36.17859237935161
-Stage 2,Medium opening (Y16–Y25),14,pt_journey_time_min,36.172236294001685
-Stage 2,Medium opening (Y16–Y25),15,pt_journey_time_min,36.16387530904021
-Stage 2,Medium opening (Y16–Y25),16,pt_journey_time_min,36.15561841078124
-Stage 2,Medium opening (Y16–Y25),17,pt_journey_time_min,36.14071471316845
-Stage 2,Medium opening (Y16–Y25),18,pt_journey_time_min,36.12377888923561
-Stage 2,Medium opening (Y16–Y25),19,pt_journey_time_min,36.10513437538871
-Stage 2,Medium opening (Y16–Y25),20,pt_journey_time_min,36.084669982085344
-Stage 2,Medium opening (Y16–Y25),21,pt_journey_time_min,36.05545885646564
-Stage 2,Medium opening (Y16–Y25),22,pt_journey_time_min,36.026873290794896
-Stage 2,Medium opening (Y16–Y25),23,pt_journey_time_min,36.004116105725224
-Stage 2,Medium opening (Y16–Y25),24,pt_journey_time_min,35.98338197129978
-Stage 2,Medium opening (Y16–Y25),25,pt_journey_time_min,35.965241610983206
-Stage 2,Medium opening (Y16–Y25),26,pt_journey_time_min,35.95000169792377
-Stage 2,Medium opening (Y16–Y25),27,pt_journey_time_min,35.93772719577826
-Stage 2,Medium opening (Y16–Y25),28,pt_journey_time_min,35.92829345935649
-Stage 2,Medium opening (Y16–Y25),29,pt_journey_time_min,35.921448953004656
-Stage 2,Medium opening (Y16–Y25),30,pt_journey_time_min,35.917093351508385
-Stage 2,Medium opening (Y16–Y25),31,pt_journey_time_min,35.9158428057246
-Stage 2,Medium opening (Y16–Y25),32,pt_journey_time_min,35.91618893671516
-Stage 2,Medium opening (Y16–Y25),33,pt_journey_time_min,35.917829305923505
-Stage 2,Medium opening (Y16–Y25),34,pt_journey_time_min,35.920499529251934
-Stage 2,Medium opening (Y16–Y25),35,pt_journey_time_min,35.92397558757811
-Stage 2,Medium opening (Y16–Y25),36,pt_journey_time_min,35.928072038390184
-Stage 2,Medium opening (Y16–Y25),37,pt_journey_time_min,35.93263808522535
-Stage 2,Medium opening (Y16–Y25),38,pt_journey_time_min,35.937552801717125
-Stage 2,Medium opening (Y16–Y25),39,pt_journey_time_min,35.94272029251165
-Stage 2,Medium opening (Y16–Y25),40,pt_journey_time_min,35.94806521314673
-Stage 2,Late opening (> Y25),1,pt_share,0.20816052072434457
-Stage 2,Late opening (> Y25),2,pt_share,0.20886266798062958
-Stage 2,Late opening (> Y25),3,pt_share,0.20955248455289904
-Stage 2,Late opening (> Y25),4,pt_share,0.2102287885458174
-Stage 2,Late opening (> Y25),5,pt_share,0.2108900360736224
-Stage 2,Late opening (> Y25),6,pt_share,0.21153870453139578
-Stage 2,Late opening (> Y25),7,pt_share,0.21182024787188042
-Stage 2,Late opening (> Y25),8,pt_share,0.21244771658966027
-Stage 2,Late opening (> Y25),9,pt_share,0.21305040545105897
-Stage 2,Late opening (> Y25),10,pt_share,0.21361074189385298
-Stage 2,Late opening (> Y25),11,pt_share,0.2141293541943877
-Stage 2,Late opening (> Y25),12,pt_share,0.21460408010270143
-Stage 2,Late opening (> Y25),13,pt_share,0.21503180900994268
-Stage 2,Late opening (> Y25),14,pt_share,0.21540716088106654
-Stage 2,Late opening (> Y25),15,pt_share,0.21572522859447565
-Stage 2,Late opening (> Y25),16,pt_share,0.21594294267092579
-Stage 2,Late opening (> Y25),17,pt_share,0.2160781633579919
-Stage 2,Late opening (> Y25),18,pt_share,0.2162532482087203
-Stage 2,Late opening (> Y25),19,pt_share,0.2162599901393391
-Stage 2,Late opening (> Y25),20,pt_share,0.2163169918165318
-Stage 2,Late opening (> Y25),21,pt_share,0.21634857935370286
-Stage 2,Late opening (> Y25),22,pt_share,0.2163945654914258
-Stage 2,Late opening (> Y25),23,pt_share,0.2163971245495217
-Stage 2,Late opening (> Y25),24,pt_share,0.21644130367014325
-Stage 2,Late opening (> Y25),25,pt_share,0.21650288791975036
-Stage 2,Late opening (> Y25),26,pt_share,0.21661251862579917
-Stage 2,Late opening (> Y25),27,pt_share,0.21678224420300896
-Stage 2,Late opening (> Y25),28,pt_share,0.21701701320680436
-Stage 2,Late opening (> Y25),29,pt_share,0.2172300069034812
-Stage 2,Late opening (> Y25),30,pt_share,0.21752515274567666
-Stage 2,Late opening (> Y25),31,pt_share,0.21780943818115972
-Stage 2,Late opening (> Y25),32,pt_share,0.21827726505873743
-Stage 2,Late opening (> Y25),33,pt_share,0.2188212163004625
-Stage 2,Late opening (> Y25),34,pt_share,0.21948884402752286
-Stage 2,Late opening (> Y25),35,pt_share,0.2206142692688208
-Stage 2,Late opening (> Y25),36,pt_share,0.2213840499801093
-Stage 2,Late opening (> Y25),37,pt_share,0.22192611382345712
-Stage 2,Late opening (> Y25),38,pt_share,0.22260137584208053
-Stage 2,Late opening (> Y25),39,pt_share,0.22330464210201867
-Stage 2,Late opening (> Y25),40,pt_share,0.22383726972301438
-Stage 2,Late opening (> Y25),1,pt_journey_time_min,36.17904073876605
-Stage 2,Late opening (> Y25),2,pt_journey_time_min,36.18341507346781
-Stage 2,Late opening (> Y25),3,pt_journey_time_min,36.18723789658464
-Stage 2,Late opening (> Y25),4,pt_journey_time_min,36.19060948039171
-Stage 2,Late opening (> Y25),5,pt_journey_time_min,36.19336854695224
-Stage 2,Late opening (> Y25),6,pt_journey_time_min,36.19538718855584
-Stage 2,Late opening (> Y25),7,pt_journey_time_min,36.185450335559196
-Stage 2,Late opening (> Y25),8,pt_journey_time_min,36.1858455804561
-Stage 2,Late opening (> Y25),9,pt_journey_time_min,36.184897525492914
-Stage 2,Late opening (> Y25),10,pt_journey_time_min,36.18232027378171
-Stage 2,Late opening (> Y25),11,pt_journey_time_min,36.17778290457811
-Stage 2,Late opening (> Y25),12,pt_journey_time_min,36.171164713243286
-Stage 2,Late opening (> Y25),13,pt_journey_time_min,36.16357810442645
-Stage 2,Late opening (> Y25),14,pt_journey_time_min,36.15279150744179
-Stage 2,Late opening (> Y25),15,pt_journey_time_min,36.135158769199904
-Stage 2,Late opening (> Y25),16,pt_journey_time_min,36.11634773591166
-Stage 2,Late opening (> Y25),17,pt_journey_time_min,36.0905079658157
-Stage 2,Late opening (> Y25),18,pt_journey_time_min,36.062616099252295
-Stage 2,Late opening (> Y25),19,pt_journey_time_min,36.030861394236084
-Stage 2,Late opening (> Y25),20,pt_journey_time_min,35.99377765307641
-Stage 2,Late opening (> Y25),21,pt_journey_time_min,35.96211710639196
-Stage 2,Late opening (> Y25),22,pt_journey_time_min,35.93063641423339
-Stage 2,Late opening (> Y25),23,pt_journey_time_min,35.89760857976178
-Stage 2,Late opening (> Y25),24,pt_journey_time_min,35.86861392661767
-Stage 2,Late opening (> Y25),25,pt_journey_time_min,35.84428553167521
-Stage 2,Late opening (> Y25),26,pt_journey_time_min,35.82308132496182
-Stage 2,Late opening (> Y25),27,pt_journey_time_min,35.80535864700167
-Stage 2,Late opening (> Y25),28,pt_journey_time_min,35.79099204536573
-Stage 2,Late opening (> Y25),29,pt_journey_time_min,35.77970445644395
-Stage 2,Late opening (> Y25),30,pt_journey_time_min,35.769867252903204
-Stage 2,Late opening (> Y25),31,pt_journey_time_min,35.76714238304298
-Stage 2,Late opening (> Y25),32,pt_journey_time_min,35.764481991969774
-Stage 2,Late opening (> Y25),33,pt_journey_time_min,35.763622522019865
-Stage 2,Late opening (> Y25),34,pt_journey_time_min,35.761954380083544
-Stage 2,Late opening (> Y25),35,pt_journey_time_min,35.759655398629945
-Stage 2,Late opening (> Y25),36,pt_journey_time_min,35.757523201765494
-Stage 2,Late opening (> Y25),37,pt_journey_time_min,35.75596154417694
-Stage 2,Late opening (> Y25),38,pt_journey_time_min,35.75484616410819
-Stage 2,Late opening (> Y25),39,pt_journey_time_min,35.754077823500054
-Stage 2,Late opening (> Y25),40,pt_journey_time_min,35.75632285779811
+Stage 1,Early opening (≤ Y15),1,total_demand,89486753.66419624
+Stage 1,Early opening (≤ Y15),2,total_demand,89883556.18096608
+Stage 1,Early opening (≤ Y15),3,total_demand,90279908.67252184
+Stage 1,Early opening (≤ Y15),4,total_demand,90675696.42927262
+Stage 1,Early opening (≤ Y15),5,total_demand,91070773.14554341
+Stage 1,Early opening (≤ Y15),6,total_demand,91464953.51601623
+Stage 1,Early opening (≤ Y15),7,total_demand,91860102.00865147
+Stage 1,Early opening (≤ Y15),8,total_demand,92251709.78376064
+Stage 1,Early opening (≤ Y15),9,total_demand,92641549.65004703
+Stage 1,Early opening (≤ Y15),10,total_demand,93029200.01689853
+Stage 1,Early opening (≤ Y15),11,total_demand,93414169.48228538
+Stage 1,Early opening (≤ Y15),12,total_demand,93795905.94373518
+Stage 1,Early opening (≤ Y15),13,total_demand,94173820.2983648
+Stage 1,Early opening (≤ Y15),14,total_demand,94547330.20940772
+Stage 1,Early opening (≤ Y15),15,total_demand,94915927.79661345
+Stage 1,Early opening (≤ Y15),16,total_demand,95276620.88417144
+Stage 1,Early opening (≤ Y15),17,total_demand,95626846.26548335
+Stage 1,Early opening (≤ Y15),18,total_demand,95975528.2775617
+Stage 1,Early opening (≤ Y15),19,total_demand,96319654.25632524
+Stage 1,Early opening (≤ Y15),20,total_demand,96660608.17973696
+Stage 1,Early opening (≤ Y15),21,total_demand,97000128.90181854
+Stage 1,Early opening (≤ Y15),22,total_demand,97340108.35760033
+Stage 1,Early opening (≤ Y15),23,total_demand,97684970.0487051
+Stage 1,Early opening (≤ Y15),24,total_demand,98042560.44214813
+Stage 1,Early opening (≤ Y15),25,total_demand,98404299.93114606
+Stage 1,Early opening (≤ Y15),26,total_demand,98768745.40586242
+Stage 1,Early opening (≤ Y15),27,total_demand,99135759.51686047
+Stage 1,Early opening (≤ Y15),28,total_demand,99507706.9508666
+Stage 1,Early opening (≤ Y15),29,total_demand,99884152.76987116
+Stage 1,Early opening (≤ Y15),30,total_demand,100264566.81850338
+Stage 1,Early opening (≤ Y15),31,total_demand,100648394.22390923
+Stage 1,Early opening (≤ Y15),32,total_demand,101034595.66637388
+Stage 1,Early opening (≤ Y15),33,total_demand,101422762.3552376
+Stage 1,Early opening (≤ Y15),34,total_demand,101809073.13339597
+Stage 1,Early opening (≤ Y15),35,total_demand,102189233.79531085
+Stage 1,Early opening (≤ Y15),36,total_demand,102570359.81924337
+Stage 1,Early opening (≤ Y15),37,total_demand,102952166.41000041
+Stage 1,Early opening (≤ Y15),38,total_demand,103334376.12816548
+Stage 1,Early opening (≤ Y15),39,total_demand,103717129.75022869
+Stage 1,Early opening (≤ Y15),40,total_demand,104100294.44526878
+Stage 1,Early opening (≤ Y15),1,pt_journey_time_min,36.18774889792101
+Stage 1,Early opening (≤ Y15),2,pt_journey_time_min,36.192603292727334
+Stage 1,Early opening (≤ Y15),3,pt_journey_time_min,36.19705981738812
+Stage 1,Early opening (≤ Y15),4,pt_journey_time_min,36.20121237404075
+Stage 1,Early opening (≤ Y15),5,pt_journey_time_min,36.20482369680321
+Stage 1,Early opening (≤ Y15),6,pt_journey_time_min,36.20718532871801
+Stage 1,Early opening (≤ Y15),7,pt_journey_time_min,36.191422142251355
+Stage 1,Early opening (≤ Y15),8,pt_journey_time_min,36.192842431616015
+Stage 1,Early opening (≤ Y15),9,pt_journey_time_min,36.19275477797807
+Stage 1,Early opening (≤ Y15),10,pt_journey_time_min,36.19213079952347
+Stage 1,Early opening (≤ Y15),11,pt_journey_time_min,36.188479655444695
+Stage 1,Early opening (≤ Y15),12,pt_journey_time_min,36.18374547643211
+Stage 1,Early opening (≤ Y15),13,pt_journey_time_min,36.17377647069142
+Stage 1,Early opening (≤ Y15),14,pt_journey_time_min,36.162237771080676
+Stage 1,Early opening (≤ Y15),15,pt_journey_time_min,36.151786842498595
+Stage 1,Early opening (≤ Y15),16,pt_journey_time_min,36.13586044977056
+Stage 1,Early opening (≤ Y15),17,pt_journey_time_min,36.11423078666312
+Stage 1,Early opening (≤ Y15),18,pt_journey_time_min,36.08934655785269
+Stage 1,Early opening (≤ Y15),19,pt_journey_time_min,36.06076396335743
+Stage 1,Early opening (≤ Y15),20,pt_journey_time_min,36.03791261904338
+Stage 1,Early opening (≤ Y15),21,pt_journey_time_min,36.0116015236256
+Stage 1,Early opening (≤ Y15),22,pt_journey_time_min,35.985044726972205
+Stage 1,Early opening (≤ Y15),23,pt_journey_time_min,35.95940113692858
+Stage 1,Early opening (≤ Y15),24,pt_journey_time_min,35.93648470223514
+Stage 1,Early opening (≤ Y15),25,pt_journey_time_min,35.91691050035746
+Stage 1,Early opening (≤ Y15),26,pt_journey_time_min,35.89832013530396
+Stage 1,Early opening (≤ Y15),27,pt_journey_time_min,35.88252307212738
+Stage 1,Early opening (≤ Y15),28,pt_journey_time_min,35.870926280213936
+Stage 1,Early opening (≤ Y15),29,pt_journey_time_min,35.86216253657447
+Stage 1,Early opening (≤ Y15),30,pt_journey_time_min,35.857944244158205
+Stage 1,Early opening (≤ Y15),31,pt_journey_time_min,35.857944694175515
+Stage 1,Early opening (≤ Y15),32,pt_journey_time_min,35.86069313913277
+Stage 1,Early opening (≤ Y15),33,pt_journey_time_min,35.86465888524198
+Stage 1,Early opening (≤ Y15),34,pt_journey_time_min,35.86834384168789
+Stage 1,Early opening (≤ Y15),35,pt_journey_time_min,35.871033040179256
+Stage 1,Early opening (≤ Y15),36,pt_journey_time_min,35.873069055753845
+Stage 1,Early opening (≤ Y15),37,pt_journey_time_min,35.87564079164059
+Stage 1,Early opening (≤ Y15),38,pt_journey_time_min,35.87846422128577
+Stage 1,Early opening (≤ Y15),39,pt_journey_time_min,35.88040627625846
+Stage 1,Early opening (≤ Y15),40,pt_journey_time_min,35.882485515717875
+Stage 2,No opening,1,pt_share,0.20863519002838962
+Stage 2,No opening,2,pt_share,0.20893081500507657
+Stage 2,No opening,3,pt_share,0.20921415943199126
+Stage 2,No opening,4,pt_share,0.20948566990226059
+Stage 2,No opening,5,pt_share,0.20973862381687292
+Stage 2,No opening,6,pt_share,0.20998174258799882
+Stage 2,No opening,7,pt_share,0.20949272286965717
+Stage 2,No opening,8,pt_share,0.20973715067993037
+Stage 2,No opening,9,pt_share,0.20995161034533166
+Stage 2,No opening,10,pt_share,0.21013368577453065
+Stage 2,No opening,11,pt_share,0.21029067505552565
+Stage 2,No opening,12,pt_share,0.21040357032195023
+Stage 2,No opening,13,pt_share,0.21039448280861262
+Stage 2,No opening,14,pt_share,0.2103407615975496
+Stage 2,No opening,15,pt_share,0.21019196566632278
+Stage 2,No opening,16,pt_share,0.20994395281717187
+Stage 2,No opening,17,pt_share,0.20963673749095585
+Stage 2,No opening,18,pt_share,0.20923182248298214
+Stage 2,No opening,19,pt_share,0.20896947787578882
+Stage 2,No opening,20,pt_share,0.20857775649845192
+Stage 2,No opening,21,pt_share,0.2080438992535758
+Stage 2,No opening,22,pt_share,0.20771734119879395
+Stage 2,No opening,23,pt_share,0.2074156184728349
+Stage 2,No opening,24,pt_share,0.20710676170609388
+Stage 2,No opening,25,pt_share,0.20668570686626092
+Stage 2,No opening,26,pt_share,0.20618126683040003
+Stage 2,No opening,27,pt_share,0.2059278547958912
+Stage 2,No opening,28,pt_share,0.20583099022928852
+Stage 2,No opening,29,pt_share,0.205768114518159
+Stage 2,No opening,30,pt_share,0.2057352442977279
+Stage 2,No opening,31,pt_share,0.2057280849726204
+Stage 2,No opening,32,pt_share,0.2057313810973301
+Stage 2,No opening,33,pt_share,0.20568371435800034
+Stage 2,No opening,34,pt_share,0.20584447315137247
+Stage 2,No opening,35,pt_share,0.20603224109200094
+Stage 2,No opening,36,pt_share,0.20620316218498672
+Stage 2,No opening,37,pt_share,0.20633947462664542
+Stage 2,No opening,38,pt_share,0.2064478595854526
+Stage 2,No opening,39,pt_share,0.20645235312459218
+Stage 2,No opening,40,pt_share,0.20645237895797502
+Stage 2,No opening,1,pt_journey_time_min,36.18774889792101
+Stage 2,No opening,2,pt_journey_time_min,36.19328663601058
+Stage 2,No opening,3,pt_journey_time_min,36.19847050575688
+Stage 2,No opening,4,pt_journey_time_min,36.20322895518247
+Stage 2,No opening,5,pt_journey_time_min,36.2074709805156
+Stage 2,No opening,6,pt_journey_time_min,36.21084885848574
+Stage 2,No opening,7,pt_journey_time_min,36.195275725571356
+Stage 2,No opening,8,pt_journey_time_min,36.19734668463945
+Stage 2,No opening,9,pt_journey_time_min,36.197881677445274
+Stage 2,No opening,10,pt_journey_time_min,36.19624861988279
+Stage 2,No opening,11,pt_journey_time_min,36.19237393406241
+Stage 2,No opening,12,pt_journey_time_min,36.18638775530042
+Stage 2,No opening,13,pt_journey_time_min,36.18025227539114
+Stage 2,No opening,14,pt_journey_time_min,36.16859724508122
+Stage 2,No opening,15,pt_journey_time_min,36.15370942763951
+Stage 2,No opening,16,pt_journey_time_min,36.14171636633545
+Stage 2,No opening,17,pt_journey_time_min,36.1208192919057
+Stage 2,No opening,18,pt_journey_time_min,36.10179798297265
+Stage 2,No opening,19,pt_journey_time_min,36.07445352728278
+Stage 2,No opening,20,pt_journey_time_min,36.05017956349674
+Stage 2,No opening,21,pt_journey_time_min,36.02526453306719
+Stage 2,No opening,22,pt_journey_time_min,36.000676600563956
+Stage 2,No opening,23,pt_journey_time_min,35.97981035113227
+Stage 2,No opening,24,pt_journey_time_min,35.956042020157255
+Stage 2,No opening,25,pt_journey_time_min,35.93732234804659
+Stage 2,No opening,26,pt_journey_time_min,35.92149842662326
+Stage 2,No opening,27,pt_journey_time_min,35.90745063108211
+Stage 2,No opening,28,pt_journey_time_min,35.8956693671321
+Stage 2,No opening,29,pt_journey_time_min,35.88674796551647
+Stage 2,No opening,30,pt_journey_time_min,35.88038319573028
+Stage 2,No opening,31,pt_journey_time_min,35.87608064923077
+Stage 2,No opening,32,pt_journey_time_min,35.87885189890065
+Stage 2,No opening,33,pt_journey_time_min,35.87786454732715
+Stage 2,No opening,34,pt_journey_time_min,35.8796845604083
+Stage 2,No opening,35,pt_journey_time_min,35.88398946668969
+Stage 2,No opening,36,pt_journey_time_min,35.88921280676603
+Stage 2,No opening,37,pt_journey_time_min,35.89427712601826
+Stage 2,No opening,38,pt_journey_time_min,35.89991896912647
+Stage 2,No opening,39,pt_journey_time_min,35.904668255730364
+Stage 2,No opening,40,pt_journey_time_min,35.909470104442846
+Stage 2,Early opening (≤ Y15),1,pt_share,0.20863519002838962
+Stage 2,Early opening (≤ Y15),2,pt_share,0.20974479782879737
+Stage 2,Early opening (≤ Y15),3,pt_share,0.2108357942133406
+Stage 2,Early opening (≤ Y15),4,pt_share,0.21193394579956645
+Stage 2,Early opening (≤ Y15),5,pt_share,0.2130299344238052
+Stage 2,Early opening (≤ Y15),6,pt_share,0.21412304725878697
+Stage 2,Early opening (≤ Y15),7,pt_share,0.21440796091923847
+Stage 2,Early opening (≤ Y15),8,pt_share,0.2154947707116344
+Stage 2,Early opening (≤ Y15),9,pt_share,0.21658845190749815
+Stage 2,Early opening (≤ Y15),10,pt_share,0.2176745779148034
+Stage 2,Early opening (≤ Y15),11,pt_share,0.21869153804799124
+Stage 2,Early opening (≤ Y15),12,pt_share,0.21951615567073973
+Stage 2,Early opening (≤ Y15),13,pt_share,0.22026165913692816
+Stage 2,Early opening (≤ Y15),14,pt_share,0.22268073646496822
+Stage 2,Early opening (≤ Y15),15,pt_share,0.2233866106622615
+Stage 2,Early opening (≤ Y15),16,pt_share,0.2240361952539374
+Stage 2,Early opening (≤ Y15),17,pt_share,0.22463008393622985
+Stage 2,Early opening (≤ Y15),18,pt_share,0.2251729952932181
+Stage 2,Early opening (≤ Y15),19,pt_share,0.22567426341911498
+Stage 2,Early opening (≤ Y15),20,pt_share,0.22614754734506212
+Stage 2,Early opening (≤ Y15),21,pt_share,0.22662397529738912
+Stage 2,Early opening (≤ Y15),22,pt_share,0.22712214772885905
+Stage 2,Early opening (≤ Y15),23,pt_share,0.22764408852365228
+Stage 2,Early opening (≤ Y15),24,pt_share,0.2282034802530269
+Stage 2,Early opening (≤ Y15),25,pt_share,0.22880968040290212
+Stage 2,Early opening (≤ Y15),26,pt_share,0.2294674282961389
+Stage 2,Early opening (≤ Y15),27,pt_share,0.23013713273986428
+Stage 2,Early opening (≤ Y15),28,pt_share,0.2308140765975648
+Stage 2,Early opening (≤ Y15),29,pt_share,0.23155102948038092
+Stage 2,Early opening (≤ Y15),30,pt_share,0.23234040054658406
+Stage 2,Early opening (≤ Y15),31,pt_share,0.23317423000953694
+Stage 2,Early opening (≤ Y15),32,pt_share,0.23409486728444545
+Stage 2,Early opening (≤ Y15),33,pt_share,0.2352355187460316
+Stage 2,Early opening (≤ Y15),34,pt_share,0.2364005539703096
+Stage 2,Early opening (≤ Y15),35,pt_share,0.23758477660521254
+Stage 2,Early opening (≤ Y15),36,pt_share,0.23878389546472964
+Stage 2,Early opening (≤ Y15),37,pt_share,0.23999442390822393
+Stage 2,Early opening (≤ Y15),38,pt_share,0.24121356396890217
+Stage 2,Early opening (≤ Y15),39,pt_share,0.24243909181469558
+Stage 2,Early opening (≤ Y15),40,pt_share,0.24366925321470656
+Stage 2,Early opening (≤ Y15),1,pt_journey_time_min,36.18774889792101
+Stage 2,Early opening (≤ Y15),2,pt_journey_time_min,36.19075598628395
+Stage 2,Early opening (≤ Y15),3,pt_journey_time_min,36.19329277046256
+Stage 2,Early opening (≤ Y15),4,pt_journey_time_min,36.195289005653684
+Stage 2,Early opening (≤ Y15),5,pt_journey_time_min,36.19665385497827
+Stage 2,Early opening (≤ Y15),6,pt_journey_time_min,36.19727130893855
+Stage 2,Early opening (≤ Y15),7,pt_journey_time_min,36.18283226011846
+Stage 2,Early opening (≤ Y15),8,pt_journey_time_min,36.18322978988858
+Stage 2,Early opening (≤ Y15),9,pt_journey_time_min,36.1826705553536
+Stage 2,Early opening (≤ Y15),10,pt_journey_time_min,36.18098440125253
+Stage 2,Early opening (≤ Y15),11,pt_journey_time_min,36.17797352864948
+Stage 2,Early opening (≤ Y15),12,pt_journey_time_min,36.17341710395324
+Stage 2,Early opening (≤ Y15),13,pt_journey_time_min,36.16564066375511
+Stage 2,Early opening (≤ Y15),14,pt_journey_time_min,36.14574373096693
+Stage 2,Early opening (≤ Y15),15,pt_journey_time_min,36.135693181926186
+Stage 2,Early opening (≤ Y15),16,pt_journey_time_min,36.11415632130347
+Stage 2,Early opening (≤ Y15),17,pt_journey_time_min,36.08916079636068
+Stage 2,Early opening (≤ Y15),18,pt_journey_time_min,36.06092585163268
+Stage 2,Early opening (≤ Y15),19,pt_journey_time_min,36.02994848307821
+Stage 2,Early opening (≤ Y15),20,pt_journey_time_min,35.99561503856504
+Stage 2,Early opening (≤ Y15),21,pt_journey_time_min,35.96080044252445
+Stage 2,Early opening (≤ Y15),22,pt_journey_time_min,35.93706546190543
+Stage 2,Early opening (≤ Y15),23,pt_journey_time_min,35.91094353460139
+Stage 2,Early opening (≤ Y15),24,pt_journey_time_min,35.886202934059
+Stage 2,Early opening (≤ Y15),25,pt_journey_time_min,35.86419070782553
+Stage 2,Early opening (≤ Y15),26,pt_journey_time_min,35.845240822558495
+Stage 2,Early opening (≤ Y15),27,pt_journey_time_min,35.829429456203776
+Stage 2,Early opening (≤ Y15),28,pt_journey_time_min,35.81663001973541
+Stage 2,Early opening (≤ Y15),29,pt_journey_time_min,35.806579714308356
+Stage 2,Early opening (≤ Y15),30,pt_journey_time_min,35.79891044735659
+Stage 2,Early opening (≤ Y15),31,pt_journey_time_min,35.79236277629526
+Stage 2,Early opening (≤ Y15),32,pt_journey_time_min,35.788165432730885
+Stage 2,Early opening (≤ Y15),33,pt_journey_time_min,35.78587840284993
+Stage 2,Early opening (≤ Y15),34,pt_journey_time_min,35.77798029742722
+Stage 2,Early opening (≤ Y15),35,pt_journey_time_min,35.7691942733828
+Stage 2,Early opening (≤ Y15),36,pt_journey_time_min,35.76077755337057
+Stage 2,Early opening (≤ Y15),37,pt_journey_time_min,35.753188131338106
+Stage 2,Early opening (≤ Y15),38,pt_journey_time_min,35.75455816686471
+Stage 2,Early opening (≤ Y15),39,pt_journey_time_min,35.756274245924736
+Stage 2,Early opening (≤ Y15),40,pt_journey_time_min,35.758239242179094
+Stage 2,Medium opening (Y16–Y25),1,pt_share,0.20863519002838962
+Stage 2,Medium opening (Y16–Y25),2,pt_share,0.2094648294337532
+Stage 2,Medium opening (Y16–Y25),3,pt_share,0.21028769902639924
+Stage 2,Medium opening (Y16–Y25),4,pt_share,0.211102528853786
+Stage 2,Medium opening (Y16–Y25),5,pt_share,0.21190771209463646
+Stage 2,Medium opening (Y16–Y25),6,pt_share,0.21270122927568705
+Stage 2,Medium opening (Y16–Y25),7,pt_share,0.21269829726336262
+Stage 2,Medium opening (Y16–Y25),8,pt_share,0.21348083822052324
+Stage 2,Medium opening (Y16–Y25),9,pt_share,0.21424216679758465
+Stage 2,Medium opening (Y16–Y25),10,pt_share,0.2149778058072478
+Stage 2,Medium opening (Y16–Y25),11,pt_share,0.2156825873383755
+Stage 2,Medium opening (Y16–Y25),12,pt_share,0.21635077183142415
+Stage 2,Medium opening (Y16–Y25),13,pt_share,0.21684982352857654
+Stage 2,Medium opening (Y16–Y25),14,pt_share,0.21724925030261624
+Stage 2,Medium opening (Y16–Y25),15,pt_share,0.2175571062466168
+Stage 2,Medium opening (Y16–Y25),16,pt_share,0.2180541092622244
+Stage 2,Medium opening (Y16–Y25),17,pt_share,0.21851583757960544
+Stage 2,Medium opening (Y16–Y25),18,pt_share,0.21889241364700818
+Stage 2,Medium opening (Y16–Y25),19,pt_share,0.21967933071709753
+Stage 2,Medium opening (Y16–Y25),20,pt_share,0.22036342794910188
+Stage 2,Medium opening (Y16–Y25),21,pt_share,0.22045732823819014
+Stage 2,Medium opening (Y16–Y25),22,pt_share,0.22080362528737357
+Stage 2,Medium opening (Y16–Y25),23,pt_share,0.2214238254649473
+Stage 2,Medium opening (Y16–Y25),24,pt_share,0.2219502672129172
+Stage 2,Medium opening (Y16–Y25),25,pt_share,0.2225375214048514
+Stage 2,Medium opening (Y16–Y25),26,pt_share,0.22284007824319818
+Stage 2,Medium opening (Y16–Y25),27,pt_share,0.22309703017117494
+Stage 2,Medium opening (Y16–Y25),28,pt_share,0.22345506783825167
+Stage 2,Medium opening (Y16–Y25),29,pt_share,0.2240006799471223
+Stage 2,Medium opening (Y16–Y25),30,pt_share,0.22458622894588626
+Stage 2,Medium opening (Y16–Y25),31,pt_share,0.2252715703334569
+Stage 2,Medium opening (Y16–Y25),32,pt_share,0.225976568778023
+Stage 2,Medium opening (Y16–Y25),33,pt_share,0.2266967097358587
+Stage 2,Medium opening (Y16–Y25),34,pt_share,0.2273450402313111
+Stage 2,Medium opening (Y16–Y25),35,pt_share,0.22794170547477743
+Stage 2,Medium opening (Y16–Y25),36,pt_share,0.22847810497927784
+Stage 2,Medium opening (Y16–Y25),37,pt_share,0.22901717598374366
+Stage 2,Medium opening (Y16–Y25),38,pt_share,0.22976505485224763
+Stage 2,Medium opening (Y16–Y25),39,pt_share,0.23052525039546326
+Stage 2,Medium opening (Y16–Y25),40,pt_share,0.23123391579871838
+Stage 2,Medium opening (Y16–Y25),1,pt_journey_time_min,36.18774889792101
+Stage 2,Medium opening (Y16–Y25),2,pt_journey_time_min,36.192628232147314
+Stage 2,Medium opening (Y16–Y25),3,pt_journey_time_min,36.19719834321517
+Stage 2,Medium opening (Y16–Y25),4,pt_journey_time_min,36.20141999664032
+Stage 2,Medium opening (Y16–Y25),5,pt_journey_time_min,36.2052421872994
+Stage 2,Medium opening (Y16–Y25),6,pt_journey_time_min,36.20761936154267
+Stage 2,Medium opening (Y16–Y25),7,pt_journey_time_min,36.19381844091405
+Stage 2,Medium opening (Y16–Y25),8,pt_journey_time_min,36.1946285434256
+Stage 2,Medium opening (Y16–Y25),9,pt_journey_time_min,36.19501181277328
+Stage 2,Medium opening (Y16–Y25),10,pt_journey_time_min,36.19526373099887
+Stage 2,Medium opening (Y16–Y25),11,pt_journey_time_min,36.194254739425226
+Stage 2,Medium opening (Y16–Y25),12,pt_journey_time_min,36.19175744794442
+Stage 2,Medium opening (Y16–Y25),13,pt_journey_time_min,36.18753299331884
+Stage 2,Medium opening (Y16–Y25),14,pt_journey_time_min,36.18135065041491
+Stage 2,Medium opening (Y16–Y25),15,pt_journey_time_min,36.171006075531835
+Stage 2,Medium opening (Y16–Y25),16,pt_journey_time_min,36.16119044837682
+Stage 2,Medium opening (Y16–Y25),17,pt_journey_time_min,36.1414423387249
+Stage 2,Medium opening (Y16–Y25),18,pt_journey_time_min,36.12692322227259
+Stage 2,Medium opening (Y16–Y25),19,pt_journey_time_min,36.109215777276326
+Stage 2,Medium opening (Y16–Y25),20,pt_journey_time_min,36.086946139672385
+Stage 2,Medium opening (Y16–Y25),21,pt_journey_time_min,36.063012518714054
+Stage 2,Medium opening (Y16–Y25),22,pt_journey_time_min,36.040528318294655
+Stage 2,Medium opening (Y16–Y25),23,pt_journey_time_min,36.018486156178184
+Stage 2,Medium opening (Y16–Y25),24,pt_journey_time_min,35.99842665485321
+Stage 2,Medium opening (Y16–Y25),25,pt_journey_time_min,35.98096135961499
+Stage 2,Medium opening (Y16–Y25),26,pt_journey_time_min,35.96642514816346
+Stage 2,Medium opening (Y16–Y25),27,pt_journey_time_min,35.95489860800488
+Stage 2,Medium opening (Y16–Y25),28,pt_journey_time_min,35.94626199073403
+Stage 2,Medium opening (Y16–Y25),29,pt_journey_time_min,35.94026067537044
+Stage 2,Medium opening (Y16–Y25),30,pt_journey_time_min,35.93656657063742
+Stage 2,Medium opening (Y16–Y25),31,pt_journey_time_min,35.934104416337114
+Stage 2,Medium opening (Y16–Y25),32,pt_journey_time_min,35.933055425546286
+Stage 2,Medium opening (Y16–Y25),33,pt_journey_time_min,35.93329906047564
+Stage 2,Medium opening (Y16–Y25),34,pt_journey_time_min,35.93441026876322
+Stage 2,Medium opening (Y16–Y25),35,pt_journey_time_min,35.93626646116028
+Stage 2,Medium opening (Y16–Y25),36,pt_journey_time_min,35.93874999439893
+Stage 2,Medium opening (Y16–Y25),37,pt_journey_time_min,35.94169716518507
+Stage 2,Medium opening (Y16–Y25),38,pt_journey_time_min,35.94497652401459
+Stage 2,Medium opening (Y16–Y25),39,pt_journey_time_min,35.94848375637404
+Stage 2,Medium opening (Y16–Y25),40,pt_journey_time_min,35.95213689610871
+Stage 2,Late opening (> Y25),1,pt_share,0.20863519002838962
+Stage 2,Late opening (> Y25),2,pt_share,0.20929492559065527
+Stage 2,Late opening (> Y25),3,pt_share,0.20994407113345964
+Stage 2,Late opening (> Y25),4,pt_share,0.21058115709815417
+Stage 2,Late opening (> Y25),5,pt_share,0.21120428665258442
+Stage 2,Late opening (> Y25),6,pt_share,0.21181104157637698
+Stage 2,Late opening (> Y25),7,pt_share,0.21172809437332574
+Stage 2,Late opening (> Y25),8,pt_share,0.21234913264646252
+Stage 2,Late opening (> Y25),9,pt_share,0.21292806008231555
+Stage 2,Late opening (> Y25),10,pt_share,0.21347012274898786
+Stage 2,Late opening (> Y25),11,pt_share,0.21397182991726166
+Stage 2,Late opening (> Y25),12,pt_share,0.21443174915291338
+Stage 2,Late opening (> Y25),13,pt_share,0.21486026610313774
+Stage 2,Late opening (> Y25),14,pt_share,0.21524572604078798
+Stage 2,Late opening (> Y25),15,pt_share,0.2155847381244118
+Stage 2,Late opening (> Y25),16,pt_share,0.21578694115292635
+Stage 2,Late opening (> Y25),17,pt_share,0.21598804345050132
+Stage 2,Late opening (> Y25),18,pt_share,0.216208564217036
+Stage 2,Late opening (> Y25),19,pt_share,0.21613502968769144
+Stage 2,Late opening (> Y25),20,pt_share,0.21623476346248707
+Stage 2,Late opening (> Y25),21,pt_share,0.2163079145039632
+Stage 2,Late opening (> Y25),22,pt_share,0.21625198547242183
+Stage 2,Late opening (> Y25),23,pt_share,0.2162153924493926
+Stage 2,Late opening (> Y25),24,pt_share,0.21636007144684785
+Stage 2,Late opening (> Y25),25,pt_share,0.21644069669771301
+Stage 2,Late opening (> Y25),26,pt_share,0.21656752347754463
+Stage 2,Late opening (> Y25),27,pt_share,0.21674262639418748
+Stage 2,Late opening (> Y25),28,pt_share,0.21696459188938005
+Stage 2,Late opening (> Y25),29,pt_share,0.21716951639915558
+Stage 2,Late opening (> Y25),30,pt_share,0.21743131920005893
+Stage 2,Late opening (> Y25),31,pt_share,0.2178257869694788
+Stage 2,Late opening (> Y25),32,pt_share,0.21833743981228912
+Stage 2,Late opening (> Y25),33,pt_share,0.218906051293581
+Stage 2,Late opening (> Y25),34,pt_share,0.21951171098288108
+Stage 2,Late opening (> Y25),35,pt_share,0.2206247120936408
+Stage 2,Late opening (> Y25),36,pt_share,0.22125022959906288
+Stage 2,Late opening (> Y25),37,pt_share,0.22197154294815596
+Stage 2,Late opening (> Y25),38,pt_share,0.2225681452069374
+Stage 2,Late opening (> Y25),39,pt_share,0.2231810684996577
+Stage 2,Late opening (> Y25),40,pt_share,0.22383404244158467
+Stage 2,Late opening (> Y25),1,pt_journey_time_min,36.18774889792101
+Stage 2,Late opening (> Y25),2,pt_journey_time_min,36.19142446464817
+Stage 2,Late opening (> Y25),3,pt_journey_time_min,36.19469615356851
+Stage 2,Late opening (> Y25),4,pt_journey_time_min,36.197486852014116
+Stage 2,Late opening (> Y25),5,pt_journey_time_min,36.19952793914009
+Stage 2,Late opening (> Y25),6,pt_journey_time_min,36.20038243593585
+Stage 2,Late opening (> Y25),7,pt_journey_time_min,36.18382329094322
+Stage 2,Late opening (> Y25),8,pt_journey_time_min,36.18276145181454
+Stage 2,Late opening (> Y25),9,pt_journey_time_min,36.17988821180519
+Stage 2,Late opening (> Y25),10,pt_journey_time_min,36.1760769621539
+Stage 2,Late opening (> Y25),11,pt_journey_time_min,36.17390541706144
+Stage 2,Late opening (> Y25),12,pt_journey_time_min,36.16855147390079
+Stage 2,Late opening (> Y25),13,pt_journey_time_min,36.16059366563254
+Stage 2,Late opening (> Y25),14,pt_journey_time_min,36.14818401875727
+Stage 2,Late opening (> Y25),15,pt_journey_time_min,36.13145158272003
+Stage 2,Late opening (> Y25),16,pt_journey_time_min,36.11321892181927
+Stage 2,Late opening (> Y25),17,pt_journey_time_min,36.08605397542048
+Stage 2,Late opening (> Y25),18,pt_journey_time_min,36.053243909419564
+Stage 2,Late opening (> Y25),19,pt_journey_time_min,36.01904540131075
+Stage 2,Late opening (> Y25),20,pt_journey_time_min,35.985559871664826
+Stage 2,Late opening (> Y25),21,pt_journey_time_min,35.95310675091953
+Stage 2,Late opening (> Y25),22,pt_journey_time_min,35.917119092109104
+Stage 2,Late opening (> Y25),23,pt_journey_time_min,35.884462015184006
+Stage 2,Late opening (> Y25),24,pt_journey_time_min,35.85417242317077
+Stage 2,Late opening (> Y25),25,pt_journey_time_min,35.828217370820035
+Stage 2,Late opening (> Y25),26,pt_journey_time_min,35.82108567981766
+Stage 2,Late opening (> Y25),27,pt_journey_time_min,35.8035368757578
+Stage 2,Late opening (> Y25),28,pt_journey_time_min,35.78776426936045
+Stage 2,Late opening (> Y25),29,pt_journey_time_min,35.77361734220799
+Stage 2,Late opening (> Y25),30,pt_journey_time_min,35.760906931814695
+Stage 2,Late opening (> Y25),31,pt_journey_time_min,35.74943187141466
+Stage 2,Late opening (> Y25),32,pt_journey_time_min,35.76466340866665
+Stage 2,Late opening (> Y25),33,pt_journey_time_min,35.76404405530915
+Stage 2,Late opening (> Y25),34,pt_journey_time_min,35.76005646409905
+Stage 2,Late opening (> Y25),35,pt_journey_time_min,35.75438603843209
+Stage 2,Late opening (> Y25),36,pt_journey_time_min,35.749347147211054
+Stage 2,Late opening (> Y25),37,pt_journey_time_min,35.74481407249347
+Stage 2,Late opening (> Y25),38,pt_journey_time_min,35.74068540603289
+Stage 2,Late opening (> Y25),39,pt_journey_time_min,35.7368801257208
+Stage 2,Late opening (> Y25),40,pt_journey_time_min,35.737103746092096

@@ -9,12 +9,12 @@
 1,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 2,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 2,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-2,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,40.0,40.0,39.0
-2,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,40.0,40.0,36.0
+2,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
+2,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,39.0,39.0,35.0
 3,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 3,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-3,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,35.0,35.0,34.0
-3,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,35.0,35.0,31.0
+3,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,34.0,34.0,33.0
+3,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,34.0,35.0,31.0
 4,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 4,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 4,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -26,7 +26,7 @@
 6,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 6,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 6,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,32.0,32.0,31.0
-6,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,32.0,33.0,29.0
+6,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,32.0,32.0,28.0
 7,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 7,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 7,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -69,16 +69,16 @@
 16,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 17,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 17,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-17,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,37.0,39.0,38.0
-17,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,37.0,38.0,34.0
+17,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,4,True,True,37.0,40.0,39.0
+17,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,37.0,40.0,36.0
 18,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 18,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 18,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 18,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 19,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 19,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-19,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
-19,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
+19,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,20.0,20.0,19.0
+19,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,20.0,20.0,16.0
 20,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 20,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 20,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -89,8 +89,8 @@
 21,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 22,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 22,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-22,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,6,True,True,21.0,26.0,25.0
-22,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,5,True,True,21.0,25.0,21.0
+22,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,7,True,True,20.0,26.0,25.0
+22,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,6,True,True,20.0,25.0,21.0
 23,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 23,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 23,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -98,7 +98,7 @@
 24,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 24,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 24,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
-24,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,35.0,35.0,31.0
+24,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 25,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 25,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 25,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -173,8 +173,8 @@
 42,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 43,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 43,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-43,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,38.0,39.0,38.0
-43,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,38.0,39.0,35.0
+43,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,37.0,39.0,38.0
+43,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,37.0,39.0,35.0
 44,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 44,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 44,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -205,35 +205,35 @@
 50,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,38.0,40.0,36.0
 51,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 51,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-51,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,20.0,22.0,21.0
-51,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,20.0,23.0,19.0
+51,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,21.0,21.0,20.0
+51,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,21.0,22.0,18.0
 52,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 52,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 52,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 52,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 53,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 53,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-53,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
-53,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
+53,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,20.0,22.0,21.0
+53,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,20.0,21.0,17.0
 54,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 54,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 54,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 54,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 55,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 55,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-55,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,20.0,24.0,23.0
-55,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,20.0,22.0,18.0
+55,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,7,True,True,20.0,26.0,25.0
+55,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,6,True,True,20.0,25.0,21.0
 56,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 56,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 56,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 56,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 57,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 57,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-57,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,27.0,31.0,30.0
-57,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,27.0,30.0,26.0
+57,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,28.0,32.0,31.0
+57,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,5,True,True,28.0,32.0,28.0
 58,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 58,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-58,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,4,True,True,24.0,27.0,26.0
+58,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,24.0,26.0,25.0
 58,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,24.0,27.0,23.0
 59,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 59,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
@@ -241,8 +241,8 @@
 59,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 60,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 60,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-60,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,23.0,27.0,26.0
-60,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,23.0,26.0,22.0
+60,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,6,True,True,22.0,27.0,26.0
+60,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,6,True,True,22.0,27.0,23.0
 61,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 61,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 61,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -254,7 +254,7 @@
 63,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 63,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 63,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,4,True,True,20.0,23.0,22.0
-63,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,20.0,22.0,18.0
+63,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,20.0,23.0,19.0
 64,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 64,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 64,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -262,7 +262,7 @@
 65,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 65,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 65,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,6,True,True,20.0,25.0,24.0
-65,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,5,True,True,20.0,24.0,20.0
+65,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,6,True,True,20.0,25.0,21.0
 66,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 66,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 66,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -273,12 +273,12 @@
 67,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 68,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 68,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-68,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,4,True,True,22.0,25.0,24.0
-68,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,5,True,True,22.0,26.0,22.0
+68,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,21.0,22.0,21.0
+68,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,21.0,24.0,20.0
 69,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 69,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-69,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,30.0,30.0,29.0
-69,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,30.0,31.0,27.0
+69,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,29.0,29.0,28.0
+69,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,29.0,30.0,26.0
 70,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 70,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 70,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -325,8 +325,8 @@
 80,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,36.0,38.0,34.0
 81,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 81,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-81,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
-81,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
+81,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,40.0,40.0,39.0
+81,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,40.0,40.0,36.0
 82,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 82,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 82,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -341,7 +341,7 @@
 84,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 85,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 85,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-85,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,37.0,37.0,36.0
+85,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 85,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,37.0,37.0,33.0
 86,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 86,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
@@ -352,9 +352,9 @@
 87,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 87,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 88,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
-88,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,1,1,True,True,29.0,29.0,28.0
-88,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,4,True,True,26.0,29.0,28.0
-88,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,26.0,28.0,24.0
+88,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
+88,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,26.0,30.0,29.0
+88,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,26.0,29.0,25.0
 89,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 89,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 89,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -397,8 +397,8 @@
 98,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 99,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 99,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-99,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
-99,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,35.0,35.0,31.0
+99,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,34.0,34.0,33.0
+99,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,34.0,34.0,30.0
 100,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 100,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 100,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -425,12 +425,12 @@
 105,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 106,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 106,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-106,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,21.0,25.0,24.0
-106,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,21.0,24.0,20.0
-107,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,1,1,True,True,29.0,29.0,25.0
+106,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,7,True,True,20.0,26.0,25.0
+106,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,7,True,True,20.0,26.0,22.0
+107,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 107,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 107,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,28.0,28.0,27.0
-107,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,28.0,29.0,25.0
+107,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,28.0,28.0,24.0
 108,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 108,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 108,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -450,7 +450,7 @@
 112,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 112,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 112,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,31.0,31.0,30.0
-112,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,31.0,32.0,28.0
+112,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,31.0,31.0,27.0
 113,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 113,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 113,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -458,7 +458,7 @@
 114,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 114,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 114,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,33.0,35.0,34.0
-114,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,33.0,34.0,30.0
+114,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,33.0,35.0,31.0
 115,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 115,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 115,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -490,8 +490,8 @@
 122,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 122,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 122,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,21.0,23.0,22.0
-122,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,21.0,24.0,20.0
-123,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,1,1,True,True,34.0,34.0,30.0
+122,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,21.0,23.0,19.0
+123,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 123,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 123,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,33.0,33.0,32.0
 123,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,33.0,34.0,30.0
@@ -525,7 +525,7 @@
 130,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 131,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 131,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-131,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,37.0,37.0,36.0
+131,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 131,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,37.0,37.0,33.0
 132,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 132,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
@@ -539,7 +539,7 @@
 134,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 134,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 134,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
-135,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,1,1,True,True,25.0,25.0,21.0
+135,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 135,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 135,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,20.0,24.0,23.0
 135,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,6,True,True,20.0,25.0,21.0
@@ -561,11 +561,11 @@
 139,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 140,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 140,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-140,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,33.0,37.0,36.0
-140,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,33.0,36.0,32.0
+140,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,7,True,True,33.0,39.0,38.0
+140,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,6,True,True,33.0,38.0,34.0
 141,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 141,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-141,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,30.0,30.0,29.0
+141,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 141,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,30.0,30.0,26.0
 142,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 142,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
@@ -581,20 +581,20 @@
 144,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 145,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 145,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-145,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,20.0,21.0,20.0
-145,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,20.0,21.0,17.0
+145,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,20.0,22.0,21.0
+145,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,4,True,True,20.0,23.0,19.0
 146,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 146,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 146,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 146,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 147,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 147,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-147,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
-147,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,38.0,38.0,34.0
+147,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,37.0,37.0,36.0
+147,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,37.0,37.0,33.0
 148,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 148,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-148,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,29.0,30.0,29.0
-148,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,29.0,30.0,26.0
+148,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,29.0,29.0,28.0
+148,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,29.0,29.0,25.0
 149,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 149,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 149,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -633,20 +633,20 @@
 157,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 158,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 158,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-158,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,27.0,28.0,27.0
-158,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,27.0,28.0,24.0
+158,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,26.0,26.0,25.0
+158,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,26.0,27.0,23.0
 159,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 159,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 159,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
 159,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 160,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 160,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-160,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,8,True,True,20.0,27.0,26.0
+160,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,7,True,True,20.0,26.0,25.0
 160,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,8,True,True,20.0,27.0,23.0
-161,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,1,1,True,True,29.0,29.0,25.0
+161,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 161,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 161,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,28.0,28.0,27.0
-161,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,28.0,29.0,25.0
+161,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,28.0,28.0,24.0
 162,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 162,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 162,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -665,8 +665,8 @@
 165,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 166,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 166,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-166,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,37.0,37.0,36.0
-166,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,1,True,True,37.0,37.0,33.0
+166,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,36.0,36.0,35.0
+166,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,36.0,37.0,33.0
 167,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 167,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 167,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -685,16 +685,16 @@
 170,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 171,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 171,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-171,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,21.0,22.0,21.0
+171,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,21.0,21.0,20.0
 171,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,21.0,22.0,18.0
 172,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 172,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-172,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,39.0,40.0,39.0
-172,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,39.0,40.0,36.0
+172,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,38.0,40.0,39.0
+172,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,38.0,40.0,36.0
 173,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 173,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-173,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,29.0,29.0,28.0
-173,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,29.0,30.0,26.0
+173,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,28.0,28.0,27.0
+173,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,28.0,29.0,25.0
 174,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 174,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 174,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -721,8 +721,8 @@
 179,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 180,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 180,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-180,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,4,True,True,27.0,30.0,29.0
-180,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,27.0,29.0,25.0
+180,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,5,True,True,27.0,31.0,30.0
+180,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,5,True,True,27.0,31.0,27.0
 181,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 181,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
 181,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,0,0,False,False,,,
@@ -781,11 +781,11 @@
 194,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,0,0,False,False,,,
 195,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 195,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-195,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,3,True,True,31.0,33.0,32.0
-195,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,3,True,True,31.0,33.0,29.0
+195,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,32.0,33.0,32.0
+195,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,32.0,33.0,29.0
 196,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 196,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,
-196,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,2,True,True,22.0,23.0,22.0
+196,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze → Paket A + B – Mobility Hub Forch",1,3,2,1,1,True,True,22.0,22.0,21.0
 196,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung → Paket A + B – Mobility Hub Forch",2,3,1,1,2,True,True,22.0,23.0,19.0
 197,"Stage 0 – Baseline Network → Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze",0,1,1,0,0,False,False,,,
 197,"Stage 0 – Baseline Network → Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung",0,2,2,0,0,False,False,,,

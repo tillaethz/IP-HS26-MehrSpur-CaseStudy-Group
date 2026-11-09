@@ -1,17 +1,17 @@
 {
-  "n_train_total": 100,
+  "n_train_total": 120,
   "validation_fraction_of_training": 0.2,
   "n_validation_total": 20,
   "adaptive_fill_in": {
-    "enabled": false,
+    "enabled": true,
     "max_points": 20,
     "batch_size": 4,
     "targets": {
       "weighted_rmse_min": 0.2
     },
-    "points_added": 0,
+    "points_added": 20,
     "final_holdout_metrics": {
-      "weighted_rmse_min": 0.4507161735065017
+      "weighted_rmse_min": 0.3335593640050041
     },
     "target_reached": false
   },
@@ -1576,6 +1576,266 @@
         "EBIKE_SHARE": 0.25628452895744186,
         "ROAD_FREIGHT_GROWTH": 0.1310332411072149
       }
+    },
+    {
+      "id": "fill_000_stage0",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.49078992585927467,
+        "PT_ASC_SHIFT": 0.29301828718652634,
+        "BIKE_ASC_SHIFT": -0.4796837226491751,
+        "EBIKE_SHARE": 0.47185917987712567,
+        "ROAD_FREIGHT_GROWTH": -0.040954838732236896
+      }
+    },
+    {
+      "id": "fill_001_stage0",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.13964953174168732,
+        "PT_ASC_SHIFT": 0.05773487639215999,
+        "BIKE_ASC_SHIFT": -0.46019024519131746,
+        "EBIKE_SHARE": 0.2515597092777963,
+        "ROAD_FREIGHT_GROWTH": -0.04788450854734627
+      }
+    },
+    {
+      "id": "fill_002_stage3",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.13964953174168732,
+        "PT_ASC_SHIFT": 0.05773487639215999,
+        "BIKE_ASC_SHIFT": -0.46019024519131746,
+        "EBIKE_SHARE": 0.2515597092777963,
+        "ROAD_FREIGHT_GROWTH": -0.04788450854734627
+      }
+    },
+    {
+      "id": "fill_003_stage2",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4857083278258701,
+        "PT_ASC_SHIFT": 0.2815017807274308,
+        "BIKE_ASC_SHIFT": 0.8852049965738948,
+        "EBIKE_SHARE": 0.7831371429156051,
+        "ROAD_FREIGHT_GROWTH": 0.24712504879251296
+      }
+    },
+    {
+      "id": "fill_004_stage1",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.19843185562407067,
+        "PT_ASC_SHIFT": 0.27562763847615857,
+        "BIKE_ASC_SHIFT": 0.9942556096307515,
+        "EBIKE_SHARE": 0.27385982493894123,
+        "ROAD_FREIGHT_GROWTH": 0.04692372523564367
+      }
+    },
+    {
+      "id": "fill_005_stage2",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.19843185562407067,
+        "PT_ASC_SHIFT": 0.27562763847615857,
+        "BIKE_ASC_SHIFT": 0.9942556096307515,
+        "EBIKE_SHARE": 0.27385982493894123,
+        "ROAD_FREIGHT_GROWTH": 0.04692372523564367
+      }
+    },
+    {
+      "id": "fill_006_stage0",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4618440023765971,
+        "PT_ASC_SHIFT": 0.16074922669001687,
+        "BIKE_ASC_SHIFT": -0.4412596309669896,
+        "EBIKE_SHARE": 0.3019638127062604,
+        "ROAD_FREIGHT_GROWTH": 0.23509220241650708
+      }
+    },
+    {
+      "id": "fill_007_stage1",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.199202058651554,
+        "PT_ASC_SHIFT": 0.1706894163894457,
+        "BIKE_ASC_SHIFT": 0.8458808265801725,
+        "EBIKE_SHARE": 0.6082546552481893,
+        "ROAD_FREIGHT_GROWTH": 0.22557889053247926
+      }
+    },
+    {
+      "id": "fill_008_stage0",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.49206807907461864,
+        "PT_ASC_SHIFT": 0.09871693495476763,
+        "BIKE_ASC_SHIFT": 0.8825815838496105,
+        "EBIKE_SHARE": 0.2747527162103592,
+        "ROAD_FREIGHT_GROWTH": -0.03851495228529411
+      }
+    },
+    {
+      "id": "fill_009_stage0",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.4701644301102261,
+        "PT_ASC_SHIFT": -0.0744683721973907,
+        "BIKE_ASC_SHIFT": 0.6196550879541081,
+        "EBIKE_SHARE": 0.28069471740887825,
+        "ROAD_FREIGHT_GROWTH": -0.045216025768883825
+      }
+    },
+    {
+      "id": "fill_010_stage1",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.49206807907461864,
+        "PT_ASC_SHIFT": 0.09871693495476763,
+        "BIKE_ASC_SHIFT": 0.8825815838496105,
+        "EBIKE_SHARE": 0.2747527162103592,
+        "ROAD_FREIGHT_GROWTH": -0.03851495228529411
+      }
+    },
+    {
+      "id": "fill_011_stage1",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.496680641965858,
+        "PT_ASC_SHIFT": -0.09079660308172191,
+        "BIKE_ASC_SHIFT": 0.15867859951464902,
+        "EBIKE_SHARE": 0.2527558468109643,
+        "ROAD_FREIGHT_GROWTH": 0.08798034767778018
+      }
+    },
+    {
+      "id": "fill_012_stage2",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.13164878115190876,
+        "PT_ASC_SHIFT": -0.0939906079321479,
+        "BIKE_ASC_SHIFT": 0.8743821964551755,
+        "EBIKE_SHARE": 0.7695871569927146,
+        "ROAD_FREIGHT_GROWTH": 0.21480138030124807
+      }
+    },
+    {
+      "id": "fill_013_stage2",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 2,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.3801995703723227,
+        "PT_ASC_SHIFT": -0.08958795911638738,
+        "BIKE_ASC_SHIFT": -0.47096846221737537,
+        "EBIKE_SHARE": 0.7894692033210486,
+        "ROAD_FREIGHT_GROWTH": 0.24726150094517202
+      }
+    },
+    {
+      "id": "fill_014_stage3",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.270104305119885,
+        "PT_ASC_SHIFT": 0.29423879871872183,
+        "BIKE_ASC_SHIFT": -0.1927874126490245,
+        "EBIKE_SHARE": 0.7747798993823,
+        "ROAD_FREIGHT_GROWTH": 0.2467316691472965
+      }
+    },
+    {
+      "id": "fill_015_stage3",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": 0.1683143427453075,
+        "PT_ASC_SHIFT": 0.27625500277755655,
+        "BIKE_ASC_SHIFT": 0.9737844230595201,
+        "EBIKE_SHARE": 0.3416966008939478,
+        "ROAD_FREIGHT_GROWTH": 0.25081480164967046
+      }
+    },
+    {
+      "id": "fill_016_stage1",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.18412066793460266,
+        "PT_ASC_SHIFT": -0.0353657939376425,
+        "BIKE_ASC_SHIFT": 0.09176227683345128,
+        "EBIKE_SHARE": 0.7677652128324529,
+        "ROAD_FREIGHT_GROWTH": -0.04262310646500283
+      }
+    },
+    {
+      "id": "fill_017_stage1",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 1,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.17450294975204989,
+        "PT_ASC_SHIFT": 0.0027316700993319787,
+        "BIKE_ASC_SHIFT": -0.47387228104816653,
+        "EBIKE_SHARE": 0.7600512110286337,
+        "ROAD_FREIGHT_GROWTH": 0.24820634547917847
+      }
+    },
+    {
+      "id": "fill_018_stage3",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 3,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.04683945257747263,
+        "PT_ASC_SHIFT": 0.004762961271231478,
+        "BIKE_ASC_SHIFT": -0.41556302210844615,
+        "EBIKE_SHARE": 0.2664808404536215,
+        "ROAD_FREIGHT_GROWTH": 0.25209477708269473
+      }
+    },
+    {
+      "id": "fill_019_stage0",
+      "role": "fill",
+      "pair_id": null,
+      "stage": 0,
+      "inputs": {
+        "PASSENGER_DEMAND_GROWTH": -0.18412066793460266,
+        "PT_ASC_SHIFT": -0.0353657939376425,
+        "BIKE_ASC_SHIFT": 0.09176227683345128,
+        "EBIKE_SHARE": 0.7677652128324529,
+        "ROAD_FREIGHT_GROWTH": -0.04262310646500283
+      }
     }
   ],
   "cache_contract": {
@@ -2887,7 +3147,7 @@
   },
   "source_sha256": {
     "code/__init__.py": "cf4413dc399f8d80670015aeede3070b6d2e2e6bfc3ac09cb6a4a2fe75725d39",
-    "code/adaptive_planning.py": "3b891a79e6554ad4d5868767f220f7ba796b4df05d72e768ea8b29f8033b7c6f",
+    "code/adaptive_planning.py": "dd8984c45e8fd20524405d86f3389f509692ed5be976867a8cbe30f50830b306",
     "code/additional/__init__.py": "08789750d626c1d87b2f4bec866dafb18e3a2e6eb928c95c2b35c61433601c9a",
     "code/additional/notebook_exports.py": "1abb5f3fd790693f1b46783f71a36a318101d70b04d3ff92832f97ddb66e3d19",
     "code/additional/section_flows.py": "0e304de867234744e33232572647348be25882973e8651218eb188d66c09523d",
