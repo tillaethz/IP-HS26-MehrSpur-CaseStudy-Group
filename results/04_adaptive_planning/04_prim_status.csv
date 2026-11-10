@@ -1,3 +1,3 @@
 ﻿requirement,plan,scenarios,failures,failure_percent,status,accepted,density,coverage,density_threshold
-1: pt_share > 0.22,baseline,200,173,86.5,Qualifying box,True,1.0,0.6069364161849711,0.75
-1: pt_share > 0.22,adaptive,200,170,85.0,Qualifying box,True,1.0,0.6176470588235294,0.75
+1: pt_share > 0.22,baseline,200,175,87.5,Qualifying box,True,1.0,0.6,0.75
+1: pt_share > 0.22,adaptive,200,177,88.5,Qualifying box,True,1.0,0.5932203389830508,0.75
