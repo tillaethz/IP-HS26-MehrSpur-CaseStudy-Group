@@ -110,8 +110,8 @@ NOMINAL_PARAMS = {
     # Health rates apply to standalone cycling/walking person-km, including e-bikes.
     # The PT rate applies once per person-trip, including supplementary PT passengers.
     # Positive rates reduce societal costs; omitted rates default to zero.
-     "BENEFIT_HEALTH_BIKE_PER_KM": 0.98,  # Cycling health benefit (CHF/person-km).
-     "BENEFIT_HEALTH_WALK_PER_KM": 1.31,  # Walking health benefit (CHF/person-km).
+     "BENEFIT_HEALTH_BIKE_PER_KM": 1.31,  # Cycling health benefit (CHF/person-km).
+     "BENEFIT_HEALTH_WALK_PER_KM": 0.98,  # Walking health benefit (CHF/person-km).
      "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
 
     # -------------------------------------------------------------------------
