@@ -1,401 +1,401 @@
 ﻿scenario,package,package_label,decision_year,scheduled_opening_year,opening_year,status
-0,1,Package 1,3.0,7.0,7.0,Open within horizon
-0,2,Package 2,29.0,30.0,30.0,Open within horizon
-1,1,Package 1,3.0,7.0,7.0,Open within horizon
-1,2,Package 2,,,,No decision
-2,1,Package 1,3.0,7.0,7.0,Open within horizon
-2,2,Package 2,,,,No decision
-3,1,Package 1,3.0,7.0,7.0,Open within horizon
-3,2,Package 2,,,,No decision
-4,1,Package 1,3.0,7.0,7.0,Open within horizon
+0,1,Package 1,8.0,12.0,12.0,Open within horizon
+0,2,Package 2,8.0,9.0,9.0,Open within horizon
+1,1,Package 1,11.0,15.0,15.0,Open within horizon
+1,2,Package 2,10.0,11.0,11.0,Open within horizon
+2,1,Package 1,7.0,11.0,11.0,Open within horizon
+2,2,Package 2,9.0,10.0,10.0,Open within horizon
+3,1,Package 1,11.0,15.0,15.0,Open within horizon
+3,2,Package 2,10.0,11.0,11.0,Open within horizon
+4,1,Package 1,34.0,38.0,38.0,Open within horizon
 4,2,Package 2,,,,No decision
-5,1,Package 1,3.0,7.0,7.0,Open within horizon
-5,2,Package 2,,,,No decision
-6,1,Package 1,3.0,7.0,7.0,Open within horizon
-6,2,Package 2,,,,No decision
-7,1,Package 1,3.0,7.0,7.0,Open within horizon
-7,2,Package 2,,,,No decision
-8,1,Package 1,3.0,7.0,7.0,Open within horizon
-8,2,Package 2,39.0,40.0,40.0,Open within horizon
-9,1,Package 1,3.0,7.0,7.0,Open within horizon
+5,1,Package 1,17.0,21.0,21.0,Open within horizon
+5,2,Package 2,16.0,17.0,17.0,Open within horizon
+6,1,Package 1,10.0,14.0,14.0,Open within horizon
+6,2,Package 2,9.0,10.0,10.0,Open within horizon
+7,1,Package 1,8.0,12.0,12.0,Open within horizon
+7,2,Package 2,8.0,9.0,9.0,Open within horizon
+8,1,Package 1,10.0,14.0,14.0,Open within horizon
+8,2,Package 2,9.0,10.0,10.0,Open within horizon
+9,1,Package 1,,,,No decision
 9,2,Package 2,,,,No decision
-10,1,Package 1,3.0,7.0,7.0,Open within horizon
-10,2,Package 2,,,,No decision
-11,1,Package 1,3.0,7.0,7.0,Open within horizon
+10,1,Package 1,10.0,14.0,14.0,Open within horizon
+10,2,Package 2,9.0,10.0,10.0,Open within horizon
+11,1,Package 1,,,,No decision
 11,2,Package 2,,,,No decision
-12,1,Package 1,3.0,7.0,7.0,Open within horizon
-12,2,Package 2,,,,No decision
-13,1,Package 1,3.0,7.0,7.0,Open within horizon
-13,2,Package 2,,,,No decision
-14,1,Package 1,3.0,7.0,7.0,Open within horizon
-14,2,Package 2,,,,No decision
-15,1,Package 1,3.0,7.0,7.0,Open within horizon
-15,2,Package 2,,,,No decision
-16,1,Package 1,3.0,7.0,7.0,Open within horizon
-16,2,Package 2,,,,No decision
-17,1,Package 1,3.0,7.0,7.0,Open within horizon
+12,1,Package 1,14.0,18.0,18.0,Open within horizon
+12,2,Package 2,12.0,13.0,13.0,Open within horizon
+13,1,Package 1,,,,No decision
+13,2,Package 2,18.0,19.0,19.0,Open within horizon
+14,1,Package 1,,,,No decision
+14,2,Package 2,12.0,13.0,13.0,Open within horizon
+15,1,Package 1,12.0,16.0,16.0,Open within horizon
+15,2,Package 2,19.0,20.0,20.0,Open within horizon
+16,1,Package 1,13.0,17.0,17.0,Open within horizon
+16,2,Package 2,16.0,17.0,17.0,Open within horizon
+17,1,Package 1,,,,No decision
 17,2,Package 2,,,,No decision
-18,1,Package 1,3.0,7.0,7.0,Open within horizon
-18,2,Package 2,,,,No decision
-19,1,Package 1,3.0,7.0,7.0,Open within horizon
-19,2,Package 2,38.0,39.0,39.0,Open within horizon
-20,1,Package 1,3.0,7.0,7.0,Open within horizon
-20,2,Package 2,21.0,22.0,22.0,Open within horizon
-21,1,Package 1,3.0,7.0,7.0,Open within horizon
+18,1,Package 1,11.0,15.0,15.0,Open within horizon
+18,2,Package 2,13.0,14.0,14.0,Open within horizon
+19,1,Package 1,,,,No decision
+19,2,Package 2,12.0,13.0,13.0,Open within horizon
+20,1,Package 1,7.0,11.0,11.0,Open within horizon
+20,2,Package 2,7.0,8.0,8.0,Open within horizon
+21,1,Package 1,,,,No decision
 21,2,Package 2,,,,No decision
-22,1,Package 1,3.0,7.0,7.0,Open within horizon
-22,2,Package 2,,,,No decision
-23,1,Package 1,3.0,7.0,7.0,Open within horizon
+22,1,Package 1,,,,No decision
+22,2,Package 2,21.0,22.0,22.0,Open within horizon
+23,1,Package 1,,,,No decision
 23,2,Package 2,,,,No decision
-24,1,Package 1,3.0,7.0,7.0,Open within horizon
-24,2,Package 2,,,,No decision
-25,1,Package 1,3.0,7.0,7.0,Open within horizon
-25,2,Package 2,,,,No decision
-26,1,Package 1,3.0,7.0,7.0,Open within horizon
+24,1,Package 1,8.0,12.0,12.0,Open within horizon
+24,2,Package 2,8.0,9.0,9.0,Open within horizon
+25,1,Package 1,10.0,14.0,14.0,Open within horizon
+25,2,Package 2,9.0,10.0,10.0,Open within horizon
+26,1,Package 1,,,,No decision
 26,2,Package 2,,,,No decision
-27,1,Package 1,3.0,7.0,7.0,Open within horizon
-27,2,Package 2,,,,No decision
-28,1,Package 1,3.0,7.0,7.0,Open within horizon
+27,1,Package 1,,,,No decision
+27,2,Package 2,12.0,13.0,13.0,Open within horizon
+28,1,Package 1,,,,No decision
 28,2,Package 2,,,,No decision
-29,1,Package 1,3.0,7.0,7.0,Open within horizon
-29,2,Package 2,20.0,21.0,21.0,Open within horizon
-30,1,Package 1,3.0,7.0,7.0,Open within horizon
+29,1,Package 1,7.0,11.0,11.0,Open within horizon
+29,2,Package 2,7.0,8.0,8.0,Open within horizon
+30,1,Package 1,,,,No decision
 30,2,Package 2,,,,No decision
-31,1,Package 1,3.0,7.0,7.0,Open within horizon
-31,2,Package 2,,,,No decision
-32,1,Package 1,3.0,7.0,7.0,Open within horizon
-32,2,Package 2,,,,No decision
-33,1,Package 1,3.0,7.0,7.0,Open within horizon
+31,1,Package 1,30.0,34.0,34.0,Open within horizon
+31,2,Package 2,20.0,21.0,21.0,Open within horizon
+32,1,Package 1,,,,No decision
+32,2,Package 2,14.0,15.0,15.0,Open within horizon
+33,1,Package 1,,,,No decision
 33,2,Package 2,,,,No decision
-34,1,Package 1,3.0,7.0,7.0,Open within horizon
-34,2,Package 2,,,,No decision
-35,1,Package 1,3.0,7.0,7.0,Open within horizon
-35,2,Package 2,27.0,28.0,28.0,Open within horizon
-36,1,Package 1,3.0,7.0,7.0,Open within horizon
-36,2,Package 2,23.0,24.0,24.0,Open within horizon
-37,1,Package 1,3.0,7.0,7.0,Open within horizon
+34,1,Package 1,12.0,16.0,16.0,Open within horizon
+34,2,Package 2,11.0,12.0,12.0,Open within horizon
+35,1,Package 1,7.0,11.0,11.0,Open within horizon
+35,2,Package 2,7.0,8.0,8.0,Open within horizon
+36,1,Package 1,,,,No decision
+36,2,Package 2,12.0,13.0,13.0,Open within horizon
+37,1,Package 1,,,,No decision
 37,2,Package 2,,,,No decision
-38,1,Package 1,3.0,7.0,7.0,Open within horizon
-38,2,Package 2,,,,No decision
-39,1,Package 1,3.0,7.0,7.0,Open within horizon
-39,2,Package 2,,,,No decision
-40,1,Package 1,3.0,7.0,7.0,Open within horizon
-40,2,Package 2,30.0,31.0,31.0,Open within horizon
-41,1,Package 1,3.0,7.0,7.0,Open within horizon
-41,2,Package 2,,,,No decision
-42,1,Package 1,3.0,7.0,7.0,Open within horizon
+38,1,Package 1,7.0,11.0,11.0,Open within horizon
+38,2,Package 2,9.0,10.0,10.0,Open within horizon
+39,1,Package 1,,,,No decision
+39,2,Package 2,11.0,12.0,12.0,Open within horizon
+40,1,Package 1,8.0,12.0,12.0,Open within horizon
+40,2,Package 2,8.0,9.0,9.0,Open within horizon
+41,1,Package 1,9.0,13.0,13.0,Open within horizon
+41,2,Package 2,12.0,13.0,13.0,Open within horizon
+42,1,Package 1,,,,No decision
 42,2,Package 2,,,,No decision
-43,1,Package 1,3.0,7.0,7.0,Open within horizon
-43,2,Package 2,,,,No decision
-44,1,Package 1,3.0,7.0,7.0,Open within horizon
-44,2,Package 2,,,,No decision
-45,1,Package 1,3.0,7.0,7.0,Open within horizon
-45,2,Package 2,,,,No decision
-46,1,Package 1,3.0,7.0,7.0,Open within horizon
-46,2,Package 2,,,,No decision
-47,1,Package 1,3.0,7.0,7.0,Open within horizon
+43,1,Package 1,,,,No decision
+43,2,Package 2,11.0,12.0,12.0,Open within horizon
+44,1,Package 1,,,,No decision
+44,2,Package 2,12.0,13.0,13.0,Open within horizon
+45,1,Package 1,12.0,16.0,16.0,Open within horizon
+45,2,Package 2,12.0,13.0,13.0,Open within horizon
+46,1,Package 1,9.0,13.0,13.0,Open within horizon
+46,2,Package 2,9.0,10.0,10.0,Open within horizon
+47,1,Package 1,,,,No decision
 47,2,Package 2,,,,No decision
-48,1,Package 1,3.0,7.0,7.0,Open within horizon
-48,2,Package 2,,,,No decision
-49,1,Package 1,3.0,7.0,7.0,Open within horizon
+48,1,Package 1,9.0,13.0,13.0,Open within horizon
+48,2,Package 2,11.0,12.0,12.0,Open within horizon
+49,1,Package 1,,,,No decision
 49,2,Package 2,,,,No decision
-50,1,Package 1,3.0,7.0,7.0,Open within horizon
-50,2,Package 2,,,,No decision
-51,1,Package 1,3.0,7.0,7.0,Open within horizon
-51,2,Package 2,37.0,38.0,38.0,Open within horizon
-52,1,Package 1,3.0,7.0,7.0,Open within horizon
-52,2,Package 2,27.0,28.0,28.0,Open within horizon
-53,1,Package 1,3.0,7.0,7.0,Open within horizon
-53,2,Package 2,40.0,41.0,,Committed; opening after horizon
-54,1,Package 1,3.0,7.0,7.0,Open within horizon
-54,2,Package 2,31.0,32.0,32.0,Open within horizon
-55,1,Package 1,3.0,7.0,7.0,Open within horizon
+50,1,Package 1,14.0,18.0,18.0,Open within horizon
+50,2,Package 2,13.0,14.0,14.0,Open within horizon
+51,1,Package 1,8.0,12.0,12.0,Open within horizon
+51,2,Package 2,8.0,9.0,9.0,Open within horizon
+52,1,Package 1,7.0,11.0,11.0,Open within horizon
+52,2,Package 2,7.0,8.0,8.0,Open within horizon
+53,1,Package 1,,,,No decision
+53,2,Package 2,22.0,23.0,23.0,Open within horizon
+54,1,Package 1,8.0,12.0,12.0,Open within horizon
+54,2,Package 2,7.0,8.0,8.0,Open within horizon
+55,1,Package 1,,,,No decision
 55,2,Package 2,,,,No decision
-56,1,Package 1,3.0,7.0,7.0,Open within horizon
-56,2,Package 2,,,,No decision
-57,1,Package 1,3.0,7.0,7.0,Open within horizon
-57,2,Package 2,,,,No decision
-58,1,Package 1,3.0,7.0,7.0,Open within horizon
-58,2,Package 2,,,,No decision
-59,1,Package 1,3.0,7.0,7.0,Open within horizon
+56,1,Package 1,10.0,14.0,14.0,Open within horizon
+56,2,Package 2,12.0,13.0,13.0,Open within horizon
+57,1,Package 1,,,,No decision
+57,2,Package 2,36.0,37.0,37.0,Open within horizon
+58,1,Package 1,11.0,15.0,15.0,Open within horizon
+58,2,Package 2,10.0,11.0,11.0,Open within horizon
+59,1,Package 1,,,,No decision
 59,2,Package 2,,,,No decision
-60,1,Package 1,3.0,7.0,7.0,Open within horizon
+60,1,Package 1,,,,No decision
 60,2,Package 2,,,,No decision
-61,1,Package 1,3.0,7.0,7.0,Open within horizon
-61,2,Package 2,29.0,30.0,30.0,Open within horizon
-62,1,Package 1,3.0,7.0,7.0,Open within horizon
-62,2,Package 2,20.0,21.0,21.0,Open within horizon
-63,1,Package 1,3.0,7.0,7.0,Open within horizon
+61,1,Package 1,9.0,13.0,13.0,Open within horizon
+61,2,Package 2,8.0,9.0,9.0,Open within horizon
+62,1,Package 1,8.0,12.0,12.0,Open within horizon
+62,2,Package 2,7.0,8.0,8.0,Open within horizon
+63,1,Package 1,,,,No decision
 63,2,Package 2,,,,No decision
-64,1,Package 1,3.0,7.0,7.0,Open within horizon
+64,1,Package 1,,,,No decision
 64,2,Package 2,,,,No decision
-65,1,Package 1,3.0,7.0,7.0,Open within horizon
-65,2,Package 2,,,,No decision
-66,1,Package 1,3.0,7.0,7.0,Open within horizon
-66,2,Package 2,30.0,31.0,31.0,Open within horizon
-67,1,Package 1,3.0,7.0,7.0,Open within horizon
-67,2,Package 2,,,,No decision
-68,1,Package 1,3.0,7.0,7.0,Open within horizon
-68,2,Package 2,40.0,41.0,,Committed; opening after horizon
-69,1,Package 1,3.0,7.0,7.0,Open within horizon
-69,2,Package 2,,,,No decision
-70,1,Package 1,3.0,7.0,7.0,Open within horizon
+65,1,Package 1,,,,No decision
+65,2,Package 2,12.0,13.0,13.0,Open within horizon
+66,1,Package 1,31.0,35.0,35.0,Open within horizon
+66,2,Package 2,10.0,11.0,11.0,Open within horizon
+67,1,Package 1,,,,No decision
+67,2,Package 2,11.0,12.0,12.0,Open within horizon
+68,1,Package 1,6.0,10.0,10.0,Open within horizon
+68,2,Package 2,7.0,8.0,8.0,Open within horizon
+69,1,Package 1,8.0,12.0,12.0,Open within horizon
+69,2,Package 2,8.0,9.0,9.0,Open within horizon
+70,1,Package 1,,,,No decision
 70,2,Package 2,,,,No decision
-71,1,Package 1,3.0,7.0,7.0,Open within horizon
-71,2,Package 2,31.0,32.0,32.0,Open within horizon
-72,1,Package 1,3.0,7.0,7.0,Open within horizon
-72,2,Package 2,,,,No decision
-73,1,Package 1,3.0,7.0,7.0,Open within horizon
+71,1,Package 1,7.0,11.0,11.0,Open within horizon
+71,2,Package 2,7.0,8.0,8.0,Open within horizon
+72,1,Package 1,9.0,13.0,13.0,Open within horizon
+72,2,Package 2,12.0,13.0,13.0,Open within horizon
+73,1,Package 1,,,,No decision
 73,2,Package 2,,,,No decision
-74,1,Package 1,3.0,7.0,7.0,Open within horizon
-74,2,Package 2,,,,No decision
-75,1,Package 1,3.0,7.0,7.0,Open within horizon
-75,2,Package 2,,,,No decision
-76,1,Package 1,3.0,7.0,7.0,Open within horizon
-76,2,Package 2,,,,No decision
-77,1,Package 1,3.0,7.0,7.0,Open within horizon
+74,1,Package 1,13.0,17.0,17.0,Open within horizon
+74,2,Package 2,9.0,10.0,10.0,Open within horizon
+75,1,Package 1,10.0,14.0,14.0,Open within horizon
+75,2,Package 2,11.0,12.0,12.0,Open within horizon
+76,1,Package 1,10.0,14.0,14.0,Open within horizon
+76,2,Package 2,11.0,12.0,12.0,Open within horizon
+77,1,Package 1,13.0,17.0,17.0,Open within horizon
 77,2,Package 2,,,,No decision
-78,1,Package 1,3.0,7.0,7.0,Open within horizon
+78,1,Package 1,,,,No decision
 78,2,Package 2,,,,No decision
-79,1,Package 1,3.0,7.0,7.0,Open within horizon
+79,1,Package 1,,,,No decision
 79,2,Package 2,,,,No decision
-80,1,Package 1,3.0,7.0,7.0,Open within horizon
+80,1,Package 1,,,,No decision
 80,2,Package 2,,,,No decision
-81,1,Package 1,3.0,7.0,7.0,Open within horizon
-81,2,Package 2,,,,No decision
-82,1,Package 1,3.0,7.0,7.0,Open within horizon
+81,1,Package 1,,,,No decision
+81,2,Package 2,14.0,15.0,15.0,Open within horizon
+82,1,Package 1,,,,No decision
 82,2,Package 2,,,,No decision
-83,1,Package 1,3.0,7.0,7.0,Open within horizon
-83,2,Package 2,,,,No decision
-84,1,Package 1,3.0,7.0,7.0,Open within horizon
+83,1,Package 1,7.0,11.0,11.0,Open within horizon
+83,2,Package 2,8.0,9.0,9.0,Open within horizon
+84,1,Package 1,,,,No decision
 84,2,Package 2,,,,No decision
-85,1,Package 1,3.0,7.0,7.0,Open within horizon
-85,2,Package 2,,,,No decision
-86,1,Package 1,3.0,7.0,7.0,Open within horizon
+85,1,Package 1,11.0,15.0,15.0,Open within horizon
+85,2,Package 2,11.0,12.0,12.0,Open within horizon
+86,1,Package 1,,,,No decision
 86,2,Package 2,,,,No decision
-87,1,Package 1,3.0,7.0,7.0,Open within horizon
+87,1,Package 1,,,,No decision
 87,2,Package 2,,,,No decision
-88,1,Package 1,3.0,7.0,7.0,Open within horizon
-88,2,Package 2,,,,No decision
-89,1,Package 1,3.0,7.0,7.0,Open within horizon
-89,2,Package 2,,,,No decision
-90,1,Package 1,3.0,7.0,7.0,Open within horizon
-90,2,Package 2,,,,No decision
-91,1,Package 1,3.0,7.0,7.0,Open within horizon
+88,1,Package 1,,,,No decision
+88,2,Package 2,37.0,38.0,38.0,Open within horizon
+89,1,Package 1,7.0,11.0,11.0,Open within horizon
+89,2,Package 2,7.0,8.0,8.0,Open within horizon
+90,1,Package 1,15.0,19.0,19.0,Open within horizon
+90,2,Package 2,10.0,11.0,11.0,Open within horizon
+91,1,Package 1,,,,No decision
 91,2,Package 2,,,,No decision
-92,1,Package 1,3.0,7.0,7.0,Open within horizon
-92,2,Package 2,,,,No decision
-93,1,Package 1,3.0,7.0,7.0,Open within horizon
+92,1,Package 1,11.0,15.0,15.0,Open within horizon
+92,2,Package 2,11.0,12.0,12.0,Open within horizon
+93,1,Package 1,,,,No decision
 93,2,Package 2,,,,No decision
-94,1,Package 1,3.0,7.0,7.0,Open within horizon
+94,1,Package 1,,,,No decision
 94,2,Package 2,,,,No decision
-95,1,Package 1,3.0,7.0,7.0,Open within horizon
+95,1,Package 1,,,,No decision
 95,2,Package 2,,,,No decision
-96,1,Package 1,3.0,7.0,7.0,Open within horizon
+96,1,Package 1,,,,No decision
 96,2,Package 2,,,,No decision
-97,1,Package 1,3.0,7.0,7.0,Open within horizon
-97,2,Package 2,,,,No decision
-98,1,Package 1,3.0,7.0,7.0,Open within horizon
-98,2,Package 2,,,,No decision
-99,1,Package 1,3.0,7.0,7.0,Open within horizon
-99,2,Package 2,,,,No decision
-100,1,Package 1,3.0,7.0,7.0,Open within horizon
-100,2,Package 2,,,,No decision
-101,1,Package 1,3.0,7.0,7.0,Open within horizon
-101,2,Package 2,29.0,30.0,30.0,Open within horizon
-102,1,Package 1,3.0,7.0,7.0,Open within horizon
+97,1,Package 1,14.0,18.0,18.0,Open within horizon
+97,2,Package 2,37.0,38.0,38.0,Open within horizon
+98,1,Package 1,,,,No decision
+98,2,Package 2,13.0,14.0,14.0,Open within horizon
+99,1,Package 1,8.0,12.0,12.0,Open within horizon
+99,2,Package 2,9.0,10.0,10.0,Open within horizon
+100,1,Package 1,7.0,11.0,11.0,Open within horizon
+100,2,Package 2,8.0,9.0,9.0,Open within horizon
+101,1,Package 1,6.0,10.0,10.0,Open within horizon
+101,2,Package 2,7.0,8.0,8.0,Open within horizon
+102,1,Package 1,,,,No decision
 102,2,Package 2,,,,No decision
-103,1,Package 1,3.0,7.0,7.0,Open within horizon
+103,1,Package 1,,,,No decision
 103,2,Package 2,,,,No decision
-104,1,Package 1,3.0,7.0,7.0,Open within horizon
-104,2,Package 2,29.0,30.0,30.0,Open within horizon
-105,1,Package 1,3.0,7.0,7.0,Open within horizon
-105,2,Package 2,,,,No decision
-106,1,Package 1,3.0,7.0,7.0,Open within horizon
+104,1,Package 1,7.0,11.0,11.0,Open within horizon
+104,2,Package 2,7.0,8.0,8.0,Open within horizon
+105,1,Package 1,,,,No decision
+105,2,Package 2,31.0,32.0,32.0,Open within horizon
+106,1,Package 1,,,,No decision
 106,2,Package 2,,,,No decision
-107,1,Package 1,3.0,7.0,7.0,Open within horizon
-107,2,Package 2,,,,No decision
-108,1,Package 1,3.0,7.0,7.0,Open within horizon
-108,2,Package 2,,,,No decision
-109,1,Package 1,3.0,7.0,7.0,Open within horizon
-109,2,Package 2,,,,No decision
-110,1,Package 1,3.0,7.0,7.0,Open within horizon
-110,2,Package 2,,,,No decision
-111,1,Package 1,3.0,7.0,7.0,Open within horizon
+107,1,Package 1,8.0,12.0,12.0,Open within horizon
+107,2,Package 2,9.0,10.0,10.0,Open within horizon
+108,1,Package 1,,,,No decision
+108,2,Package 2,12.0,13.0,13.0,Open within horizon
+109,1,Package 1,,,,No decision
+109,2,Package 2,16.0,17.0,17.0,Open within horizon
+110,1,Package 1,9.0,13.0,13.0,Open within horizon
+110,2,Package 2,10.0,11.0,11.0,Open within horizon
+111,1,Package 1,,,,No decision
 111,2,Package 2,,,,No decision
-112,1,Package 1,3.0,7.0,7.0,Open within horizon
-112,2,Package 2,,,,No decision
-113,1,Package 1,3.0,7.0,7.0,Open within horizon
-113,2,Package 2,,,,No decision
-114,1,Package 1,3.0,7.0,7.0,Open within horizon
+112,1,Package 1,8.0,12.0,12.0,Open within horizon
+112,2,Package 2,8.0,9.0,9.0,Open within horizon
+113,1,Package 1,,,,No decision
+113,2,Package 2,10.0,11.0,11.0,Open within horizon
+114,1,Package 1,,,,No decision
 114,2,Package 2,,,,No decision
-115,1,Package 1,3.0,7.0,7.0,Open within horizon
+115,1,Package 1,,,,No decision
 115,2,Package 2,,,,No decision
-116,1,Package 1,3.0,7.0,7.0,Open within horizon
+116,1,Package 1,,,,No decision
 116,2,Package 2,,,,No decision
-117,1,Package 1,3.0,7.0,7.0,Open within horizon
-117,2,Package 2,,,,No decision
-118,1,Package 1,3.0,7.0,7.0,Open within horizon
-118,2,Package 2,,,,No decision
-119,1,Package 1,3.0,7.0,7.0,Open within horizon
-119,2,Package 2,,,,No decision
-120,1,Package 1,3.0,7.0,7.0,Open within horizon
+117,1,Package 1,7.0,11.0,11.0,Open within horizon
+117,2,Package 2,8.0,9.0,9.0,Open within horizon
+118,1,Package 1,9.0,13.0,13.0,Open within horizon
+118,2,Package 2,10.0,11.0,11.0,Open within horizon
+119,1,Package 1,9.0,13.0,13.0,Open within horizon
+119,2,Package 2,9.0,10.0,10.0,Open within horizon
+120,1,Package 1,,,,No decision
 120,2,Package 2,,,,No decision
-121,1,Package 1,3.0,7.0,7.0,Open within horizon
-121,2,Package 2,,,,No decision
-122,1,Package 1,3.0,7.0,7.0,Open within horizon
-122,2,Package 2,38.0,39.0,39.0,Open within horizon
-123,1,Package 1,3.0,7.0,7.0,Open within horizon
-123,2,Package 2,,,,No decision
-124,1,Package 1,3.0,7.0,7.0,Open within horizon
-124,2,Package 2,,,,No decision
-125,1,Package 1,3.0,7.0,7.0,Open within horizon
-125,2,Package 2,,,,No decision
-126,1,Package 1,3.0,7.0,7.0,Open within horizon
-126,2,Package 2,,,,No decision
-127,1,Package 1,3.0,7.0,7.0,Open within horizon
-127,2,Package 2,33.0,34.0,34.0,Open within horizon
-128,1,Package 1,3.0,7.0,7.0,Open within horizon
-128,2,Package 2,,,,No decision
-129,1,Package 1,3.0,7.0,7.0,Open within horizon
+121,1,Package 1,7.0,11.0,11.0,Open within horizon
+121,2,Package 2,9.0,10.0,10.0,Open within horizon
+122,1,Package 1,8.0,12.0,12.0,Open within horizon
+122,2,Package 2,8.0,9.0,9.0,Open within horizon
+123,1,Package 1,10.0,14.0,14.0,Open within horizon
+123,2,Package 2,10.0,11.0,11.0,Open within horizon
+124,1,Package 1,9.0,13.0,13.0,Open within horizon
+124,2,Package 2,11.0,12.0,12.0,Open within horizon
+125,1,Package 1,12.0,16.0,16.0,Open within horizon
+125,2,Package 2,12.0,13.0,13.0,Open within horizon
+126,1,Package 1,17.0,21.0,21.0,Open within horizon
+126,2,Package 2,12.0,13.0,13.0,Open within horizon
+127,1,Package 1,7.0,11.0,11.0,Open within horizon
+127,2,Package 2,8.0,9.0,9.0,Open within horizon
+128,1,Package 1,10.0,14.0,14.0,Open within horizon
+128,2,Package 2,11.0,12.0,12.0,Open within horizon
+129,1,Package 1,,,,No decision
 129,2,Package 2,,,,No decision
-130,1,Package 1,3.0,7.0,7.0,Open within horizon
-130,2,Package 2,,,,No decision
-131,1,Package 1,3.0,7.0,7.0,Open within horizon
-131,2,Package 2,,,,No decision
-132,1,Package 1,3.0,7.0,7.0,Open within horizon
-132,2,Package 2,33.0,34.0,34.0,Open within horizon
-133,1,Package 1,3.0,7.0,7.0,Open within horizon
+130,1,Package 1,8.0,12.0,12.0,Open within horizon
+130,2,Package 2,10.0,11.0,11.0,Open within horizon
+131,1,Package 1,10.0,14.0,14.0,Open within horizon
+131,2,Package 2,10.0,11.0,11.0,Open within horizon
+132,1,Package 1,7.0,11.0,11.0,Open within horizon
+132,2,Package 2,7.0,8.0,8.0,Open within horizon
+133,1,Package 1,,,,No decision
 133,2,Package 2,,,,No decision
-134,1,Package 1,3.0,7.0,7.0,Open within horizon
+134,1,Package 1,,,,No decision
 134,2,Package 2,,,,No decision
-135,1,Package 1,3.0,7.0,7.0,Open within horizon
-135,2,Package 2,38.0,39.0,39.0,Open within horizon
-136,1,Package 1,3.0,7.0,7.0,Open within horizon
-136,2,Package 2,,,,No decision
-137,1,Package 1,3.0,7.0,7.0,Open within horizon
-137,2,Package 2,,,,No decision
-138,1,Package 1,3.0,7.0,7.0,Open within horizon
-138,2,Package 2,30.0,31.0,31.0,Open within horizon
-139,1,Package 1,3.0,7.0,7.0,Open within horizon
+135,1,Package 1,9.0,13.0,13.0,Open within horizon
+135,2,Package 2,9.0,10.0,10.0,Open within horizon
+136,1,Package 1,10.0,14.0,14.0,Open within horizon
+136,2,Package 2,9.0,10.0,10.0,Open within horizon
+137,1,Package 1,9.0,13.0,13.0,Open within horizon
+137,2,Package 2,13.0,14.0,14.0,Open within horizon
+138,1,Package 1,9.0,13.0,13.0,Open within horizon
+138,2,Package 2,8.0,9.0,9.0,Open within horizon
+139,1,Package 1,,,,No decision
 139,2,Package 2,,,,No decision
-140,1,Package 1,3.0,7.0,7.0,Open within horizon
+140,1,Package 1,,,,No decision
 140,2,Package 2,,,,No decision
-141,1,Package 1,3.0,7.0,7.0,Open within horizon
-141,2,Package 2,,,,No decision
-142,1,Package 1,3.0,7.0,7.0,Open within horizon
-142,2,Package 2,,,,No decision
-143,1,Package 1,3.0,7.0,7.0,Open within horizon
-143,2,Package 2,,,,No decision
-144,1,Package 1,3.0,7.0,7.0,Open within horizon
-144,2,Package 2,,,,No decision
-145,1,Package 1,3.0,7.0,7.0,Open within horizon
-145,2,Package 2,39.0,40.0,40.0,Open within horizon
-146,1,Package 1,3.0,7.0,7.0,Open within horizon
-146,2,Package 2,,,,No decision
-147,1,Package 1,3.0,7.0,7.0,Open within horizon
-147,2,Package 2,,,,No decision
-148,1,Package 1,3.0,7.0,7.0,Open within horizon
-148,2,Package 2,,,,No decision
-149,1,Package 1,3.0,7.0,7.0,Open within horizon
-149,2,Package 2,,,,No decision
-150,1,Package 1,3.0,7.0,7.0,Open within horizon
+141,1,Package 1,9.0,13.0,13.0,Open within horizon
+141,2,Package 2,9.0,10.0,10.0,Open within horizon
+142,1,Package 1,10.0,14.0,14.0,Open within horizon
+142,2,Package 2,13.0,14.0,14.0,Open within horizon
+143,1,Package 1,7.0,11.0,11.0,Open within horizon
+143,2,Package 2,8.0,9.0,9.0,Open within horizon
+144,1,Package 1,10.0,14.0,14.0,Open within horizon
+144,2,Package 2,10.0,11.0,11.0,Open within horizon
+145,1,Package 1,11.0,15.0,15.0,Open within horizon
+145,2,Package 2,10.0,11.0,11.0,Open within horizon
+146,1,Package 1,,,,No decision
+146,2,Package 2,33.0,34.0,34.0,Open within horizon
+147,1,Package 1,9.0,13.0,13.0,Open within horizon
+147,2,Package 2,9.0,10.0,10.0,Open within horizon
+148,1,Package 1,8.0,12.0,12.0,Open within horizon
+148,2,Package 2,8.0,9.0,9.0,Open within horizon
+149,1,Package 1,14.0,18.0,18.0,Open within horizon
+149,2,Package 2,15.0,16.0,16.0,Open within horizon
+150,1,Package 1,,,,No decision
 150,2,Package 2,,,,No decision
-151,1,Package 1,3.0,7.0,7.0,Open within horizon
-151,2,Package 2,,,,No decision
-152,1,Package 1,3.0,7.0,7.0,Open within horizon
-152,2,Package 2,,,,No decision
-153,1,Package 1,3.0,7.0,7.0,Open within horizon
-153,2,Package 2,,,,No decision
-154,1,Package 1,3.0,7.0,7.0,Open within horizon
+151,1,Package 1,12.0,16.0,16.0,Open within horizon
+151,2,Package 2,11.0,12.0,12.0,Open within horizon
+152,1,Package 1,8.0,12.0,12.0,Open within horizon
+152,2,Package 2,9.0,10.0,10.0,Open within horizon
+153,1,Package 1,8.0,12.0,12.0,Open within horizon
+153,2,Package 2,11.0,12.0,12.0,Open within horizon
+154,1,Package 1,,,,No decision
 154,2,Package 2,,,,No decision
-155,1,Package 1,3.0,7.0,7.0,Open within horizon
-155,2,Package 2,34.0,35.0,35.0,Open within horizon
-156,1,Package 1,3.0,7.0,7.0,Open within horizon
+155,1,Package 1,6.0,10.0,10.0,Open within horizon
+155,2,Package 2,7.0,8.0,8.0,Open within horizon
+156,1,Package 1,,,,No decision
 156,2,Package 2,,,,No decision
-157,1,Package 1,3.0,7.0,7.0,Open within horizon
+157,1,Package 1,,,,No decision
 157,2,Package 2,,,,No decision
-158,1,Package 1,3.0,7.0,7.0,Open within horizon
-158,2,Package 2,,,,No decision
-159,1,Package 1,3.0,7.0,7.0,Open within horizon
-159,2,Package 2,,,,No decision
-160,1,Package 1,3.0,7.0,7.0,Open within horizon
-160,2,Package 2,,,,No decision
-161,1,Package 1,3.0,7.0,7.0,Open within horizon
-161,2,Package 2,,,,No decision
-162,1,Package 1,3.0,7.0,7.0,Open within horizon
-162,2,Package 2,,,,No decision
-163,1,Package 1,3.0,7.0,7.0,Open within horizon
+158,1,Package 1,6.0,10.0,10.0,Open within horizon
+158,2,Package 2,7.0,8.0,8.0,Open within horizon
+159,1,Package 1,9.0,13.0,13.0,Open within horizon
+159,2,Package 2,10.0,11.0,11.0,Open within horizon
+160,1,Package 1,17.0,21.0,21.0,Open within horizon
+160,2,Package 2,9.0,10.0,10.0,Open within horizon
+161,1,Package 1,7.0,11.0,11.0,Open within horizon
+161,2,Package 2,8.0,9.0,9.0,Open within horizon
+162,1,Package 1,11.0,15.0,15.0,Open within horizon
+162,2,Package 2,16.0,17.0,17.0,Open within horizon
+163,1,Package 1,,,,No decision
 163,2,Package 2,,,,No decision
-164,1,Package 1,3.0,7.0,7.0,Open within horizon
-164,2,Package 2,,,,No decision
-165,1,Package 1,3.0,7.0,7.0,Open within horizon
+164,1,Package 1,6.0,10.0,10.0,Open within horizon
+164,2,Package 2,7.0,8.0,8.0,Open within horizon
+165,1,Package 1,,,,No decision
 165,2,Package 2,,,,No decision
-166,1,Package 1,3.0,7.0,7.0,Open within horizon
-166,2,Package 2,,,,No decision
-167,1,Package 1,3.0,7.0,7.0,Open within horizon
-167,2,Package 2,38.0,39.0,39.0,Open within horizon
-168,1,Package 1,3.0,7.0,7.0,Open within horizon
+166,1,Package 1,10.0,14.0,14.0,Open within horizon
+166,2,Package 2,9.0,10.0,10.0,Open within horizon
+167,1,Package 1,,,,No decision
+167,2,Package 2,10.0,11.0,11.0,Open within horizon
+168,1,Package 1,,,,No decision
 168,2,Package 2,,,,No decision
-169,1,Package 1,3.0,7.0,7.0,Open within horizon
-169,2,Package 2,,,,No decision
-170,1,Package 1,3.0,7.0,7.0,Open within horizon
-170,2,Package 2,,,,No decision
-171,1,Package 1,3.0,7.0,7.0,Open within horizon
-171,2,Package 2,36.0,37.0,37.0,Open within horizon
-172,1,Package 1,3.0,7.0,7.0,Open within horizon
-172,2,Package 2,,,,No decision
-173,1,Package 1,3.0,7.0,7.0,Open within horizon
-173,2,Package 2,,,,No decision
-174,1,Package 1,3.0,7.0,7.0,Open within horizon
-174,2,Package 2,,,,No decision
-175,1,Package 1,3.0,7.0,7.0,Open within horizon
-175,2,Package 2,,,,No decision
-176,1,Package 1,3.0,7.0,7.0,Open within horizon
+169,1,Package 1,,,,No decision
+169,2,Package 2,16.0,17.0,17.0,Open within horizon
+170,1,Package 1,11.0,15.0,15.0,Open within horizon
+170,2,Package 2,12.0,13.0,13.0,Open within horizon
+171,1,Package 1,7.0,11.0,11.0,Open within horizon
+171,2,Package 2,8.0,9.0,9.0,Open within horizon
+172,1,Package 1,,,,No decision
+172,2,Package 2,36.0,37.0,37.0,Open within horizon
+173,1,Package 1,7.0,11.0,11.0,Open within horizon
+173,2,Package 2,8.0,9.0,9.0,Open within horizon
+174,1,Package 1,9.0,13.0,13.0,Open within horizon
+174,2,Package 2,12.0,13.0,13.0,Open within horizon
+175,1,Package 1,8.0,12.0,12.0,Open within horizon
+175,2,Package 2,9.0,10.0,10.0,Open within horizon
+176,1,Package 1,,,,No decision
 176,2,Package 2,,,,No decision
-177,1,Package 1,3.0,7.0,7.0,Open within horizon
-177,2,Package 2,,,,No decision
-178,1,Package 1,3.0,7.0,7.0,Open within horizon
-178,2,Package 2,,,,No decision
-179,1,Package 1,3.0,7.0,7.0,Open within horizon
-179,2,Package 2,35.0,36.0,36.0,Open within horizon
-180,1,Package 1,3.0,7.0,7.0,Open within horizon
+177,1,Package 1,8.0,12.0,12.0,Open within horizon
+177,2,Package 2,10.0,11.0,11.0,Open within horizon
+178,1,Package 1,11.0,15.0,15.0,Open within horizon
+178,2,Package 2,9.0,10.0,10.0,Open within horizon
+179,1,Package 1,,,,No decision
+179,2,Package 2,12.0,13.0,13.0,Open within horizon
+180,1,Package 1,,,,No decision
 180,2,Package 2,,,,No decision
-181,1,Package 1,3.0,7.0,7.0,Open within horizon
+181,1,Package 1,,,,No decision
 181,2,Package 2,,,,No decision
-182,1,Package 1,3.0,7.0,7.0,Open within horizon
+182,1,Package 1,,,,No decision
 182,2,Package 2,,,,No decision
-183,1,Package 1,3.0,7.0,7.0,Open within horizon
-183,2,Package 2,,,,No decision
-184,1,Package 1,3.0,7.0,7.0,Open within horizon
-184,2,Package 2,20.0,21.0,21.0,Open within horizon
-185,1,Package 1,3.0,7.0,7.0,Open within horizon
-185,2,Package 2,,,,No decision
-186,1,Package 1,3.0,7.0,7.0,Open within horizon
-186,2,Package 2,,,,No decision
-187,1,Package 1,3.0,7.0,7.0,Open within horizon
+183,1,Package 1,13.0,17.0,17.0,Open within horizon
+183,2,Package 2,12.0,13.0,13.0,Open within horizon
+184,1,Package 1,8.0,12.0,12.0,Open within horizon
+184,2,Package 2,7.0,8.0,8.0,Open within horizon
+185,1,Package 1,8.0,12.0,12.0,Open within horizon
+185,2,Package 2,9.0,10.0,10.0,Open within horizon
+186,1,Package 1,8.0,12.0,12.0,Open within horizon
+186,2,Package 2,12.0,13.0,13.0,Open within horizon
+187,1,Package 1,,,,No decision
 187,2,Package 2,,,,No decision
-188,1,Package 1,3.0,7.0,7.0,Open within horizon
+188,1,Package 1,,,,No decision
 188,2,Package 2,,,,No decision
-189,1,Package 1,3.0,7.0,7.0,Open within horizon
-189,2,Package 2,,,,No decision
-190,1,Package 1,3.0,7.0,7.0,Open within horizon
-190,2,Package 2,,,,No decision
-191,1,Package 1,3.0,7.0,7.0,Open within horizon
-191,2,Package 2,,,,No decision
-192,1,Package 1,3.0,7.0,7.0,Open within horizon
-192,2,Package 2,,,,No decision
-193,1,Package 1,3.0,7.0,7.0,Open within horizon
-193,2,Package 2,20.0,21.0,21.0,Open within horizon
-194,1,Package 1,3.0,7.0,7.0,Open within horizon
-194,2,Package 2,30.0,31.0,31.0,Open within horizon
-195,1,Package 1,3.0,7.0,7.0,Open within horizon
-195,2,Package 2,,,,No decision
-196,1,Package 1,3.0,7.0,7.0,Open within horizon
-196,2,Package 2,37.0,38.0,38.0,Open within horizon
-197,1,Package 1,3.0,7.0,7.0,Open within horizon
-197,2,Package 2,27.0,28.0,28.0,Open within horizon
-198,1,Package 1,3.0,7.0,7.0,Open within horizon
-198,2,Package 2,,,,No decision
-199,1,Package 1,3.0,7.0,7.0,Open within horizon
-199,2,Package 2,30.0,31.0,31.0,Open within horizon
+189,1,Package 1,,,,No decision
+189,2,Package 2,14.0,15.0,15.0,Open within horizon
+190,1,Package 1,,,,No decision
+190,2,Package 2,14.0,15.0,15.0,Open within horizon
+191,1,Package 1,7.0,11.0,11.0,Open within horizon
+191,2,Package 2,8.0,9.0,9.0,Open within horizon
+192,1,Package 1,15.0,19.0,19.0,Open within horizon
+192,2,Package 2,16.0,17.0,17.0,Open within horizon
+193,1,Package 1,9.0,13.0,13.0,Open within horizon
+193,2,Package 2,8.0,9.0,9.0,Open within horizon
+194,1,Package 1,9.0,13.0,13.0,Open within horizon
+194,2,Package 2,8.0,9.0,9.0,Open within horizon
+195,1,Package 1,32.0,36.0,36.0,Open within horizon
+195,2,Package 2,13.0,14.0,14.0,Open within horizon
+196,1,Package 1,7.0,11.0,11.0,Open within horizon
+196,2,Package 2,8.0,9.0,9.0,Open within horizon
+197,1,Package 1,12.0,16.0,16.0,Open within horizon
+197,2,Package 2,8.0,9.0,9.0,Open within horizon
+198,1,Package 1,10.0,14.0,14.0,Open within horizon
+198,2,Package 2,11.0,12.0,12.0,Open within horizon
+199,1,Package 1,8.0,12.0,12.0,Open within horizon
+199,2,Package 2,9.0,10.0,10.0,Open within horizon

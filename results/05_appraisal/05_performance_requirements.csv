@@ -1,0 +1,2 @@
+﻿indicator,operator,threshold,start_year,id,end_year,label
+pt_share,>,0.205,20,requirement_1,40,"pt_share > 0.205, Years 20–40"
