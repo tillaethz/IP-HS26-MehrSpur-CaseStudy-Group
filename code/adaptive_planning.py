@@ -324,12 +324,19 @@ def get_plans(params: dict | None = None, triggers: dict | None = None) -> dict:
         
     c_inv1 = params["C_INV_STAGE1"]
     c_inv2 = params["C_INV_STAGE2"]
-    # These are already annual costs. The plan runner books them exactly once
-    # per operating year; peak-to-annual demand factors must not touch OPEX.
-    # OPEX_RATE applies to base construction costs, before CAPEX_MULTIPLIER.
-    opex_rate = params["OPEX_RATE"]
-    c_op1 = c_inv1 * opex_rate
-    c_op2 = c_inv2 * opex_rate
+    # vorher
+        # These are already annual costs. The plan runner books them exactly once
+        # per operating year; peak-to-annual demand factors must not touch OPEX.
+        # OPEX_RATE applies to base construction costs, before CAPEX_MULTIPLIER.
+        #opex_rate = params["OPEX_RATE"]
+        #c_op1 = c_inv1 * opex_rate
+        #c_op2 = c_inv2 * opex_rate
+
+# nachher
+    # Feste jaehrliche Betriebskosten pro Paket aus stages.py (appraisal["annual_opex_chf"]),
+    # statt OPEX_RATE x CAPEX. OPEX_MULTIPLIER wird im Plan-Runner angewendet.
+    c_op1 = params.get("C_OP_STAGE1", NOMINAL_PARAMS["C_OP_STAGE1"])
+    c_op2 = params.get("C_OP_STAGE2", NOMINAL_PARAMS["C_OP_STAGE2"])
     c_flex = params["C_FLEX"]
 
     plans = {}
@@ -624,9 +631,9 @@ def run_plan_from_trajectories(plan_def: str  | dict, stage_metrics: dict, g_tra
                     if reference else float(year_params[target]))
 
         def plan_operating_cost(package):
-            target = f"C_INV_STAGE{package}"
-            reference = float(params[target]) * float(params["OPEX_RATE"])
-            current = float(year_params[target]) * float(year_params["OPEX_RATE"])
+            target = f"C_OP_STAGE{package}"
+            reference = float(params.get(target, NOMINAL_PARAMS[target]))
+            current = float(year_params.get(target, reference))
             configured = float(plan_def.get(f"op_stage{package}", 0.0))
             return configured * current / reference if reference else current
 

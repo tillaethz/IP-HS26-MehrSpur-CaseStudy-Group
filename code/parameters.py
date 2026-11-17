@@ -146,7 +146,7 @@ NOMINAL_PARAMS = {
     # Shared operation, investment multipliers and flexibility options
     # -------------------------------------------------------------------------
     # Package-specific CAPEX is defined in stages.py, alongside each intervention.
-    "OPEX_RATE": 0.02,  # Annual infrastructure operating/maintenance cost as a fraction of base construction cost.
+    "OPEX_RATE": 0.02,  # Nicht mehr fuer die Pakete verwendet: Paket-OPEX stehen fest in stages.py (annual_opex_chf).
     "OPEX_MULTIPLIER": 1.0,  # Multiplier on annual infrastructure operating/maintenance costs.
     "CAPEX_MULTIPLIER": 1.0,  # Multiplier on construction costs and upfront option premiums.
     # Flexibility Premium (for pre-engineering or reservation)
@@ -156,8 +156,8 @@ NOMINAL_PARAMS = {
     # Performance requirements and strategic mode-share indicators
     # -------------------------------------------------------------------------
     "MAX_AVG_TT": 15.0,  # Acceptability ceiling for peak car/PT in-vehicle time plus car delay (min/trip).
-    "PT_SHARE_TARGET": 0.22,  # Teaching minimum for PT share of strategic passenger-km; baseline is about 20.8%.
-    "MIN_STRATEGIC_PKM_DISTANCE": 5.0,  # Minimum OD distance for strategic mode-share indicators (km); not an appraisal cutoff.
+    "PT_SHARE_TARGET": 0.205,  # Year-40 baseline median
+    "MIN_STRATEGIC_PKM_DISTANCE": 1.0,  # km; Feedback NB02/03: kurze Hub-Zubringerwege mitzaehlen (vorher 5.0)
 
     # Internal shared keys for appraisal and uncertainties; edit values in stages.py.
     **package_parameter_defaults(),

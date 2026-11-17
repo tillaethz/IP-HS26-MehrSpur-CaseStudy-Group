@@ -1,5 +1,5 @@
 ﻿requirement,failure_percent,mean_failure_years,configuration
-PT share (strategic PKM) > 22 % (Years 20–40),87.5,15.82,Stage 0 – Baseline Network
-PT share (strategic PKM) > 22 % (Years 20–40),88.5,16.02,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze"
-PT share (strategic PKM) > 22 % (Years 20–40),88.5,16.02,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung"
-PT share (strategic PKM) > 22 % (Years 20–40),88.5,15.88,Paket A + B – Mobility Hub Forch
+PT share (strategic PKM) > 20.5 % (Years 20–40),60.5,11.78,Stage 0 – Baseline Network
+PT share (strategic PKM) > 20.5 % (Years 20–40),61.0,11.78,"Paket A – Bahnhofraum, Umsteigekante, Wege & 400 Veloplätze"
+PT share (strategic PKM) > 20.5 % (Years 20–40),62.0,11.94,"Paket B – Bus Forch–Glattal: 15'-Takt, Anschluss & Bevorzugung"
+PT share (strategic PKM) > 20.5 % (Years 20–40),59.5,11.67,Paket A + B – Mobility Hub Forch

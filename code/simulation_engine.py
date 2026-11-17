@@ -418,11 +418,9 @@ def annual_costs(
     cost_mult = params["OPEX_MULTIPLIER"]
 
     if op_cost is None:
-        c_inv1 = params["C_INV_STAGE1"]
-        c_inv2 = params["C_INV_STAGE2"]
-        opex_rate = params["OPEX_RATE"]
-        c_op1 = c_inv1 * opex_rate
-        c_op2 = c_inv2 * opex_rate
+        # Feste Paket-OPEX aus stages.py statt OPEX_RATE x CAPEX
+        c_op1 = params["C_OP_STAGE1"]
+        c_op2 = params["C_OP_STAGE2"]
         stations_active, tunnel_active = stage_components(stage)
         op_cost = (c_op1 * stations_active + c_op2 * tunnel_active) * cost_mult
 

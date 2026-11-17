@@ -352,7 +352,7 @@ PACKAGES = {
             {
                 "name": "Hub Forch – Umsteigekante, direkte Wege, Velostation",
                 "zones": [ZONE_FORCH],
-                "stops_per_zone": 2,  # Bushalt Forch Bahnhof (8590613) + S18-Station Forch
+                "stops_per_zone": 8,  # Bushalt Forch Bahnhof (8590613) + S18-Station Forch
                 "effects": {
                     "access_time_reduction_pct": A2_ACCESS_EGRESS_PCT,    # A2: Umwegfaktor 1.40 -> 1.15
                     "egress_time_reduction_pct": A2_ACCESS_EGRESS_PCT,    # A2: gleiche Wege, Gegenrichtung
@@ -380,6 +380,7 @@ PACKAGES = {
         #   Total ≈ 1'249 t
         "appraisal": {
             "capital_cost_chf": 14_520_000,
+            "annual_opex_chf": 178_500,   # NEU: Betrieb/Unterhalt
             "lifetime_years": 60,    # Lebensdauer Tiefgarage/Bauwerk
             "capital_share": 0.94,   # langlebig: (9.0 + 2.85 + 0.6 + 1.2) / 14.52 Mio.
             "construction_co2_tonnes": 1_249,
@@ -413,11 +414,11 @@ PACKAGES = {
         #   B1 Fahrplanabstimmung                     =         0   (betrieblich)
         #   Total                                    = 2'540'000
         # Betrieb (im Bericht ausweisen!): 2 x 400'000 + 400 + LSA-Unterhalt ≈ 805'000 CHF/Jahr.
-        #   ACHTUNG: Das Modell setzt OPEX pauschal als Anteil CAPEX an (Stage-Übersicht
-        #   zeigte 2 %) -> Busbetrieb massiv unterschätzt. In der Bewertung korrigieren.
+        #   OPEX steht jetzt fest in appraisal["annual_opex_chf"] (nicht mehr OPEX_RATE x CAPEX).
         # CO2-Emissionen Bau: Warteplatz 10 x 0.14 = 1.4; LSA vernachlässigbar.
         "appraisal": {
             "capital_cost_chf": 2_540_000,
+            "annual_opex_chf": 805_000,   # NEU: Busbetrieb 2. Linie + LSA-Unterhalt,
             "lifetime_years": 30,    # Lebensdauer Warteplatz/LSA
             "capital_share": 0.21,   # langlebig: (0.3 + 0.24) / 2.54 Mio. (Busse ~12 J. -> kein Restwert)
             "construction_co2_tonnes": 1.4,
@@ -489,6 +490,7 @@ def package_parameter_defaults() -> dict:
     for number, name in enumerate(("stations", "tunnel"), 1):
         package = PACKAGES[name]
         values[f"C_INV_STAGE{number}"] = package["appraisal"]["capital_cost_chf"]
+        values[f"C_OP_STAGE{number}"] = package["appraisal"]["annual_opex_chf"]   # NEU
         values[f"CAPACITY_INCREASE_STAGE{number}"] = _package_railway_effect(package, "capacity_increase")
     values["CAPACITY_INCREASE_COMBINED"] = _package_railway_effect(COMBINED_EFFECTS, "capacity_increase")
     return values
