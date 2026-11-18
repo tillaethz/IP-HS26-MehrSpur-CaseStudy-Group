@@ -1,0 +1,3 @@
+﻿package,monitoring_indicator,current_threshold,search_minimum,search_maximum,observed_P05,observed_P95
+1,congestion_delay_hours,1862842.0,1583415.7,2142268.3,1533241.1869524932,2312018.7012643716
+2,pt_trips,5295.0,4500.75,6089.25,4771.307932970959,6690.167894427947

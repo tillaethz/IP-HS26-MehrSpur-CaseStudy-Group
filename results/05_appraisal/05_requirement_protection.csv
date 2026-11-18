@@ -1,0 +1,7 @@
+﻿plan,requirement,scenarios_meeting_requirement_percent,mean_failure_years
+baseline,"pt_share > 0.205, Years 20–40",39.5,11.775
+static1,"pt_share > 0.205, Years 20–40",39.0,11.78
+static2,"pt_share > 0.205, Years 20–40",40.5,11.67
+staged1,"pt_share > 0.205, Years 20–40",39.5,11.7
+staged2,"pt_share > 0.205, Years 20–40",39.0,11.73
+flexible,"pt_share > 0.205, Years 20–40",40.5,11.72

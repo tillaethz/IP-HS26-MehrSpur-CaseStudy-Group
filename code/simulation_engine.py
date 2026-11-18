@@ -783,8 +783,14 @@ def _matched_time_benefits(project: pd.Series, baseline: pd.Series) -> dict:
             raise ValueError("Matched welfare requires baseline and project from the same year.")
     if not np.isclose(baseline["welfare_demand_scale"], project["welfare_demand_scale"]):
         raise ValueError("Matched welfare requires baseline and project under the same demand future.")
-    if baseline.get("section_signature", "none") != project.get("section_signature", "none"):
+    section_active = [bool(row.get("section_active", False)) for row in (baseline, project)]
+    if section_active[0] != section_active[1]:
         raise ValueError("Baseline and project must use the same counting section and reference OD.")
+    if any(section_active):
+        signatures = [row.get("section_signature") for row in (baseline, project)]
+        if (not all(isinstance(signature, str) and signature for signature in signatures)
+                or signatures[0] != signatures[1]):
+            raise ValueError("Baseline and project must use the same counting section and reference OD.")
     enabled = [bool(row.get("external_flow_enabled", False)) for row in (baseline, project)]
     if any(enabled):
         if not all(enabled) or any(
@@ -845,7 +851,8 @@ def _matched_time_benefits(project: pd.Series, baseline: pd.Series) -> dict:
                 raise ValueError("Unsupported matched welfare summary schema.")
             if summary.get("stage") != int(row["stage"]):
                 raise ValueError("Matched welfare summary stage differs from its annual row.")
-            if summary.get("section_signature") != row.get("section_signature", "none"):
+            if (row.get("section_active", False)
+                    and summary.get("section_signature") != row.get("section_signature")):
                 raise ValueError("Matched welfare summary uses a different counting section.")
             table_id = summary.get("table_id")
             if not isinstance(table_id, str) or not table_id:
